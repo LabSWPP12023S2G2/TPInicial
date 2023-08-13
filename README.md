@@ -1,4 +1,4 @@
-# TPInicial
+# TP Inicial
 El mismo tiene la finalidad de servir como "warming-up" o entrada en calor para el resto de la materia. Además, el tema central es la Inteligencia Artificial en línea con el TP principal o central que se desarrollará posteriormente en la cursada.
 
 ## 📓 Enunciado
