@@ -24,8 +24,22 @@ El mismo tiene la finalidad de servir como "warming-up" o entrada en calor para 
 * Entregar la evidencia del repositorio en el que se trabajará.
 * Documentar la investigación realizada acerca de IA, Machine Learning y Deep Learning.
 * ¿Cuál es el objetivo que se desea lograr?
+```
+Ayudar a la comunidad a crear programas específicos para mejorar aspectos de salud mental
+y prevención del suicidio en provincias que tengan mayor riesgo.
+```
 * ¿Cuál es la variable a medir y cómo va a medirla?
+```
+Refinaremos los datos provincia por provincia para clasificarlas según el potencial riesgo
+de suicidios de cada una y tomando como posibles variables de ayuda a los porcentajes de
+depresión y ansiedad de cada persona.
+```
 * Indicar el conjunto de datos a analizar y el modelo de ML a utilizar para su análisis (datos numéricos).
+```
+Trabajaremos con el dataset de la UNC de niveles y predictores de depresión, ansiedad y
+riesgo de suicidio durante la pandemia de COVID-19 en Argentina.
+Por el momento usaremos modelos de aprendizaje supervisado.
+```
 
 ### Segunda entrega
 * Pasos seguidos en la preparación de los datos.
