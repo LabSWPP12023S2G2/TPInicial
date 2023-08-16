@@ -5,7 +5,7 @@ El mismo tiene la finalidad de servir como "warming-up" o entrada en calor para 
 1. Investigar los conceptos de IA (Inteligencia Artificial), Machine Learning y Deep Learning.
 2. Investigar las etapas de un proyecto de Data Science o Big Data. Un ejemplo se muestra a continuación:
    
-   ![Ejemplo](https://github.com/LabSWPP12023S2G2/TPInicial/assets/22090492/c87e2bb0-7888-427b-b200-bbc7a7c57d8e)
+   ![Ejemplo](pasos.jpeg)
    
 3. Utilice una fuente de datos confiable respecto a temas de salud y seleccione un conjunto para analizar con algoritmos de Machine Learning. Mientras más datos tengas y de mejor calidad, más efectivo será el modelo analítico.
 4. ¿Cuál es el objetivo que se desea lograr? ¿cuál es la variable a medir y cómo va a medirla?
