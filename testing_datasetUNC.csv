@@ -1,0 +1,331 @@
+ANXIETY STATE,DEPRESSION,SUIC RISK,AGE,SUIC ATTEMPT HISTORY,PROVINCE
+45,27,57,20,ideation,Buenos Aires provincia
+66,35,53,18,no,Santa Fe
+17,5,30,24,ideation,Santa Fe
+31,14,25,25,no,Santa Fe
+19,11,19,38,no,Misiones
+12,6,15,22,no,Santa Fe
+37,35,67,19,ideation,CABA (Buenos Aires capital)
+22,20,38,22,ideation,Santa Fe
+29,13,18,21,no,Entre Ríos
+27,13,17,31,no,other
+15,12,36,29,ideation,Buenos Aires provincia
+18,2,16,35,no,CABA (Buenos Aires capital)
+23,8,17,42,no,Córdoba
+48,21,35,32,yes,Tucumán
+11,2,7,37,no,Misiones
+21,23,38,33,no,Santa Fe
+24,9,32,22,no,Buenos Aires provincia
+55,16,33,37,no,Buenos Aires provincia
+48,32,51,20,no,Santa Fe
+43,22,24,34,no,Jujuy
+55,46,51,21,ideation,Buenos Aires provincia
+55,28,37,23,no,Santa Fe
+33,13,24,27,no,CABA (Buenos Aires capital)
+42,11,8,23,no,Santa Fe
+42,21,26,22,no,Córdoba
+24,15,42,21,no,Entre Ríos
+2,2,6,58,yes,Buenos Aires provincia
+39,26,49,24,ideation,Buenos Aires provincia
+6,0,7,20,no,Buenos Aires provincia
+32,15,20,18,no,CABA (Buenos Aires capital)
+44,42,56,29,ideation,Buenos Aires provincia
+18,6,21,35,no,Córdoba
+52,14,23,67,no,Buenos Aires provincia
+29,14,24,29,no,Córdoba
+50,36,28,25,no,Santa Fe
+37,11,9,28,no,Tucumán
+35,21,16,37,no,CABA (Buenos Aires capital)
+24,7,28,33,no,Santa Fe
+54,22,49,19,ideation,CABA (Buenos Aires capital)
+41,14,22,30,no,Santa Fe
+13,8,21,19,no,Misiones
+51,31,67,20,ideation,CABA (Buenos Aires capital)
+39,13,16,39,ideation,CABA (Buenos Aires capital)
+21,8,30,25,ideation,Buenos Aires provincia
+15,4,17,53,no,CABA (Buenos Aires capital)
+26,9,26,29,ideation,other
+43,23,61,19,ideation,Buenos Aires provincia
+10,2,12,31,no,Santa Fe
+17,4,12,22,no,Tucumán
+17,5,21,50,no,Córdoba
+45,24,27,50,no,Córdoba
+51,22,48,25,no,Santa Fe
+17,15,50,24,ideation,La Pampa
+27,8,19,24,no,Santa Fe
+23,0,12,33,ideation,San Juan
+56,19,38,32,no,Tierra del Fuego
+33,12,13,32,no,Jujuy
+10,4,17,32,ideation,Buenos Aires provincia
+39,16,34,48,ideation,Buenos Aires provincia
+39,16,53,24,ideation,Córdoba
+19,18,15,22,no,Córdoba
+32,23,42,66,no,Córdoba
+6,0,6,73,no,Córdoba
+19,10,19,19,no,Santa Fe
+42,11,36,26,no,CABA (Buenos Aires capital)
+25,7,27,34,no,Santa Fe
+55,53,76,23,ideation,Buenos Aires provincia
+27,7,24,29,no,Buenos Aires provincia
+34,18,21,34,no,Buenos Aires provincia
+31,24,26,35,ideation,Buenos Aires provincia
+47,52,78,20,ideation,Buenos Aires provincia
+10,1,19,25,no,Tierra del Fuego
+22,5,24,19,no,Santa Fe
+28,11,20,29,no,Jujuy
+58,15,30,29,no,Buenos Aires provincia
+12,7,11,24,no,Santa Fe
+64,20,21,38,no,Santa Fe
+20,11,18,22,no,Buenos Aires provincia
+53,24,55,26,ideation,Santa Fe
+15,3,34,54,no,Córdoba
+48,20,55,24,ideation,Buenos Aires provincia
+13,2,16,40,yes,CABA (Buenos Aires capital)
+21,4,20,27,no,CABA (Buenos Aires capital)
+33,7,52,44,ideation,Santa Fe
+19,25,55,19,ideation,Buenos Aires provincia
+20,6,10,25,no,Córdoba
+11,2,17,48,no,other
+43,20,50,36,no,Tierra del Fuego
+37,8,8,30,no,Córdoba
+52,29,59,24,yes,Santa Fe
+16,7,17,65,no,Santa Fe
+26,13,27,24,no,Buenos Aires provincia
+35,15,30,60,yes,Santa Fe
+42,36,41,19,no,Santa Fe
+40,18,23,26,no,Santa Fe
+59,27,33,25,no,Buenos Aires provincia
+35,9,40,39,no,Santa Fe
+39,22,46,31,ideation,Buenos Aires provincia
+32,11,29,27,no,Córdoba
+38,25,35,34,no,Córdoba
+34,8,29,25,ideation,Santa Fe
+20,2,22,30,ideation,Mendoza
+66,41,42,34,ideation,Córdoba
+46,18,40,39,no,Mendoza
+34,11,28,57,no,Córdoba
+24,9,28,49,no,Santa Fe
+33,25,20,41,no,Buenos Aires provincia
+10,10,17,26,no,Santa Fe
+48,16,49,24,ideation,Santa Fe
+33,31,61,23,ideation,Santa Fe
+29,7,21,35,no,Buenos Aires provincia
+37,13,26,30,no,Santa Fe
+38,19,25,24,no,Santa Fe
+38,13,34,26,no,other
+27,12,36,31,no,Santa Fe
+24,18,27,27,no,Jujuy
+5,1,11,34,no,Córdoba
+1,2,0,35,no,Córdoba
+23,4,36,38,no,Corrientes
+61,46,80,27,yes,Córdoba
+29,25,32,25,ideation,Santiago del Estero
+27,12,25,37,no,Santiago del Estero
+15,9,46,28,ideation,La Pampa
+55,21,39,22,ideation,Santa Fe
+21,11,19,50,no,Santiago del Estero
+56,25,28,18,ideation,Córdoba
+55,40,67,24,yes,Jujuy
+31,17,28,20,no,Santa Fe
+38,34,38,20,ideation,Entre Ríos
+34,15,28,25,ideation,Santa Fe
+23,13,17,26,no,Salta
+21,25,34,22,no,Santa Fe
+46,31,54,22,ideation,Buenos Aires provincia
+42,10,23,33,ideation,Mendoza
+32,39,39,39,yes,CABA (Buenos Aires capital)
+22,5,28,37,no,Córdoba
+61,41,61,20,ideation,Santa Cruz
+35,17,50,33,no,Córdoba
+6,3,20,32,no,Jujuy
+47,34,39,20,ideation,Buenos Aires provincia
+35,21,23,40,no,Salta
+21,7,23,33,no,Buenos Aires provincia
+63,25,73,34,no,Tucumán
+46,25,50,28,ideation,Córdoba
+27,11,27,22,no,Santa Fe
+39,11,53,25,ideation,Córdoba
+49,30,44,37,ideation,Córdoba
+18,9,15,24,no,Santa Fe
+29,8,8,32,no,Santiago del Estero
+65,23,46,35,no,Santa Fe
+37,14,38,22,no,Córdoba
+28,13,13,23,no,Santa Fe
+59,20,40,20,no,Santa Fe
+58,35,69,19,yes,Buenos Aires provincia
+7,6,13,61,ideation,Buenos Aires provincia
+34,15,34,28,ideation,CABA (Buenos Aires capital)
+45,15,53,22,ideation,Buenos Aires provincia
+53,8,27,30,ideation,Tucumán
+19,13,14,25,no,Santa Fe
+38,9,30,54,no,Buenos Aires provincia
+46,20,33,18,no,Santa Fe
+21,8,12,31,no,Santa Fe
+16,9,17,38,no,CABA (Buenos Aires capital)
+62,22,63,32,ideation,Buenos Aires provincia
+38,27,47,23,ideation,Buenos Aires provincia
+30,6,31,28,no,Misiones
+16,4,6,57,no,Tierra del Fuego
+31,19,39,23,no,Santa Fe
+38,9,24,33,no,CABA (Buenos Aires capital)
+28,13,26,29,no,CABA (Buenos Aires capital)
+33,14,18,21,no,Santa Fe
+19,7,5,31,no,La Pampa
+33,18,28,28,yes,Mendoza
+42,27,70,36,no,Jujuy
+11,0,21,28,no,Tucumán
+34,10,15,33,no,Buenos Aires provincia
+8,6,19,51,no,Córdoba
+15,3,31,22,no,Santa Fe
+38,30,57,23,no,Buenos Aires provincia
+18,19,18,25,no,CABA (Buenos Aires capital)
+33,16,44,21,no,CABA (Buenos Aires capital)
+33,16,48,19,ideation,Jujuy
+10,2,13,47,ideation,Buenos Aires provincia
+40,22,45,22,no,Córdoba
+41,10,26,50,ideation,CABA (Buenos Aires capital)
+36,11,29,59,no,other
+40,13,24,31,no,Córdoba
+22,4,26,53,ideation,Córdoba
+25,3,17,29,no,Santa Fe
+34,18,30,51,no,Santa Fe
+12,12,54,22,no,Santa Fe
+34,22,26,39,no,Córdoba
+33,13,43,37,no,Santa Fe
+42,23,35,54,no,San Juan
+16,8,26,33,ideation,Córdoba
+2,0,6,55,no,La Rioja
+60,56,50,17,yes,Buenos Aires provincia
+20,15,44,29,ideation,Santa Fe
+36,10,15,52,no,Neuquén
+17,12,40,21,yes,Córdoba
+21,7,21,26,no,Santa Fe
+20,1,19,26,no,Córdoba
+62,39,40,44,no,Santa Fe
+39,30,59,30,no,Tierra del Fuego
+33,17,42,47,no,Salta
+42,30,56,22,no,Buenos Aires provincia
+51,22,54,27,no,Buenos Aires provincia
+41,26,28,21,no,CABA (Buenos Aires capital)
+45,47,65,21,ideation,Santa Fe
+33,18,13,22,no,Chaco
+8,5,23,38,no,Córdoba
+13,1,15,49,no,Córdoba
+6,3,16,31,no,Tucumán
+45,24,43,24,ideation,Buenos Aires provincia
+26,15,32,30,no,Santa Fe
+16,2,7,27,no,La Pampa
+29,8,10,33,no,CABA (Buenos Aires capital)
+22,8,18,18,no,Tucumán
+35,20,21,23,ideation,Neuquén
+50,37,61,26,ideation,Misiones
+11,4,7,52,no,Chubut
+41,22,54,28,no,Mendoza
+14,9,17,29,no,Corrientes
+33,8,21,39,no,Jujuy
+20,5,14,21,no,Córdoba
+30,7,39,30,no,CABA (Buenos Aires capital)
+35,20,23,19,no,Buenos Aires provincia
+20,16,10,42,no,Córdoba
+59,24,50,36,ideation,Mendoza
+53,26,41,29,ideation,Buenos Aires provincia
+30,12,31,35,ideation,Jujuy
+19,9,17,30,no,Santa Fe
+20,2,13,53,no,CABA (Buenos Aires capital)
+54,22,53,38,no,Mendoza
+38,22,29,32,no,Córdoba
+27,9,21,20,no,Santa Fe
+38,29,29,19,no,Santa Fe
+58,30,51,22,ideation,Buenos Aires provincia
+3,1,16,23,no,Santa Fe
+7,2,9,54,no,Córdoba
+45,21,33,22,yes,Santa Fe
+14,8,21,23,ideation,CABA (Buenos Aires capital)
+33,2,46,38,no,Catamarca
+46,31,46,18,ideation,Santa Fe
+61,50,72,20,ideation,Buenos Aires provincia
+18,1,28,27,ideation,Córdoba
+31,17,25,24,ideation,Santa Fe
+16,11,7,26,no,Neuquén
+18,9,22,20,no,Santa Fe
+51,41,73,24,ideation,Buenos Aires provincia
+41,39,49,18,ideation,Buenos Aires provincia
+39,27,22,30,no,Córdoba
+40,9,31,36,no,Buenos Aires provincia
+18,2,8,34,no,Jujuy
+54,33,40,31,ideation,Tucumán
+30,22,22,22,ideation,Santa Fe
+26,1,29,31,ideation,Córdoba
+42,18,38,22,ideation,Córdoba
+17,4,21,50,no,Buenos Aires provincia
+22,14,23,33,ideation,Buenos Aires provincia
+63,42,73,24,ideation,Santa Fe
+28,12,10,26,no,other
+45,16,35,31,ideation,Córdoba
+43,38,53,30,no,Santa Fe
+21,8,31,23,no,Buenos Aires provincia
+34,13,19,58,no,CABA (Buenos Aires capital)
+21,9,5,49,no,Santa Fe
+36,18,33,30,ideation,Buenos Aires provincia
+56,38,50,20,ideation,Entre Ríos
+3,0,7,30,no,Córdoba
+36,24,52,21,no,Santa Fe
+27,13,11,24,no,Buenos Aires provincia
+50,35,73,23,ideation,Santa Fe
+28,13,20,24,ideation,Santiago del Estero
+44,24,50,20,no,Buenos Aires provincia
+19,7,16,26,no,Buenos Aires provincia
+44,36,48,23,ideation,Buenos Aires provincia
+12,2,8,33,no,Tucumán
+49,25,40,32,ideation,CABA (Buenos Aires capital)
+15,0,19,68,yes,Córdoba
+50,29,56,21,no,Santa Fe
+49,19,31,22,ideation,Santa Fe
+39,17,13,26,no,Tucumán
+51,19,49,26,ideation,Córdoba
+43,22,32,32,no,Buenos Aires provincia
+52,41,62,30,ideation,Buenos Aires provincia
+10,7,22,20,no,CABA (Buenos Aires capital)
+23,15,32,25,no,Córdoba
+59,43,55,20,no,CABA (Buenos Aires capital)
+47,11,40,45,no,Buenos Aires provincia
+57,22,36,29,no,Buenos Aires provincia
+35,18,30,20,no,Santa Fe
+19,1,12,22,no,Buenos Aires provincia
+48,38,47,45,ideation,Jujuy
+29,6,40,37,ideation,Córdoba
+27,14,29,34,yes,Córdoba
+45,42,53,27,ideation,Tucumán
+13,9,13,50,no,Buenos Aires provincia
+58,49,51,44,ideation,Santa Fe
+37,19,36,21,no,Buenos Aires provincia
+63,35,77,19,yes,Salta
+39,23,26,23,no,Santa Fe
+21,17,31,36,no,Córdoba
+34,13,38,29,yes,Misiones
+23,18,19,25,no,Santa Fe
+10,9,7,35,no,Córdoba
+26,4,7,37,no,CABA (Buenos Aires capital)
+38,26,43,22,ideation,Santa Fe
+53,23,56,24,no,Santa Fe
+13,15,24,24,no,Córdoba
+21,1,25,37,yes,Córdoba
+27,13,20,55,no,CABA (Buenos Aires capital)
+19,1,31,21,no,Córdoba
+49,36,55,17,ideation,Buenos Aires provincia
+15,7,12,38,no,Córdoba
+23,3,24,41,ideation,CABA (Buenos Aires capital)
+33,8,29,34,no,Otro
+47,17,19,19,no,Santa Fe
+33,6,25,33,no,Santa Fe
+29,14,17,25,no,other
+22,3,24,56,no,CABA (Buenos Aires capital)
+52,22,22,18,no,Santa Fe
+28,20,26,29,no,Córdoba
+10,6,18,41,no,Córdoba
+35,2,19,31,no,CABA (Buenos Aires capital)
+30,22,49,26,ideation,CABA (Buenos Aires capital)
+17,0,14,33,no,Córdoba
+20,8,6,25,no,Santa Fe
+36,46,68,19,ideation,San Juan
+43,25,55,37,ideation,Jujuy
