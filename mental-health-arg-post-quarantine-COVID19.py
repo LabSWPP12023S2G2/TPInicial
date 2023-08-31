@@ -1,3 +1,5 @@
+pip install scikit-learn
+
 # Importamos las bilbiotecas que usaremos
 import pandas as pd
 import numpy as np
