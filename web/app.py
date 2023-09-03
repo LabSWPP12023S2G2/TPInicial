@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 from matplotlib.patches import Patch
 from matplotlib.lines import Line2D
-import seaborn as sns
 
 # Path del modelo preentrenado
 MODEL_PATH = '/mount/src/tpinicial/web/models/kmeans_model.pkl'
