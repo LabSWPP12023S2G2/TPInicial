@@ -117,9 +117,23 @@ def main():
         x_in = [np.float_(N.title()),
                 np.float_(P.title()),
                 ]
+        '''
         predictS = model_prediction(x_in, model)
         st.success('El grupo de riesgo al que pertenecen estos valores es: {}'.format(
             predictS[0]).upper())
+        '''
+        predictS = model_prediction(x_in, model)  # Supongamos que predictS es 0, 1 o 2
+        cluster_names_for_pred = {
+            0: 'riesgo medio',
+            1: 'riesgo bajo',
+            2: 'riesgo alto',
+        }
+
+        # Obtener el nombre del cluster correspondiente
+        predicted_cluster = cluster_names_for_pred.get(predictS[0], 'Riesgo Desconocido')
+
+        # Mostrar el resultado en Streamlit
+        st.success(f'El grupo de riesgo al que pertenecen estos valores es: {predicted_cluster}'.upper())
 
         # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
         imagen_por_prediccion = {
@@ -144,14 +158,7 @@ def main():
         """
         st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
 
-        # Diccionario para mapear los nombres de los clusters
-        cluster_names = {
-            0: 'Riesgo medio',
-            1: 'Riesgo bajo',
-            2: 'Riesgo alto',
-        }
-
-        scatter_plot_clusters(data, model, cluster_names)
+        scatter_plot_clusters(data, model, cluster_names_for_pred)
 
         title_hist_suic_clusters = """
         <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo</h1>
