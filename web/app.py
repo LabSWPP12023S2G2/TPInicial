@@ -46,12 +46,12 @@ def hist_suic_clusters(data_ref):
         st.pyplot(fig)
 '''
 
-# Función para asignar colores gradualmente en función de los valores del eje y
-def assign_colors(y_values):
-    # Define una paleta de colores gradual de verde (0) a rojo (100)
+# Función para asignar colores gradualmente en función de los valores del eje x
+def assign_colors(x_values):
+    # Define una paleta de colores gradual de verde (x=0) a rojo (x=100)
     cmap = plt.get_cmap('coolwarm')
     norm = plt.Normalize(vmin=0, vmax=100)
-    colors = cmap(norm(y_values))
+    colors = cmap(norm(x_values))
     return colors
 
 
@@ -66,7 +66,7 @@ def hist_suic_clusters(data_ref):
         hist, bins, _ = plt.hist(cluster_data['SUIC RISK'], bins=20, alpha=0.7)
 
         # Obtener colores para las barras del histograma
-        colors = assign_colors(hist)
+        colors = assign_colors(bins[:-1])
 
         # Dibujar las barras del histograma con colores graduales
         plt.bar(bins[:-1], hist, width=bins[1] - bins[0], color=colors, edgecolor='black', alpha=0.7)
