@@ -1,0 +1,1078 @@
+SUIC RISK,PROM SUIC,Cluster,tsne_x,tsne_y,PROVINCE,EDUCATION,AGE,MENTAL DISORDER HISTORY,SUIC ATTEMPT HISTORY,LIVING WITH SOMEBODY,ECONOMIC INCOME,DEPRESSION,ANXIETY STATE,ANXIETY TRAIT,REGION
+37,28.2,Riesgo medio,10.980763,0.018331748,CABA (Buenos Aires capital),30,30,0,50,20,0,21,54,40,CABA
+46,28.2,Riesgo medio,18.157673,1.2309371,Tierra del Fuego,60,30,0,50,0,0,26,34,36,Patagonia Centro-Sur
+21,27.0,Riesgo bajo,-5.841071,-5.358013,Jujuy,70,39,50,0,20,0,8,33,29,Noroeste
+70,33.3,Riesgo alto,31.276928,0.029456386,Jujuy,60,36,0,0,0,50,27,42,48,Noroeste
+4,11.5,Riesgo bajo,-29.73851,-7.3706813,Córdoba,30,35,0,0,0,0,9,25,12,Córdoba
+14,14.2,Riesgo bajo,-23.411522,-1.3050083,Córdoba,60,21,0,0,0,0,5,20,22,Córdoba
+23,16.6,Riesgo bajo,-10.561827,6.3762503,Misiones,30,29,0,0,20,0,14,25,25,Nordeste-Litoral
+26,26.8,Riesgo medio,0.73505276,-3.054903,Córdoba,40,28,50,0,0,50,20,28,26,Córdoba
+26,18.3,Riesgo bajo,-4.8756585,6.165535,Buenos Aires provincia,50,26,0,0,0,50,3,10,18,Buenos Aires
+50,28.3,Riesgo alto,21.307652,1.5122313,Tierra del Fuego,50,36,0,0,0,50,20,43,34,Patagonia Centro-Sur
+14,11.0,Riesgo bajo,-25.875065,-0.19056045,Tierra del Fuego,50,24,0,0,0,0,7,9,6,Patagonia Centro-Sur
+59,31.7,Riesgo alto,27.118591,0.48706478,Tierra del Fuego,50,30,50,0,20,0,30,39,39,Patagonia Centro-Sur
+24,19.3,Riesgo bajo,-7.075361,4.0070815,CABA (Buenos Aires capital),50,37,0,0,0,0,12,41,29,CABA
+33,22.5,Riesgo medio,5.507346,4.4802594,Tierra del Fuego,50,30,0,0,0,50,14,28,20,Patagonia Centro-Sur
+18,16.4,Riesgo bajo,-17.235994,1.5298561,Córdoba,60,34,0,0,20,0,5,16,11,Córdoba
+54,34.7,Riesgo alto,24.989803,-1.3897989,Tierra del Fuego,60,26,50,50,0,0,24,42,41,Patagonia Centro-Sur
+28,17.7,Riesgo medio,-2.2081954,7.5578604,Jujuy,30,35,0,0,0,0,13,41,30,Noroeste
+12,14.5,Riesgo bajo,-24.40481,-3.590788,Tierra del Fuego,50,30,0,0,20,0,3,16,14,Patagonia Centro-Sur
+73,45.0,Riesgo alto,32.63394,-2.5245528,CABA (Buenos Aires capital),30,33,50,100,0,0,45,63,56,CABA
+26,18.1,Riesgo bajo,-5.010461,6.4468217,Tierra del Fuego,50,30,0,0,0,0,15,33,27,Patagonia Centro-Sur
+36,31.4,Riesgo medio,10.8111315,-2.5644512,CABA (Buenos Aires capital),40,60,50,50,20,0,13,19,26,CABA
+31,19.5,Riesgo medio,2.06775,6.6562276,Buenos Aires provincia,30,35,0,0,20,0,17,32,30,Buenos Aires
+21,14.8,Riesgo bajo,-15.027225,6.2894006,Buenos Aires provincia,40,35,0,0,0,0,7,29,16,Buenos Aires
+15,18.8,Riesgo bajo,-17.343082,-3.641101,Buenos Aires provincia,70,55,0,0,0,0,16,12,20,Buenos Aires
+73,39.2,Riesgo alto,32.21056,-1.2648803,Buenos Aires provincia,60,24,50,50,0,0,41,51,43,Buenos Aires
+19,15.2,Riesgo bajo,-17.25627,4.0610027,Córdoba,30,39,0,0,0,0,10,37,17,Córdoba
+40,31.3,Riesgo medio,14.017856,-1.8008204,Buenos Aires provincia,60,27,50,50,0,0,16,31,39,Buenos Aires
+18,12.9,Riesgo bajo,-20.557814,4.342644,Córdoba,30,39,0,0,0,0,9,15,18,Córdoba
+24,16.9,Riesgo bajo,-8.803711,6.626861,Córdoba,60,24,0,0,0,0,15,13,33,Córdoba
+63,30.1,Riesgo alto,28.536,1.1728107,Buenos Aires provincia,30,32,0,50,0,0,22,62,42,Buenos Aires
+78,36.2,Riesgo alto,33.14198,-0.52172595,Buenos Aires provincia,70,20,0,50,0,0,52,47,45,Buenos Aires
+34,21.2,Riesgo medio,6.4312935,5.410134,Buenos Aires provincia,60,22,0,0,0,0,11,49,36,Buenos Aires
+11,14.1,Riesgo bajo,-25.58148,-4.1815352,Tierra del Fuego,60,28,0,0,0,0,7,21,14,Patagonia Centro-Sur
+16,18.9,Riesgo bajo,-16.419342,-3.0384533,Tierra del Fuego,50,59,0,0,0,0,5,32,27,Patagonia Centro-Sur
+10,16.2,Riesgo bajo,-24.632168,-6.1895256,Santa Fe,60,57,0,0,0,0,5,16,14,Santa Fe
+13,20.9,Riesgo bajo,-17.190212,-5.965489,Buenos Aires provincia,60,34,0,0,0,50,12,21,19,Buenos Aires
+23,14.8,Riesgo bajo,-12.525881,7.851945,Salta,30,41,0,0,0,0,4,29,21,Noroeste
+20,16.7,Riesgo bajo,-14.691081,3.4766364,Salta,60,35,0,0,0,0,12,20,20,Noroeste
+17,21.6,Riesgo bajo,-12.93693,-4.323041,CABA (Buenos Aires capital),50,38,0,0,20,50,9,16,16,CABA
+40,27.4,Riesgo medio,13.404324,1.0585263,Buenos Aires provincia,60,26,0,50,0,0,17,47,34,Buenos Aires
+20,22.0,Riesgo bajo,-9.641298,-2.532068,Córdoba,30,34,0,50,20,0,13,27,26,Córdoba
+42,39.3,Riesgo medio,16.270227,-4.6616364,Buenos Aires provincia,60,20,0,100,0,50,31,44,46,Buenos Aires
+15,22.2,Riesgo bajo,-14.659461,-5.5780344,CABA (Buenos Aires capital),50,29,0,50,20,0,10,33,15,CABA
+49,35.7,Riesgo alto,22.407848,-2.673325,CABA (Buenos Aires capital),70,19,0,50,0,50,22,54,43,CABA
+2,18.0,Riesgo bajo,-27.408443,-9.259876,Buenos Aires provincia,50,41,50,0,20,0,2,7,8,Buenos Aires
+21,26.1,Riesgo bajo,-6.122868,-4.863549,Córdoba,60,49,50,50,0,0,5,16,10,Córdoba
+28,16.4,Riesgo bajo,-3.2759542,8.824709,Jujuy,50,35,0,0,0,0,11,22,18,Noroeste
+24,14.8,Riesgo bajo,-11.088012,8.276951,Buenos Aires provincia,40,28,0,0,0,0,10,23,23,Buenos Aires
+22,20.3,Riesgo bajo,-8.683886,0.7677169,Mendoza,40,30,0,50,20,0,2,20,19,Cuyo
+26,28.4,Riesgo medio,1.4951193,-3.8274055,Córdoba,60,27,0,100,0,0,10,33,28,Córdoba
+27,28.4,Riesgo medio,2.225393,-3.5551395,Córdoba,60,50,0,0,0,50,24,45,28,Córdoba
+56,34.3,Riesgo alto,26.061256,-0.91442764,Buenos Aires provincia,40,35,50,50,0,0,21,50,41,Buenos Aires
+13,19.9,Riesgo bajo,-18.050793,-5.5254827,Tierra del Fuego,80,62,0,0,0,0,0,21,23,Patagonia Centro-Sur
+6,17.0,Riesgo bajo,-26.590313,-8.430795,Tierra del Fuego,80,57,0,0,0,0,4,16,7,Patagonia Centro-Sur
+29,21.4,Riesgo medio,0.90759706,3.8325074,Córdoba,50,31,0,50,0,0,1,26,27,Córdoba
+38,25.4,Riesgo medio,11.100131,2.5258977,Tierra del Fuego,50,32,0,0,20,0,19,56,39,Patagonia Centro-Sur
+24,29.5,Riesgo medio,0.72451496,-5.079008,Córdoba,60,28,50,0,0,50,10,44,29,Córdoba
+48,31.5,Riesgo alto,20.62684,-0.45329046,Jujuy,60,19,50,50,0,0,16,33,39,Noroeste
+42,37.9,Riesgo medio,15.95533,-4.241585,Córdoba,30,34,50,50,20,0,41,66,46,Córdoba
+8,25.0,Riesgo bajo,-17.310741,-8.468739,Tucumán,60,33,50,0,20,50,2,12,15,Noroeste
+17,13.5,Riesgo bajo,-21.02236,2.7929673,Córdoba,50,28,0,0,0,0,6,22,12,Córdoba
+6,18.6,Riesgo bajo,-25.713282,-8.639338,Córdoba,60,52,0,0,20,0,5,30,13,Córdoba
+13,20.1,Riesgo bajo,-17.813452,-5.597881,Buenos Aires provincia,50,47,0,50,20,0,2,10,9,Buenos Aires
+12,11.4,Riesgo bajo,-26.97624,-1.8247696,Córdoba,60,28,0,0,0,0,1,10,3,Córdoba
+26,26.1,Riesgo medio,0.23485188,-2.5270665,Córdoba,60,29,0,0,20,50,20,28,28,Córdoba
+40,28.3,Riesgo medio,13.578385,0.4572123,Córdoba,60,21,0,100,0,0,12,17,33,Córdoba
+19,18.3,Riesgo bajo,-14.081097,0.768363,Córdoba,50,26,50,0,0,0,1,20,17,Córdoba
+21,16.1,Riesgo bajo,-13.664824,5.2081604,Córdoba,60,24,0,0,0,0,14,22,20,Córdoba
+32,17.0,Riesgo medio,2.0718167,8.593161,CABA (Buenos Aires capital),30,39,0,0,0,0,9,33,27,CABA
+16,18.7,Riesgo bajo,-16.69824,-2.8102093,CABA (Buenos Aires capital),50,35,50,0,0,0,2,18,16,CABA
+16,23.7,Riesgo bajo,-12.540897,-5.661445,Córdoba,60,74,50,0,20,0,2,9,6,Córdoba
+35,33.3,Riesgo medio,10.379632,-3.6681328,Córdoba,50,31,50,50,20,0,16,45,36,Córdoba
+16,22.7,Riesgo bajo,-13.2808075,-5.3044615,Buenos Aires provincia,60,27,0,0,0,50,17,30,27,Buenos Aires
+38,16.8,Riesgo medio,9.090779,7.7226877,Córdoba,60,29,0,0,0,0,3,14,24,Córdoba
+29,41.2,Riesgo medio,8.411281,-6.0231843,Buenos Aires provincia,50,49,50,100,0,50,22,30,32,Buenos Aires
+17,20.6,Riesgo bajo,-13.829836,-3.7797287,Salta,60,26,0,0,0,50,13,23,17,Noroeste
+20,22.6,Riesgo bajo,-9.141011,-3.1311972,CABA (Buenos Aires capital),40,37,50,0,0,0,16,38,25,CABA
+34,30.8,Riesgo medio,9.234547,-2.5507517,CABA (Buenos Aires capital),50,28,50,50,20,0,15,34,27,CABA
+26,35.5,Riesgo medio,4.8066287,-5.8553433,Buenos Aires provincia,60,43,50,100,0,0,5,30,41,Buenos Aires
+57,41.0,Riesgo alto,27.441921,-3.2819586,CABA (Buenos Aires capital),30,40,50,100,20,0,17,48,48,CABA
+67,51.8,Riesgo alto,31.704521,-3.7548904,Córdoba,80,23,50,100,0,50,40,57,51,Córdoba
+18,22.4,Riesgo bajo,-11.44201,-4.1886873,Córdoba,80,39,0,0,0,50,4,14,19,Córdoba
+80,53.4,Riesgo alto,33.65147,-3.0009823,Córdoba,70,27,50,100,0,50,46,61,50,Córdoba
+4,24.4,Riesgo bajo,-18.018307,-8.917761,Córdoba,50,47,50,50,0,0,8,27,8,Córdoba
+21,21.8,Riesgo bajo,-8.774845,-1.5705574,Córdoba,60,27,50,0,0,0,8,28,24,Córdoba
+19,14.1,Riesgo bajo,-18.55432,4.761597,Tierra del Fuego,70,25,0,0,0,0,1,10,16,Patagonia Centro-Sur
+33,30.6,Riesgo medio,8.326265,-2.807887,Córdoba,60,38,0,100,0,0,11,38,26,Córdoba
+20,15.4,Riesgo bajo,-15.8315735,4.778199,Jujuy,50,29,0,0,0,0,11,28,16,Noroeste
+16,22.5,Riesgo bajo,-13.481663,-5.200033,Córdoba,80,43,0,0,0,50,4,20,12,Córdoba
+48,28.2,Riesgo alto,19.984463,1.4363955,Córdoba,50,26,0,0,0,50,29,46,33,Córdoba
+41,30.3,Riesgo medio,14.700924,-0.74428385,Salta,50,27,0,50,0,0,43,50,42,Noroeste
+19,33.7,Riesgo bajo,-3.3088977,-6.824894,Córdoba,70,68,50,100,0,0,0,15,15,Córdoba
+36,24.1,Riesgo medio,9.115192,3.3331933,Córdoba,40,28,0,0,0,0,34,56,47,Córdoba
+17,21.3,Riesgo bajo,-13.308774,-4.0855613,CABA (Buenos Aires capital),70,19,0,0,0,50,19,26,12,CABA
+67,32.0,Riesgo alto,30.204897,0.5837557,CABA (Buenos Aires capital),70,19,0,50,0,0,35,37,42,CABA
+42,30.6,Riesgo medio,15.485731,-0.81851566,CABA (Buenos Aires capital),60,33,0,50,20,0,18,42,41,CABA
+30,18.7,Riesgo medio,0.65870774,7.122646,Salta,60,39,0,0,0,0,13,25,20,Noroeste
+21,13.5,Riesgo bajo,-16.210686,6.8763657,Neuquén,50,38,0,0,0,0,3,13,10,Patagonia Centro-Norte
+24,23.8,Riesgo bajo,-3.7471287,-1.5628881,Córdoba,50,31,50,0,0,0,13,40,30,Córdoba
+28,19.2,Riesgo medio,-1.4218394,6.1332994,Córdoba,50,39,0,0,0,0,23,31,21,Córdoba
+34,27.5,Riesgo medio,8.31426,-0.2986715,Buenos Aires provincia,60,29,0,50,0,0,22,42,38,Buenos Aires
+37,24.8,Riesgo medio,10.103082,2.9245832,Córdoba,60,27,0,0,0,0,29,60,35,Córdoba
+40,30.0,Riesgo medio,13.87821,-0.7853213,Tucumán,50,31,0,50,0,0,33,54,42,Noroeste
+30,23.5,Riesgo medio,2.434589,1.8023709,Buenos Aires provincia,40,29,0,0,20,0,15,58,43,Buenos Aires
+13,21.8,Riesgo bajo,-16.70053,-6.2910333,Córdoba,60,31,0,0,0,50,15,33,16,Córdoba
+21,16.2,Riesgo bajo,-13.512567,5.1185617,Buenos Aires provincia,30,34,0,0,0,0,18,34,25,Buenos Aires
+36,23.0,Riesgo medio,8.794962,4.201489,Buenos Aires provincia,40,29,0,0,20,0,22,57,26,Buenos Aires
+47,40.1,Riesgo alto,22.24025,-4.463518,Salta,50,27,50,50,0,50,30,52,45,Noroeste
+25,24.4,Riesgo medio,-1.8500295,-1.6238405,Buenos Aires provincia,30,39,50,0,0,0,19,50,31,Buenos Aires
+29,17.7,Riesgo medio,-1.0450333,7.7563124,Córdoba,50,27,0,0,0,0,11,32,28,Córdoba
+10,9.4,Riesgo bajo,-29.031132,-3.5629246,Santa Fe,30,34,0,0,0,0,1,11,8,Santa Fe
+23,33.4,Riesgo medio,0.97223884,-6.326065,Córdoba,60,26,50,100,0,0,17,32,26,Córdoba
+15,15.1,Riesgo bajo,-21.657642,-0.74944115,Córdoba,60,21,0,0,0,0,7,31,17,Córdoba
+30,31.2,Riesgo medio,5.765525,-4.0148187,Córdoba,60,62,50,50,0,0,11,23,26,Córdoba
+19,13.2,Riesgo bajo,-19.418854,5.136577,Santa Fe,30,55,0,0,0,0,4,12,12,Santa Fe
+40,22.4,Riesgo medio,11.72213,5.0423837,San Luis,30,32,0,0,0,0,32,51,39,Cuyo
+23,21.6,Riesgo bajo,-6.4832215,-0.2635089,Buenos Aires provincia,50,33,0,50,0,0,14,22,24,Buenos Aires
+51,29.0,Riesgo alto,22.135057,1.2903446,Córdoba,50,49,0,50,0,0,20,28,42,Córdoba
+35,34.4,Riesgo medio,10.502091,-4.164224,Córdoba,50,40,50,50,0,0,32,42,45,Córdoba
+13,14.0,Riesgo bajo,-24.221436,-2.2937016,Córdoba,40,54,0,0,0,0,1,24,8,Córdoba
+25,18.6,Riesgo bajo,-6.1185975,5.426345,Córdoba,50,44,0,0,0,0,15,33,19,Córdoba
+61,42.1,Riesgo alto,29.210766,-2.896748,Córdoba,60,20,0,100,0,50,39,45,46,Córdoba
+11,15.1,Riesgo bajo,-24.732475,-4.74729,Córdoba,50,51,0,0,0,0,7,19,13,Córdoba
+37,21.2,Riesgo medio,9.149216,5.863251,Córdoba,50,34,0,0,0,0,12,40,39,Córdoba
+28,33.5,Riesgo medio,5.4149513,-5.112665,Córdoba,70,18,0,50,0,50,25,56,38,Córdoba
+28,20.2,Riesgo medio,-0.7408937,5.053781,Córdoba,40,31,50,0,0,0,11,24,18,Córdoba
+31,28.9,Riesgo medio,5.5693226,-2.4322422,Córdoba,70,34,50,0,0,0,21,40,43,Córdoba
+23,23.9,Riesgo bajo,-4.8393764,-2.1693075,Córdoba,60,28,0,50,0,0,12,36,30,Córdoba
+20,12.1,Riesgo bajo,-18.069445,6.786859,Córdoba,50,35,0,0,0,0,1,9,6,Córdoba
+17,26.7,Riesgo bajo,-8.3352785,-6.323918,Córdoba,60,58,50,0,0,0,10,46,26,Córdoba
+13,15.5,Riesgo bajo,-22.852644,-3.1578403,Córdoba,50,69,0,0,0,0,4,9,10,Córdoba
+16,15.7,Riesgo bajo,-19.80171,0.04489137,Córdoba,30,62,0,0,0,0,5,26,18,Córdoba
+31,17.6,Riesgo medio,1.1927918,8.078559,Misiones,50,28,0,0,0,0,6,30,31,Nordeste-Litoral
+31,18.7,Riesgo medio,1.8293996,7.2747064,Córdoba,60,36,0,0,0,0,17,21,22,Córdoba
+42,30.8,Riesgo medio,15.525107,-1.0100735,Córdoba,60,66,50,0,0,0,23,32,35,Córdoba
+35,22.8,Riesgo medio,7.6874084,4.362177,Córdoba,60,34,0,0,0,0,25,38,36,Córdoba
+24,24.2,Riesgo bajo,-3.420193,-1.9320906,Buenos Aires provincia,60,22,0,0,0,50,16,41,29,Buenos Aires
+7,8.9,Riesgo bajo,-30.099335,-5.327931,Misiones,30,37,0,0,0,0,2,11,2,Nordeste-Litoral
+6,13.6,Riesgo bajo,-28.204689,-7.2244573,Misiones,60,26,0,0,0,0,9,21,14,Nordeste-Litoral
+11,13.3,Riesgo bajo,-26.240187,-3.738188,Misiones,50,32,0,0,0,0,7,23,10,Nordeste-Litoral
+22,15.7,Riesgo bajo,-12.927008,6.5426235,Córdoba,60,34,0,0,0,0,6,24,11,Córdoba
+37,25.0,Riesgo medio,10.139066,2.5811076,Córdoba,60,22,0,0,0,50,13,38,30,Córdoba
+22,16.2,Riesgo bajo,-12.308078,5.975846,Córdoba,50,54,0,0,20,0,0,2,14,Córdoba
+52,36.2,Riesgo alto,24.096783,-2.4554982,Córdoba,40,34,50,50,0,0,38,51,47,Córdoba
+18,13.9,Riesgo bajo,-19.586954,3.7644854,Córdoba,60,22,0,0,0,0,5,19,15,Córdoba
+55,44.6,Riesgo alto,26.93397,-4.349779,Córdoba,60,22,50,100,0,50,19,46,44,Córdoba
+27,26.4,Riesgo medio,1.2091326,-2.221329,Córdoba,60,26,50,0,20,0,14,33,34,Córdoba
+56,28.8,Riesgo alto,25.15935,1.7442144,Buenos Aires provincia,50,24,50,0,0,0,28,31,49,Buenos Aires
+43,25.8,Riesgo medio,15.496914,2.4651778,CABA (Buenos Aires capital),60,37,0,50,0,0,11,24,33,CABA
+24,18.0,Riesgo bajo,-7.9104114,5.527086,Córdoba,40,36,0,0,0,0,18,35,27,Córdoba
+42,26.6,Riesgo medio,14.791681,1.8810346,Córdoba,60,21,0,50,0,0,26,25,42,Córdoba
+30,27.3,Riesgo medio,4.1566887,-1.7754997,Córdoba,50,38,50,0,0,0,25,58,22,Córdoba
+18,15.5,Riesgo bajo,-18.170885,2.544311,Buenos Aires provincia,60,22,0,0,0,0,11,20,24,Buenos Aires
+59,31.1,Riesgo alto,26.916706,0.8831724,Buenos Aires provincia,60,19,0,50,0,0,28,51,44,Buenos Aires
+20,15.3,Riesgo bajo,-16.078457,4.9532156,Córdoba,50,37,0,0,0,0,5,23,18,Córdoba
+11,12.6,Riesgo bajo,-26.80412,-3.3986795,Córdoba,50,23,0,0,0,0,4,25,13,Córdoba
+14,11.8,Riesgo bajo,-25.264938,-0.3427196,Córdoba,60,26,0,0,0,0,6,5,7,Córdoba
+16,15.6,Riesgo bajo,-19.97356,0.18647239,Córdoba,50,48,0,0,0,0,3,20,19,Córdoba
+10,14.0,Riesgo bajo,-26.215702,-4.9858227,Córdoba,40,23,0,0,0,0,16,32,19,Córdoba
+12,13.1,Riesgo bajo,-25.964388,-2.76308,Córdoba,50,26,0,0,0,0,4,22,17,Córdoba
+25,31.5,Riesgo medio,2.2279084,-5.5182767,Córdoba,60,37,50,100,0,0,1,21,21,Córdoba
+15,15.2,Riesgo bajo,-21.486319,-0.87375295,Córdoba,50,26,0,0,0,0,13,31,17,Córdoba
+32,18.3,Riesgo medio,2.6775944,7.726002,Córdoba,60,27,0,0,0,0,15,20,29,Córdoba
+26,22.5,Riesgo medio,-1.8903742,0.5181215,Córdoba,30,53,0,50,20,0,4,22,20,Córdoba
+36,25.7,Riesgo medio,9.516153,1.7834202,Córdoba,60,21,0,0,0,50,19,38,33,Córdoba
+21,15.9,Riesgo bajo,-14.110547,5.336661,Córdoba,60,19,0,0,0,0,9,33,17,Córdoba
+23,18.7,Riesgo bajo,-8.69321,3.832038,Córdoba,50,66,0,0,0,0,9,21,18,Córdoba
+22,15.1,Riesgo bajo,-13.542638,6.9869275,Córdoba,50,24,0,0,0,0,8,25,22,Córdoba
+40,28.7,Riesgo medio,13.654598,0.1546325,Buenos Aires provincia,40,35,50,0,20,0,20,46,36,Buenos Aires
+27,16.5,Riesgo bajo,-4.3253503,8.420484,Santa Fe,50,34,0,0,0,0,7,25,22,Santa Fe
+55,24.0,Riesgo alto,23.864256,3.3197343,Córdoba,50,34,0,0,0,0,21,43,37,Córdoba
+33,27.1,Riesgo medio,7.171172,-0.37095776,Córdoba,50,53,50,0,0,0,8,39,38,Córdoba
+5,12.2,Riesgo bajo,-29.165266,-7.196777,Córdoba,50,56,0,0,0,0,0,7,4,Córdoba
+6,15.7,Riesgo bajo,-27.174347,-8.096349,Córdoba,50,73,0,0,20,0,0,6,2,Córdoba
+25,19.3,Riesgo bajo,-5.6704884,4.489067,Buenos Aires provincia,40,29,0,50,0,0,5,19,25,Buenos Aires
+20,18.8,Riesgo bajo,-12.0488205,0.95679784,Córdoba,50,24,50,0,0,0,10,15,19,Córdoba
+32,19.4,Riesgo medio,3.1179934,6.8798904,Córdoba,80,25,0,0,0,0,15,23,19,Córdoba
+17,14.9,Riesgo bajo,-19.762787,1.9515784,Córdoba,30,40,0,0,20,0,8,21,13,Córdoba
+23,19.7,Riesgo bajo,-8.011484,2.442421,Córdoba,60,38,50,0,0,0,5,8,13,Córdoba
+21,13.0,Riesgo bajo,-16.54383,7.40719,CABA (Buenos Aires capital),30,35,0,0,0,0,6,10,28,CABA
+67,42.5,Riesgo alto,31.10586,-2.2779865,Entre Ríos,60,22,50,50,0,50,40,38,48,Nordeste-Litoral
+21,18.1,Riesgo bajo,-11.529663,2.7581742,Córdoba,60,71,0,0,0,0,6,14,9,Córdoba
+36,21.9,Riesgo medio,8.310824,5.2105923,Córdoba,50,63,0,0,0,0,9,36,25,Córdoba
+23,15.3,Riesgo bajo,-12.0268345,7.4968104,Buenos Aires provincia,60,22,0,0,0,0,7,26,15,Buenos Aires
+49,23.0,Riesgo medio,19.235985,3.7236369,Buenos Aires provincia,60,20,0,0,0,0,32,38,31,Buenos Aires
+35,27.7,Riesgo medio,9.247665,-0.09657618,Córdoba,60,24,50,0,20,0,8,41,39,Córdoba
+12,11.5,Riesgo bajo,-26.967882,-2.0468662,Santa Fe,50,31,0,0,0,0,2,10,10,Santa Fe
+31,19.9,Riesgo medio,2.3829367,6.3490963,Santa Fe,50,40,0,0,20,0,8,33,17,Santa Fe
+32,21.3,Riesgo medio,3.9384825,5.258287,Córdoba,60,22,0,0,0,50,11,12,26,Córdoba
+52,30.3,Riesgo alto,23.016184,0.6544207,CABA (Buenos Aires capital),60,20,50,0,0,0,20,55,46,CABA
+20,20.9,Riesgo bajo,-10.267961,-1.4688908,Buenos Aires provincia,50,47,0,0,20,0,8,32,32,Buenos Aires
+37,33.8,Riesgo medio,12.036797,-3.5922124,Córdoba,60,31,50,0,20,50,15,37,38,Córdoba
+44,21.2,Riesgo medio,14.4805155,5.058525,CABA (Buenos Aires capital),60,21,0,0,0,0,16,33,38,CABA
+30,22.8,Riesgo medio,2.2085109,2.6531286,Buenos Aires provincia,60,25,0,50,0,0,8,21,34,Buenos Aires
+22,20.0,Riesgo bajo,-8.918928,1.2857431,Santa Fe,30,33,50,0,0,0,13,28,24,Santa Fe
+17,17.0,Riesgo bajo,-17.578667,-0.10827997,Córdoba,60,45,0,0,0,0,9,26,13,Córdoba
+18,21.5,Riesgo bajo,-12.17474,-3.5978992,Santa Fe,70,60,0,0,0,0,9,32,26,Santa Fe
+46,27.2,Riesgo medio,17.813025,1.9334563,Santa Fe,50,25,0,50,0,0,20,47,34,Santa Fe
+46,40.5,Riesgo alto,21.793446,-4.5628533,CABA (Buenos Aires capital),60,37,50,50,20,50,7,34,51,CABA
+15,14.4,Riesgo bajo,-22.324701,-0.28214115,Córdoba,30,25,0,0,0,0,11,39,24,Córdoba
+36,20.7,Riesgo medio,8.200189,6.124967,Santa Fe,50,31,0,0,0,0,24,37,29,Santa Fe
+26,29.0,Riesgo medio,1.8823354,-4.260712,Santa Fe,100,38,50,0,0,0,12,37,27,Santa Fe
+21,14.1,Riesgo bajo,-15.582035,6.713588,Córdoba,50,35,0,0,0,0,6,18,11,Córdoba
+36,18.6,Riesgo medio,7.679414,7.3098955,Santa Fe,50,31,0,0,0,0,12,27,30,Santa Fe
+53,33.5,Riesgo alto,24.199615,-0.9115997,Córdoba,70,24,50,50,0,0,16,39,33,Córdoba
+27,16.9,Riesgo bajo,-4.185837,7.997196,Santa Fe,70,33,0,0,0,0,4,17,18,Santa Fe
+31,22.0,Riesgo medio,3.0818334,4.0776086,Córdoba,70,20,0,50,0,0,8,19,22,Córdoba
+21,17.1,Riesgo bajo,-12.6627655,4.184302,Buenos Aires provincia,60,50,0,0,0,0,4,17,19,Buenos Aires
+12,14.0,Riesgo bajo,-24.957031,-3.2333143,Santa Fe,50,39,0,0,0,0,2,20,17,Santa Fe
+13,13.5,Riesgo bajo,-24.791891,-1.9165794,CABA (Buenos Aires capital),30,53,0,0,0,0,2,20,17,CABA
+28,18.3,Riesgo medio,-1.8903152,6.868593,Santa Fe,50,44,0,0,0,0,7,29,25,Santa Fe
+21,14.8,Riesgo bajo,-15.027225,6.2894006,CABA (Buenos Aires capital),60,33,0,0,0,0,2,18,14,CABA
+39,33.2,Riesgo medio,13.495468,-2.8529892,CABA (Buenos Aires capital),40,39,0,100,20,0,39,32,23,CABA
+23,16.3,Riesgo bajo,-10.860128,6.6166825,Buenos Aires provincia,50,58,0,0,0,0,3,13,16,Buenos Aires
+6,24.1,Riesgo bajo,-17.853043,-8.713795,Buenos Aires provincia,50,58,0,100,20,0,2,2,3,Buenos Aires
+23,14.7,Riesgo bajo,-12.651318,7.902773,Córdoba,40,30,0,0,0,0,8,25,21,Córdoba
+33,31.6,Riesgo medio,8.5645685,-3.3943057,CABA (Buenos Aires capital),60,23,50,50,0,0,26,41,33,CABA
+22,16.2,Riesgo bajo,-12.313055,5.9714227,Buenos Aires provincia,40,34,0,0,20,0,8,22,16,Buenos Aires
+20,17.7,Riesgo bajo,-13.529481,2.2245374,CABA (Buenos Aires capital),50,53,0,0,0,0,1,28,25,CABA
+63,33.7,Riesgo alto,29.133484,0.037973605,Buenos Aires provincia,70,21,0,50,0,0,37,49,47,Buenos Aires
+39,25.6,Riesgo medio,11.939013,2.3577297,Santa Fe,50,28,0,50,0,50,9,9,21,Santa Fe
+19,14.9,Riesgo bajo,-17.683174,4.4115453,Santiago del Estero,50,45,0,0,0,0,8,11,16,Noroeste
+22,17.2,Riesgo bajo,-11.190345,4.91623,Córdoba,60,32,0,0,0,0,8,32,18,Córdoba
+17,15.1,Riesgo bajo,-19.489248,1.7457466,Córdoba,50,35,0,0,0,0,10,21,18,Córdoba
+36,29.0,Riesgo medio,10.39709,-0.9036518,Córdoba,70,33,50,50,0,0,8,18,25,Córdoba
+21,13.4,Riesgo bajo,-16.332441,6.9461665,Córdoba,30,50,0,0,0,0,5,17,11,Córdoba
+35,20.4,Riesgo medio,7.1581454,6.260453,Chaco,30,44,0,0,0,0,11,52,32,Nordeste-Litoral
+20,20.1,Riesgo bajo,-10.775684,-0.64993376,Córdoba,50,26,0,0,0,0,27,45,33,Córdoba
+12,13.1,Riesgo bajo,-25.828274,-2.4994931,Chaco,50,41,0,0,0,0,7,8,13,Nordeste-Litoral
+18,17.6,Riesgo bajo,-16.112623,0.4882544,Buenos Aires provincia,50,57,0,0,0,0,5,26,20,Buenos Aires
+39,38.5,Riesgo medio,14.442164,-4.7169685,Santiago del Estero,60,21,0,100,0,50,25,47,43,Noroeste
+50,36.1,Riesgo alto,23.006485,-2.6499074,Mendoza,40,36,50,50,0,0,24,59,52,Cuyo
+41,32.1,Riesgo medio,14.810457,-1.9977632,Chaco,50,32,50,50,0,0,26,37,35,Nordeste-Litoral
+40,30.1,Riesgo medio,13.872881,-0.8927155,CABA (Buenos Aires capital),30,51,50,0,20,0,30,41,39,CABA
+13,13.3,Riesgo bajo,-25.06393,-1.7533258,Córdoba,50,36,0,0,0,0,3,21,10,Córdoba
+21,15.8,Riesgo bajo,-14.039995,5.7056804,Córdoba,60,23,0,0,0,0,7,29,18,Córdoba
+26,24.3,Riesgo medio,-0.82848436,-1.0834261,CABA (Buenos Aires capital),40,50,0,50,0,0,10,41,26,CABA
+19,17.7,Riesgo bajo,-14.769908,1.2959801,Misiones,30,38,50,0,0,0,11,19,10,Nordeste-Litoral
+28,29.4,Riesgo medio,3.3020723,-3.8142242,Córdoba,50,39,50,0,20,50,7,24,26,Córdoba
+21,28.1,Riesgo bajo,-5.4567995,-5.8569946,Chaco,50,57,50,50,0,0,7,24,22,Nordeste-Litoral
+50,28.1,Riesgo alto,21.290796,1.6439466,Córdoba,60,33,0,0,0,50,17,35,36,Córdoba
+20,25.5,Riesgo bajo,-7.308257,-4.843493,CABA (Buenos Aires capital),50,55,0,0,20,50,13,27,20,CABA
+42,27.7,Riesgo medio,15.022346,1.0216517,Chaco,60,33,0,50,0,0,24,39,29,Nordeste-Litoral
+24,17.2,Riesgo bajo,-8.427137,6.313599,Córdoba,30,31,0,0,0,50,12,13,12,Córdoba
+11,15.5,Riesgo bajo,-24.357317,-5.003788,Córdoba,60,25,0,0,20,0,4,17,18,Córdoba
+32,35.3,Riesgo medio,8.800067,-4.895866,Neuquén,30,48,50,100,20,0,10,30,33,Patagonia Centro-Norte
+16,13.2,Riesgo bajo,-22.403242,1.7538204,Jujuy,50,35,0,0,0,0,6,12,13,Noroeste
+14,12.6,Riesgo bajo,-24.713161,-0.57971954,Córdoba,30,33,0,0,20,0,0,17,12,Córdoba
+9,16.7,Riesgo bajo,-25.037663,-7.052724,Córdoba,40,54,50,0,0,0,2,7,5,Córdoba
+10,21.1,Riesgo bajo,-18.564812,-7.1962266,Buenos Aires provincia,40,51,50,0,0,50,0,6,4,Buenos Aires
+25,17.5,Riesgo bajo,-6.734937,6.6722836,Córdoba,70,33,0,0,0,0,12,18,17,Córdoba
+22,11.2,Riesgo bajo,-16.510439,8.267161,San Juan,30,34,0,0,0,0,6,8,12,Cuyo
+21,19.8,Riesgo bajo,-10.053997,0.6648727,CABA (Buenos Aires capital),60,23,0,50,0,0,8,14,22,CABA
+13,16.7,Riesgo bajo,-21.541676,-3.9008641,Buenos Aires provincia,50,50,0,0,20,0,9,13,12,Buenos Aires
+23,18.8,Riesgo bajo,-8.607727,3.6541145,Córdoba,50,26,0,0,0,0,18,39,32,Córdoba
+20,19.8,Riesgo bajo,-11.132754,-0.1318184,Buenos Aires provincia,50,30,50,0,0,0,4,21,23,Buenos Aires
+25,23.3,Riesgo bajo,-2.8466496,-0.81265074,Buenos Aires provincia,60,19,0,50,0,0,22,30,27,Buenos Aires
+26,18.7,Riesgo bajo,-4.7458267,5.7457976,Córdoba,40,33,0,50,0,0,8,16,14,Córdoba
+12,18.4,Riesgo bajo,-20.193995,-5.5379596,Córdoba,60,66,0,0,0,0,7,18,21,Córdoba
+21,18.7,Riesgo bajo,-10.905301,1.962649,Córdoba,40,25,0,0,20,0,14,37,30,Córdoba
+9,12.7,Riesgo bajo,-27.697193,-5.0163536,Córdoba,60,20,0,0,0,0,5,23,10,Córdoba
+29,21.3,Riesgo medio,0.8511225,4.050537,Buenos Aires provincia,30,43,0,50,0,0,14,28,19,Buenos Aires
+7,12.5,Riesgo bajo,-28.494612,-6.336932,Neuquén,50,26,0,0,0,0,11,16,15,Patagonia Centro-Norte
+28,27.7,Riesgo medio,2.5786643,-2.74499,Buenos Aires provincia,50,59,50,0,0,0,12,43,35,Buenos Aires
+23,15.7,Riesgo bajo,-11.577095,7.131595,Córdoba,40,37,0,0,0,0,14,27,16,Córdoba
+23,27.9,Riesgo medio,-0.87228537,-4.783002,Buenos Aires provincia,50,67,50,0,0,0,14,52,23,Buenos Aires
+26,16.4,Riesgo bajo,-5.5336347,8.0472145,Buenos Aires provincia,50,35,0,0,0,0,13,23,17,Buenos Aires
+26,28.9,Riesgo medio,1.792476,-4.17451,Buenos Aires provincia,50,35,50,50,0,0,24,31,23,Buenos Aires
+13,20.7,Riesgo bajo,-17.319479,-5.869811,Córdoba,60,40,0,0,0,50,7,22,15,Córdoba
+22,19.5,Riesgo bajo,-9.307172,1.9906721,Córdoba,50,30,0,0,0,0,27,39,27,Córdoba
+61,33.8,Riesgo alto,28.144361,-0.046509292,Buenos Aires provincia,50,26,0,50,0,0,36,63,52,Buenos Aires
+14,17.4,Riesgo bajo,-20.037315,-3.4775481,Jujuy,60,58,0,0,0,0,13,19,10,Noroeste
+49,34.7,Riesgo alto,22.142714,-1.9807707,Córdoba,60,26,0,50,0,50,19,51,42,Córdoba
+22,18.9,Riesgo bajo,-9.669159,2.6760325,Córdoba,60,27,0,0,0,0,16,23,41,Córdoba
+16,17.9,Riesgo bajo,-17.552628,-2.0896769,Buenos Aires provincia,50,34,0,0,0,50,8,16,5,Buenos Aires
+37,28.6,Riesgo medio,11.124533,-0.36094323,Córdoba,80,32,0,50,20,0,16,24,27,Córdoba
+35,27.8,Riesgo medio,9.289558,-0.20673445,Córdoba,60,22,0,50,0,0,31,48,32,Córdoba
+19,17.0,Riesgo bajo,-15.667364,2.0810308,Córdoba,50,33,0,0,0,0,12,36,20,Córdoba
+24,18.0,Riesgo bajo,-7.910405,5.527085,CABA (Buenos Aires capital),50,33,0,0,0,0,9,38,26,CABA
+43,28.9,Riesgo medio,16.078022,0.3114475,Córdoba,70,18,0,50,0,0,25,41,42,Córdoba
+19,27.7,Riesgo bajo,-6.8067746,-6.328059,Santa Fe,60,21,50,50,0,0,26,31,20,Santa Fe
+17,20.1,Riesgo bajo,-14.392876,-3.4582095,Corrientes,50,29,50,0,20,0,9,14,12,Nordeste-Litoral
+12,14.5,Riesgo bajo,-24.40481,-3.590788,Santa Fe,50,31,0,0,0,0,13,24,15,Santa Fe
+32,17.1,Riesgo medio,2.2081099,8.474819,Buenos Aires provincia,60,22,0,0,0,0,9,24,24,Buenos Aires
+17,11.2,Riesgo bajo,-22.375443,3.7060575,Córdoba,40,27,0,0,0,0,1,14,13,Córdoba
+28,20.4,Riesgo medio,-0.59080374,4.7463436,CABA (Buenos Aires capital),60,21,0,0,0,0,26,41,28,CABA
+14,16.4,Riesgo bajo,-20.959658,-2.9380004,Buenos Aires provincia,30,35,50,0,0,0,3,20,12,Buenos Aires
+17,16.7,Riesgo bajo,-17.861448,0.20524037,Buenos Aires provincia,40,32,0,50,0,0,4,10,14,Buenos Aires
+26,24.1,Riesgo medio,-1.019044,-0.8743064,Río Negro,50,34,0,0,20,0,22,51,38,Patagonia Centro-Norte
+19,23.8,Riesgo bajo,-9.244011,-4.4383626,CABA (Buenos Aires capital),30,58,50,0,20,0,13,34,14,CABA
+28,22.7,Riesgo medio,0.3263112,1.4393209,Córdoba,70,57,0,0,0,0,11,34,27,Córdoba
+28,29.5,Riesgo medio,3.339558,-3.8772821,Córdoba,70,19,50,0,0,50,19,31,28,Córdoba
+42,30.3,Riesgo medio,15.3906,-0.526357,Córdoba,60,23,50,0,20,0,19,48,41,Córdoba
+30,14.9,Riesgo medio,-1.0482143,9.430808,Buenos Aires provincia,50,33,0,0,0,0,8,17,11,Buenos Aires
+41,24.2,Riesgo medio,13.047075,3.722021,Buenos Aires provincia,60,26,0,0,0,0,22,53,40,Buenos Aires
+18,14.9,Riesgo bajo,-18.786375,3.1316154,Misiones,30,36,0,0,0,0,15,30,20,Nordeste-Litoral
+36,31.4,Riesgo medio,10.8111315,-2.5644512,Córdoba,60,30,50,50,0,0,14,46,28,Córdoba
+16,13.9,Riesgo bajo,-21.784172,1.2883521,Buenos Aires provincia,60,26,0,0,0,0,7,19,11,Buenos Aires
+31,21.5,Riesgo medio,2.893809,4.7035418,Córdoba,60,21,0,0,0,50,1,19,33,Córdoba
+43,20.5,Riesgo medio,13.713885,5.501481,Santa Fe,50,37,0,0,0,0,13,33,29,Santa Fe
+55,31.8,Riesgo alto,25.01935,0.29207227,Buenos Aires provincia,60,19,50,50,0,0,25,19,40,Buenos Aires
+16,16.3,Riesgo bajo,-19.177666,-0.49305955,Buenos Aires provincia,50,32,0,0,0,0,9,30,26,Buenos Aires
+18,11.5,Riesgo bajo,-21.6543,4.377759,Buenos Aires provincia,50,22,0,0,0,0,6,7,12,Buenos Aires
+68,39.2,Riesgo alto,31.129065,-1.4671903,San Juan,80,19,50,50,0,0,46,36,43,Cuyo
+40,29.4,Riesgo medio,13.828854,-0.31348202,CABA (Buenos Aires capital),30,49,50,0,20,0,17,45,43,CABA
+65,41.3,Riesgo alto,30.47834,-2.3288014,Buenos Aires provincia,60,21,50,100,0,0,33,39,45,Buenos Aires
+44,20.7,Riesgo medio,14.349094,5.313407,Santa Fe,40,29,0,0,0,0,16,41,37,Santa Fe
+18,11.4,Riesgo bajo,-21.738323,4.4115477,La Pampa,50,27,0,0,0,0,3,11,5,Patagonia Centro-Norte
+33,25.8,Riesgo medio,6.734587,0.63010025,Córdoba,60,18,0,50,0,0,23,44,30,Córdoba
+50,30.1,Riesgo alto,21.56287,0.6758825,La Pampa,60,24,0,50,0,50,15,17,35,Patagonia Centro-Norte
+7,9.5,Riesgo bajo,-29.8844,-5.433865,La Pampa,40,27,0,0,0,0,2,16,3,Patagonia Centro-Norte
+20,26.0,Riesgo bajo,-7.004857,-5.117971,Buenos Aires provincia,60,31,50,0,0,50,7,24,18,Buenos Aires
+5,12.3,Riesgo bajo,-29.11824,-7.249493,La Pampa,30,31,0,0,20,0,7,19,11,Patagonia Centro-Norte
+27,19.1,Riesgo bajo,-3.3679295,5.808378,La Pampa,60,23,0,0,20,0,11,21,29,Patagonia Centro-Norte
+25,30.4,Riesgo medio,1.7514001,-5.236831,Buenos Aires provincia,50,25,0,50,0,50,20,52,32,Buenos Aires
+75,37.8,Riesgo alto,32.688095,-0.89292336,CABA (Buenos Aires capital),60,25,50,50,20,0,11,34,53,CABA
+40,28.8,Riesgo medio,13.705716,0.082211934,Buenos Aires provincia,50,45,50,0,0,0,24,45,34,Buenos Aires
+21,12.5,Riesgo bajo,-16.992708,7.4381104,Tucumán,40,28,0,0,20,0,0,11,5,Noroeste
+57,31.3,Riesgo alto,25.994148,0.769199,Buenos Aires provincia,70,20,0,50,0,0,27,45,44,Buenos Aires
+37,22.0,Riesgo medio,9.39763,5.110588,CABA (Buenos Aires capital),50,28,0,50,0,0,9,31,15,CABA
+24,22.5,Riesgo bajo,-4.4722238,-0.5656388,Salta,30,32,50,0,0,0,18,40,31,Noroeste
+43,28.3,Riesgo medio,15.967115,0.82755387,Buenos Aires provincia,60,24,0,50,0,0,24,45,37,Buenos Aires
+67,44.6,Riesgo alto,31.223158,-2.935531,CABA (Buenos Aires capital),70,20,50,50,0,50,31,51,57,CABA
+17,15.5,Riesgo bajo,-19.098974,1.4258684,Córdoba,50,42,0,0,0,0,8,23,15,Córdoba
+24,22.1,Riesgo bajo,-4.7653947,-0.12273314,CABA (Buenos Aires capital),60,41,0,50,0,0,3,23,20,CABA
+69,43.8,Riesgo alto,31.6209,-2.3879204,Buenos Aires provincia,60,19,50,100,0,0,35,58,47,Buenos Aires
+58,37.6,Riesgo alto,27.42615,-2.0662155,CABA (Buenos Aires capital),60,24,0,50,0,50,35,47,52,CABA
+46,30.2,Riesgo medio,18.530405,0.060378168,CABA (Buenos Aires capital),70,18,0,50,0,50,9,27,32,CABA
+36,27.1,Riesgo medio,9.95602,0.53991824,Salta,70,27,0,50,20,0,13,23,32,Noroeste
+16,14.0,Riesgo bajo,-21.649723,1.2131683,La Pampa,40,32,0,0,0,0,7,27,18,Patagonia Centro-Norte
+34,32.0,Riesgo medio,9.475418,-3.3011296,CABA (Buenos Aires capital),60,21,50,0,0,50,32,42,31,CABA
+22,13.2,Riesgo bajo,-15.2930355,7.858551,CABA (Buenos Aires capital),60,20,0,0,0,0,7,10,13,CABA
+31,18.6,Riesgo medio,1.7900912,7.3546095,CABA (Buenos Aires capital),50,27,0,0,0,0,14,32,32,CABA
+28,14.0,Riesgo bajo,-4.0463457,9.910518,Córdoba,30,37,0,0,0,0,5,22,18,Córdoba
+56,36.2,Riesgo alto,26.297745,-1.7254342,CABA (Buenos Aires capital),60,23,50,50,0,0,26,62,35,CABA
+29,30.7,Riesgo medio,4.6771164,-3.9762726,Córdoba,70,34,0,100,0,0,14,27,33,Córdoba
+17,12.4,Riesgo bajo,-21.703056,3.2593803,Buenos Aires provincia,30,29,0,0,20,0,2,8,18,Buenos Aires
+25,18.9,Riesgo bajo,-5.9226193,5.019643,Córdoba,50,39,0,0,0,0,17,36,22,Córdoba
+21,18.6,Riesgo bajo,-11.04454,2.1639943,Mendoza,30,40,0,0,20,0,12,27,36,Cuyo
+37,24.8,Riesgo medio,10.103135,2.9245992,Córdoba,50,34,0,50,20,0,12,17,28,Córdoba
+16,29.5,Riesgo bajo,-7.554404,-7.292409,CABA (Buenos Aires capital),60,39,50,50,0,0,13,39,28,CABA
+42,28.0,Riesgo medio,15.068536,0.748275,Salta,60,47,0,0,0,50,17,33,31,Noroeste
+28,31.3,Riesgo medio,4.1459856,-4.605375,Córdoba,60,49,50,50,0,0,17,30,29,Córdoba
+16,17.7,Riesgo bajo,-17.783548,-1.887794,Tucumán,60,31,0,0,0,50,3,6,11,Noroeste
+61,29.6,Riesgo alto,27.730795,1.4972242,Buenos Aires provincia,60,19,0,50,0,0,23,43,40,Buenos Aires
+19,17.5,Riesgo bajo,-15.037522,1.4999655,CABA (Buenos Aires capital),60,43,0,0,20,0,2,18,13,CABA
+13,21.8,Riesgo bajo,-16.70053,-6.291032,Buenos Aires provincia,50,27,0,50,0,50,3,12,13,Buenos Aires
+8,14.3,Riesgo bajo,-27.11659,-6.409433,Buenos Aires provincia,50,58,0,0,0,0,2,17,8,Buenos Aires
+67,44.0,Riesgo alto,31.180122,-2.7538118,Jujuy,60,24,50,100,0,0,40,55,44,Noroeste
+44,25.6,Riesgo medio,16.246225,2.621593,Santa Fe,50,23,0,0,0,0,41,55,43,Santa Fe
+31,17.7,Riesgo medio,1.3799568,8.004369,Buenos Aires provincia,70,23,0,0,0,0,8,21,24,Buenos Aires
+6,10.2,Riesgo bajo,-29.893564,-6.235424,La Rioja,30,55,0,0,0,0,0,2,9,Cuyo
+26,19.4,Riesgo bajo,-4.462855,4.9833817,Buenos Aires provincia,60,25,0,0,0,0,17,33,33,Buenos Aires
+25,24.3,Riesgo medio,-1.9626086,-1.488744,Santa Fe,60,24,0,50,0,0,25,41,18,Santa Fe
+72,40.9,Riesgo alto,32.007866,-1.627033,Buenos Aires provincia,60,20,0,50,0,50,50,61,46,Buenos Aires
+9,17.5,Riesgo bajo,-24.552185,-7.344018,Buenos Aires provincia,50,35,50,0,0,0,6,15,10,Buenos Aires
+12,11.2,Riesgo bajo,-27.371962,-1.9814937,Córdoba,30,38,0,0,0,0,7,15,10,Córdoba
+21,25.4,Riesgo bajo,-6.4214616,-4.4474907,Santa Fe,60,38,0,0,0,50,13,39,33,Santa Fe
+14,11.5,Riesgo bajo,-25.506548,-0.27109408,Buenos Aires provincia,30,31,0,0,0,0,2,18,20,Buenos Aires
+9,18.5,Riesgo bajo,-23.667976,-7.463343,Buenos Aires provincia,40,33,50,0,20,0,3,16,14,Buenos Aires
+8,15.0,Riesgo bajo,-26.642902,-6.7229595,Córdoba,30,30,0,0,20,0,8,37,17,Córdoba
+14,16.3,Riesgo bajo,-21.208109,-2.7902093,Córdoba,30,30,0,0,0,0,21,48,20,Córdoba
+64,41.3,Riesgo alto,30.120258,-2.4520018,Buenos Aires provincia,50,28,50,50,0,50,35,41,45,Buenos Aires
+18,12.7,Riesgo bajo,-20.796686,4.2290297,Río Negro,30,39,0,0,0,0,7,18,15,Patagonia Centro-Norte
+52,34.8,Riesgo alto,23.838379,-1.7452166,Santa Fe,60,22,50,50,0,0,24,55,35,Santa Fe
+56,40.5,Riesgo alto,26.833727,-3.3581119,Buenos Aires provincia,50,29,50,50,0,50,31,52,37,Buenos Aires
+46,33.6,Riesgo alto,19.989916,-1.8308151,CABA (Buenos Aires capital),50,65,50,0,0,50,9,34,32,CABA
+35,20.5,Riesgo medio,7.2040396,6.1453276,Buenos Aires provincia,50,28,0,0,0,0,23,39,30,Buenos Aires
+6,9.3,Riesgo bajo,-30.21316,-6.0497475,Buenos Aires provincia,30,52,0,0,0,0,2,2,1,Buenos Aires
+44,23.6,Riesgo medio,15.43089,3.9059572,Santa Fe,50,29,0,50,0,0,15,20,28,Santa Fe
+36,21.4,Riesgo medio,8.286321,5.6695714,Corrientes,40,38,50,0,0,0,4,23,23,Nordeste-Litoral
+45,27.0,Riesgo medio,17.118439,1.9524741,Córdoba,40,28,0,50,0,0,28,40,39,Córdoba
+13,16.8,Riesgo bajo,-21.473997,-4.159266,Córdoba,60,41,0,0,0,0,7,35,12,Córdoba
+12,20.7,Riesgo bajo,-17.917566,-6.4004917,CABA (Buenos Aires capital),50,44,0,0,0,50,11,19,21,CABA
+60,28.6,Riesgo alto,26.940733,1.9410193,Buenos Aires provincia,60,24,0,50,0,0,15,29,48,Buenos Aires
+24,19.9,Riesgo bajo,-6.6019163,3.1345794,Jujuy,40,40,0,0,20,0,8,41,26,Noroeste
+20,12.3,Riesgo bajo,-17.862118,6.75857,Jujuy,50,32,0,0,0,0,3,6,12,Noroeste
+34,32.6,Riesgo medio,9.59017,-3.6817603,Córdoba,30,41,50,0,0,50,25,54,42,Córdoba
+40,25.1,Riesgo medio,12.563066,2.9236386,Buenos Aires provincia,30,45,50,0,0,0,11,47,28,Buenos Aires
+36,26.8,Riesgo medio,9.790053,0.8412958,Córdoba,60,22,0,50,0,0,14,42,44,Córdoba
+59,28.8,Riesgo alto,26.431835,1.8118681,Jujuy,50,51,0,0,0,0,33,47,48,Noroeste
+27,23.4,Riesgo medio,-0.30634296,0.1087947,Buenos Aires provincia,50,23,0,50,0,0,12,43,29,Buenos Aires
+28,32.8,Riesgo medio,5.005384,-4.935068,Mendoza,40,28,50,100,0,0,18,33,31,Cuyo
+17,23.7,Riesgo bajo,-11.516768,-5.300646,Jujuy,50,40,50,50,0,0,3,18,9,Noroeste
+39,18.6,Riesgo medio,10.172348,7.0468597,CABA (Buenos Aires capital),40,33,0,0,0,0,24,30,20,CABA
+66,33.6,Riesgo alto,30.041945,0.10267163,Santa Fe,30,28,50,50,0,0,17,52,43,Santa Fe
+33,26.4,Riesgo medio,6.9400835,0.13476822,Buenos Aires provincia,40,37,50,0,0,0,16,55,33,Buenos Aires
+23,13.8,Riesgo bajo,-13.670154,8.178692,CABA (Buenos Aires capital),30,32,0,0,0,0,11,19,23,CABA
+6,26.4,Riesgo bajo,-17.495636,-8.756003,CABA (Buenos Aires capital),50,47,50,50,0,0,4,37,20,CABA
+38,28.7,Riesgo medio,12.045769,-0.25446582,CABA (Buenos Aires capital),60,24,0,50,0,0,36,49,30,CABA
+28,30.7,Riesgo medio,3.829332,-4.386993,Buenos Aires provincia,60,44,50,0,20,0,25,44,36,Buenos Aires
+26,20.7,Riesgo bajo,-3.7989066,3.2546933,Buenos Aires provincia,70,20,0,0,0,0,17,51,23,Buenos Aires
+24,18.2,Riesgo bajo,-7.696695,5.142635,Santa Fe,70,19,0,0,20,0,5,22,22,Santa Fe
+23,19.2,Riesgo bajo,-8.357497,3.1495256,Santa Fe,60,26,0,0,0,0,18,40,25,Santa Fe
+31,25.5,Riesgo medio,4.282477,0.10029164,Buenos Aires provincia,60,28,0,50,0,0,15,36,35,Buenos Aires
+64,39.1,Riesgo alto,29.898773,-1.8169695,CABA (Buenos Aires capital),60,25,50,50,20,0,19,59,44,CABA
+19,25.0,Riesgo bajo,-8.193819,-5.069388,Córdoba,40,27,50,0,20,0,18,47,29,Córdoba
+9,18.4,Riesgo bajo,-23.844852,-7.4935102,Tucumán,60,28,0,0,20,0,11,37,19,Noroeste
+54,42.0,Riesgo alto,26.038675,-4.0664005,Buenos Aires provincia,60,34,50,100,0,0,32,50,40,Buenos Aires
+64,38.4,Riesgo alto,29.821405,-1.5194976,Buenos Aires provincia,60,32,0,50,0,50,28,48,52,Buenos Aires
+7,15.3,Riesgo bajo,-26.980408,-7.47987,Buenos Aires provincia,50,26,0,0,0,0,13,35,22,Buenos Aires
+30,26.4,Riesgo medio,3.7265396,-1.0287069,Santa Fe,70,24,50,50,0,0,5,17,18,Santa Fe
+20,22.6,Riesgo bajo,-9.141009,-3.1311977,Buenos Aires provincia,60,41,0,50,0,0,14,27,14,Buenos Aires
+20,22.3,Riesgo bajo,-9.448269,-2.811937,Córdoba,60,39,50,0,20,0,5,15,14,Córdoba
+19,24.1,Riesgo bajo,-8.853251,-4.6245694,Santa Fe,50,58,50,0,0,0,10,36,18,Santa Fe
+19,16.2,Riesgo bajo,-16.380611,2.8446133,Buenos Aires provincia,60,20,0,0,0,0,14,36,13,Buenos Aires
+42,20.7,Riesgo medio,13.04267,5.695371,CABA (Buenos Aires capital),70,23,0,0,0,0,16,24,32,CABA
+32,28.6,Riesgo medio,6.4988236,-1.7950404,Buenos Aires provincia,60,28,0,0,0,50,20,56,40,Buenos Aires
+48,35.2,Riesgo alto,21.68457,-2.5488753,Buenos Aires provincia,60,23,50,50,0,0,36,44,41,Buenos Aires
+79,54.1,Riesgo alto,33.54581,-3.1582918,Buenos Aires provincia,60,33,50,100,0,50,53,62,54,Buenos Aires
+44,32.1,Riesgo medio,17.119162,-1.2977839,Mendoza,60,24,50,50,0,0,17,33,43,Cuyo
+46,27.8,Riesgo medio,18.066914,1.4567745,Santa Fe,70,35,0,0,0,0,23,65,39,Santa Fe
+16,16.9,Riesgo bajo,-18.562244,-1.098825,Córdoba,60,21,0,0,0,0,22,33,17,Córdoba
+26,14.4,Riesgo bajo,-5.87315,9.613601,Buenos Aires provincia,50,29,0,0,0,0,9,18,12,Buenos Aires
+44,27.0,Riesgo medio,16.47466,1.7954068,CABA (Buenos Aires capital),60,26,50,0,0,0,7,41,42,CABA
+24,23.0,Riesgo bajo,-4.125353,-1.0555004,Córdoba,60,29,0,0,0,50,14,29,24,Córdoba
+33,25.4,Riesgo medio,6.5840282,1.0520484,Buenos Aires provincia,60,30,0,50,0,0,18,36,27,Buenos Aires
+76,36.5,Riesgo alto,32.762085,-0.5072222,Buenos Aires provincia,60,23,0,50,0,0,53,55,48,Buenos Aires
+14,14.5,Riesgo bajo,-23.03456,-1.5670528,CABA (Buenos Aires capital),60,36,0,0,0,0,11,9,15,CABA
+60,49.7,Riesgo alto,29.726536,-4.1956596,Neuquén,70,25,50,100,0,50,35,59,48,Patagonia Centro-Norte
+73,37.0,Riesgo alto,32.073006,-0.55804753,Buenos Aires provincia,60,22,50,50,0,0,25,54,36,Buenos Aires
+20,17.6,Riesgo bajo,-13.716873,2.4004967,Mendoza,30,27,0,0,0,0,26,44,29,Cuyo
+69,37.5,Riesgo alto,31.233654,-0.9108193,Córdoba,60,22,0,50,20,0,40,59,55,Córdoba
+49,30.8,Riesgo alto,21.0495,0.1420494,Buenos Aires provincia,70,18,0,50,0,0,39,41,41,Buenos Aires
+13,13.6,Riesgo bajo,-24.64253,-2.011666,CABA (Buenos Aires capital),50,25,0,0,0,0,8,31,9,CABA
+20,28.0,Riesgo bajo,-6.0853353,-6.160514,Buenos Aires provincia,70,21,0,50,0,50,15,34,20,Buenos Aires
+7,15.5,Riesgo bajo,-26.828638,-7.5894704,Córdoba,50,30,50,0,0,0,0,3,15,Córdoba
+14,14.8,Riesgo bajo,-22.704844,-1.7852266,Tucumán,30,33,50,0,0,0,3,11,7,Noroeste
+21,13.6,Riesgo bajo,-15.87646,7.169663,CABA (Buenos Aires capital),40,32,0,0,0,0,8,18,17,CABA
+20,18.1,Riesgo bajo,-12.945037,1.7542782,CABA (Buenos Aires capital),70,18,0,0,0,0,15,32,26,CABA
+63,34.9,Riesgo alto,29.23594,-0.43235216,Tucumán,60,30,50,0,20,0,35,52,39,Noroeste
+41,22.2,Riesgo medio,12.496133,5.0051794,Santiago del Estero,50,38,0,0,0,0,13,42,38,Noroeste
+19,16.9,Riesgo bajo,-15.783138,2.2459204,Santiago del Estero,50,50,0,0,0,0,11,21,18,Noroeste
+53,32.4,Riesgo alto,23.931189,-0.22735563,CABA (Buenos Aires capital),40,44,50,0,0,0,25,63,49,CABA
+66,26.3,Riesgo alto,29.072832,1.8798288,Tucumán,60,21,0,0,0,0,22,39,55,Noroeste
+18,11.9,Riesgo bajo,-21.341417,4.4077334,Córdoba,30,41,0,0,0,0,6,10,14,Córdoba
+25,28.5,Riesgo medio,0.91266954,-4.314649,Santa Fe,60,33,50,0,0,50,6,33,28,Santa Fe
+20,25.4,Riesgo bajo,-7.375757,-4.7817802,CABA (Buenos Aires capital),50,45,50,0,0,50,4,24,11,CABA
+73,30.3,Riesgo alto,31.822615,0.43717855,Tucumán,60,34,0,0,0,0,25,63,48,Noroeste
+41,31.1,Riesgo medio,14.778989,-1.3717984,Buenos Aires provincia,60,25,50,0,0,50,16,25,44,Buenos Aires
+35,37.9,Riesgo medio,11.080627,-5.0527244,Tucumán,60,32,0,100,0,50,21,48,33,Noroeste
+70,45.5,Riesgo alto,31.980576,-2.910034,Santiago del Estero,60,19,50,50,0,50,47,55,54,Noroeste
+27,23.2,Riesgo medio,-0.5280895,0.50290364,Jujuy,60,25,0,0,0,50,3,32,35,Noroeste
+19,19.3,Riesgo bajo,-12.6355505,-0.4966358,Buenos Aires provincia,60,35,0,0,0,0,16,31,32,Buenos Aires
+53,36.5,Riesgo alto,24.695272,-2.4772482,Buenos Aires provincia,60,24,0,50,0,50,39,48,41,Buenos Aires
+40,30.7,Riesgo medio,13.951101,-1.369365,CABA (Buenos Aires capital),70,32,0,50,0,0,25,49,41,CABA
+10,16.3,Riesgo bajo,-24.550066,-6.2411823,Buenos Aires provincia,60,61,0,0,0,0,3,15,14,Buenos Aires
+17,20.0,Riesgo bajo,-14.582625,-3.2604065,Buenos Aires provincia,60,69,0,0,20,0,4,18,12,Buenos Aires
+13,28.4,Riesgo bajo,-14.436782,-8.103538,Buenos Aires provincia,90,61,50,50,0,0,6,7,7,Buenos Aires
+15,11.5,Riesgo bajo,-24.612928,0.822266,Buenos Aires provincia,50,42,0,0,0,0,2,1,5,Buenos Aires
+62,39.3,Riesgo alto,29.242989,-2.056655,Buenos Aires provincia,50,30,50,50,20,0,41,52,38,Buenos Aires
+8,15.4,Riesgo bajo,-26.229198,-7.049463,Santiago del Estero,60,32,0,0,0,0,8,29,17,Noroeste
+18,22.7,Riesgo bajo,-11.054175,-4.4217253,Tucumán,60,47,50,0,0,0,4,16,32,Noroeste
+11,12.1,Riesgo bajo,-27.196663,-3.1877713,Córdoba,50,34,0,0,20,0,1,5,0,Córdoba
+36,34.1,Riesgo medio,11.2090225,-3.850969,Santa Fe,60,19,0,100,0,0,36,52,38,Santa Fe
+55,29.4,Riesgo alto,24.542362,1.3130279,Córdoba,50,26,0,50,0,0,23,47,43,Córdoba
+48,24.6,Riesgo medio,18.637974,3.2436502,Jujuy,60,30,0,50,0,0,19,13,26,Noroeste
+11,11.1,Riesgo bajo,-27.843964,-2.872564,Tierra del Fuego,30,37,0,0,0,0,3,12,18,Patagonia Centro-Sur
+26,21.5,Riesgo medio,-2.6261878,1.698346,Jujuy,50,65,0,0,0,0,12,37,25,Noroeste
+28,21.1,Riesgo medio,-0.24804546,3.8647263,Jujuy,30,43,50,0,0,0,9,30,21,Noroeste
+5,14.4,Riesgo bajo,-28.194227,-7.970411,Buenos Aires provincia,30,66,0,0,20,0,5,6,12,Buenos Aires
+28,16.8,Riesgo bajo,-3.0810533,8.409173,Santa Fe,30,47,0,0,0,0,6,31,26,Santa Fe
+8,12.6,Riesgo bajo,-28.086452,-5.7799945,Jujuy,50,34,0,0,0,0,2,18,14,Noroeste
+10,13.5,Riesgo bajo,-26.656427,-4.625687,Jujuy,50,68,0,0,0,0,0,4,3,Noroeste
+13,16.9,Riesgo bajo,-21.20063,-4.0073047,Jujuy,30,30,50,0,0,0,5,18,23,Noroeste
+26,15.1,Riesgo bajo,-5.9724584,9.150609,Córdoba,50,31,0,0,0,0,9,20,15,Córdoba
+34,21.0,Riesgo medio,6.3189254,5.714131,Córdoba,80,54,0,0,0,0,3,15,24,Córdoba
+26,23.3,Riesgo medio,-1.5145773,-0.17786609,Córdoba,40,38,0,50,0,0,11,47,21,Córdoba
+44,39.5,Riesgo alto,20.736835,-4.49826,Córdoba,80,67,50,50,0,0,21,47,36,Córdoba
+27,31.6,Riesgo medio,3.5142872,-5.0357933,Jujuy,60,32,0,100,0,0,23,49,25,Noroeste
+28,17.0,Riesgo bajo,-2.9778523,8.042811,Jujuy,40,44,0,0,0,0,11,25,22,Noroeste
+24,19.7,Riesgo bajo,-6.766663,3.4237227,Jujuy,40,34,0,0,0,0,22,43,34,Noroeste
+14,14.2,Riesgo bajo,-23.411522,-1.3050083,Córdoba,40,55,0,0,0,0,8,16,9,Córdoba
+14,9.0,Riesgo bajo,-26.6067,0.0547906,Córdoba,30,32,0,0,0,0,0,7,7,Córdoba
+30,18.9,Riesgo medio,0.7968061,6.8664455,Córdoba,30,40,0,0,0,0,16,38,35,Córdoba
+17,27.6,Riesgo bajo,-7.8105035,-6.620378,Córdoba,70,26,50,0,0,50,10,33,20,Córdoba
+19,22.5,Riesgo bajo,-10.340589,-3.605861,Córdoba,50,31,0,50,20,0,11,24,20,Córdoba
+39,22.9,Riesgo medio,11.035618,4.597941,Córdoba,60,47,0,0,20,0,8,19,36,Córdoba
+27,17.7,Riesgo bajo,-3.8798904,7.2302566,Córdoba,50,40,0,0,0,0,13,24,23,Córdoba
+10,13.0,Riesgo bajo,-27.082655,-4.335153,Córdoba,50,25,0,0,0,0,6,20,19,Córdoba
+17,18.2,Riesgo bajo,-16.495014,-1.4531786,Córdoba,60,20,0,0,0,0,20,40,25,Córdoba
+28,25.0,Riesgo medio,1.3178581,-0.7398753,Córdoba,70,20,0,0,0,50,18,32,32,Córdoba
+27,23.4,Riesgo medio,-0.30634382,0.108799346,Córdoba,60,29,0,0,0,50,11,29,28,Córdoba
+17,27.6,Riesgo bajo,-7.810412,-6.620421,Chubut,50,19,0,100,0,0,25,33,32,Patagonia Centro-Sur
+18,16.1,Riesgo bajo,-17.688126,2.0661995,Córdoba,40,49,0,0,0,0,7,32,15,Córdoba
+20,21.5,Riesgo bajo,-9.909651,-2.08106,Córdoba,60,20,0,50,0,0,10,30,25,Córdoba
+31,30.4,Riesgo medio,6.331791,-3.3168533,Córdoba,60,32,50,50,0,0,11,29,41,Córdoba
+3,11.6,Riesgo bajo,-29.750841,-7.8041596,Córdoba,60,35,0,0,0,0,0,11,7,Córdoba
+13,17.5,Riesgo bajo,-20.62894,-4.392688,Jujuy,60,32,0,0,0,0,12,33,25,Noroeste
+10,15.5,Riesgo bajo,-25.17408,-5.787106,Jujuy,50,38,0,0,0,0,13,24,20,Noroeste
+32,34.9,Riesgo medio,8.593243,-4.6969085,CABA (Buenos Aires capital),50,32,50,100,20,0,11,32,22,CABA
+7,14.3,Riesgo bajo,-27.530344,-7.0144825,Chubut,40,52,0,0,20,0,4,11,9,Patagonia Centro-Sur
+44,38.5,Riesgo alto,20.386168,-4.252617,CABA (Buenos Aires capital),50,32,50,100,0,0,19,49,41,CABA
+20,15.6,Riesgo bajo,-15.578334,4.521259,Córdoba,30,41,0,0,0,0,11,33,21,Córdoba
+29,23.7,Riesgo medio,1.6218041,0.9751827,Buenos Aires provincia,40,61,0,0,20,0,22,38,27,Buenos Aires
+56,28.4,Riesgo alto,25.021631,1.9502281,Catamarca,30,29,50,0,0,0,34,44,41,Noroeste
+17,17.1,Riesgo bajo,-17.467962,-0.23303321,Córdoba,60,22,0,0,0,0,12,35,25,Córdoba
+15,21.0,Riesgo bajo,-15.43366,-5.0589404,Córdoba,70,22,50,0,0,0,18,19,16,Córdoba
+45,28.0,Riesgo medio,17.299206,1.2148464,Córdoba,60,22,50,0,0,0,22,40,41,Córdoba
+25,27.9,Riesgo medio,0.6186916,-4.0041976,Córdoba,70,22,50,50,0,0,10,31,21,Córdoba
+31,17.8,Riesgo medio,1.4978771,7.9207926,Córdoba,50,58,0,0,0,0,6,19,14,Córdoba
+21,22.6,Riesgo bajo,-8.098126,-2.4753795,Córdoba,60,23,0,0,0,50,21,28,23,Córdoba
+33,21.5,Riesgo medio,5.2262783,5.260967,Santa Fe,60,28,0,50,0,0,9,16,19,Santa Fe
+51,37.8,Riesgo alto,23.908377,-3.3077283,Buenos Aires provincia,60,21,50,50,0,0,46,55,45,Buenos Aires
+17,14.3,Riesgo bajo,-20.374662,2.371779,CABA (Buenos Aires capital),30,68,0,0,0,0,2,14,12,CABA
+35,24.2,Riesgo medio,8.308809,3.0761323,Córdoba,60,29,0,50,0,0,9,27,32,Córdoba
+26,19.1,Riesgo bajo,-4.602551,5.342347,Córdoba,50,39,0,0,0,0,22,34,20,Córdoba
+53,34.1,Riesgo alto,24.318422,-1.2879449,Buenos Aires provincia,60,22,50,50,0,0,15,45,46,Buenos Aires
+10,16.8,Riesgo bajo,-24.161194,-6.469444,Tucumán,70,27,0,0,20,0,7,16,18,Noroeste
+50,34.4,Riesgo alto,22.693096,-1.6998758,Córdoba,60,28,50,50,0,0,25,46,35,Córdoba
+48,39.7,Riesgo alto,22.661345,-4.260339,Buenos Aires provincia,50,32,50,100,0,0,22,52,43,Buenos Aires
+23,13.0,Riesgo bajo,-14.465104,8.308734,Buenos Aires provincia,30,33,0,0,0,0,7,21,16,Buenos Aires
+34,31.3,Riesgo medio,9.352448,-2.8688328,Buenos Aires provincia,40,48,50,50,0,0,16,39,36,Buenos Aires
+47,32.2,Riesgo alto,20.166477,-0.97140837,Jujuy,50,45,0,50,0,0,38,48,44,Noroeste
+29,23.1,Riesgo medio,1.3716288,1.7555205,Córdoba,30,32,50,0,0,0,22,38,30,Córdoba
+25,16.8,Riesgo bajo,-7.0642624,7.3384275,Santiago del Estero,50,37,0,0,0,0,12,27,17,Noroeste
+75,44.9,Riesgo alto,33.09102,-2.1662233,Buenos Aires provincia,80,18,0,50,0,50,53,66,57,Buenos Aires
+50,41.2,Riesgo alto,23.867058,-4.3849783,Buenos Aires provincia,80,17,0,100,0,0,56,60,49,Buenos Aires
+55,33.7,Riesgo alto,25.310604,-0.72360027,Buenos Aires provincia,80,17,0,50,0,0,36,49,50,Buenos Aires
+73,47.5,Riesgo alto,32.686047,-3.006889,Buenos Aires provincia,70,17,50,100,0,0,49,63,53,Buenos Aires
+29,18.9,Riesgo medio,-0.28607818,6.563729,Buenos Aires provincia,80,17,0,0,0,0,9,31,23,Buenos Aires
+31,31.7,Riesgo medio,6.934685,-3.9212792,Jujuy,60,35,50,50,20,0,12,30,29,Noroeste
+26,15.5,Riesgo bajo,-5.6742644,8.858831,Buenos Aires provincia,60,18,0,0,0,0,6,26,19,Buenos Aires
+31,21.5,Riesgo medio,2.893809,4.7035418,Buenos Aires provincia,60,23,50,0,0,0,4,28,19,Buenos Aires
+55,34.6,Riesgo alto,25.510191,-1.2071911,CABA (Buenos Aires capital),70,20,50,0,0,0,43,59,49,CABA
+40,22.0,Riesgo medio,11.614982,5.4317894,Córdoba,30,37,0,50,0,0,6,29,28,Córdoba
+38,21.6,Riesgo medio,10.041632,5.449246,Santa Fe,60,33,0,0,20,0,23,21,21,Santa Fe
+49,48.0,Riesgo alto,24.48694,-5.3408093,Buenos Aires provincia,60,51,50,100,0,50,24,47,49,Buenos Aires
+37,25.0,Riesgo medio,10.139066,2.5811076,Santa Fe,60,23,0,0,0,0,28,55,47,Santa Fe
+57,31.8,Riesgo alto,26.113705,0.4367008,Santa Fe,60,29,0,50,0,0,29,55,38,Santa Fe
+63,43.2,Riesgo alto,30.058811,-2.9939206,Mendoza,50,43,50,100,0,0,36,44,46,Cuyo
+21,13.6,Riesgo bajo,-15.876459,7.1696634,Santa Fe,50,28,0,0,0,0,3,15,19,Santa Fe
+28,14.4,Riesgo bajo,-3.819227,9.738339,Santa Fe,30,33,0,0,0,0,7,24,22,Santa Fe
+19,20.2,Riesgo bajo,-11.799886,-1.6510731,Santiago del Estero,60,26,0,0,0,50,6,19,22,Noroeste
+54,24.0,Riesgo alto,23.29366,3.2613275,Mendoza,50,28,0,0,0,0,22,41,45,Cuyo
+30,35.3,Riesgo medio,7.4750004,-5.146721,Santa Fe,60,60,0,100,20,0,15,35,33,Santa Fe
+51,27.6,Riesgo alto,22.006819,1.9936323,Santa Fe,50,26,0,0,0,0,38,62,49,Santa Fe
+40,26.7,Riesgo medio,13.193542,1.6569628,Santa Fe,60,39,50,0,0,0,9,35,34,Santa Fe
+44,18.8,Riesgo medio,14.040206,5.914986,Santa Fe,30,26,0,0,0,0,18,32,38,Santa Fe
+4,10.5,Riesgo bajo,-30.13341,-6.999635,Santa Fe,50,41,0,0,0,0,0,2,8,Santa Fe
+6,14.8,Riesgo bajo,-27.623425,-7.658069,Jujuy,50,31,0,0,0,0,14,31,16,Noroeste
+33,28.1,Riesgo medio,7.5220213,-1.0875746,Mendoza,60,26,50,0,0,50,16,18,28,Cuyo
+54,36.6,Riesgo alto,25.275347,-2.3263102,Tucumán,50,39,50,50,0,0,23,56,44,Noroeste
+15,18.4,Riesgo bajo,-17.95263,-3.26436,Mendoza,30,41,0,0,0,0,20,50,28,Cuyo
+42,27.4,Riesgo medio,14.978321,1.2789972,Jujuy,60,25,0,0,0,50,15,45,37,Noroeste
+39,22.7,Riesgo medio,10.94806,4.8139033,Jujuy,60,32,0,50,0,0,17,7,22,Noroeste
+28,22.8,Riesgo medio,0.38574207,1.2771544,CABA (Buenos Aires capital),30,67,50,0,20,0,4,15,14,CABA
+39,29.8,Riesgo medio,12.943571,-0.81040776,Santa Fe,60,28,0,0,0,50,25,52,44,Santa Fe
+20,33.1,Riesgo bajo,-2.9887192,-6.662239,Santa Fe,60,23,50,100,0,0,19,37,22,Santa Fe
+39,33.3,Riesgo medio,13.505782,-2.9178584,Santa Fe,60,24,50,100,0,0,13,18,29,Santa Fe
+16,19.6,Riesgo bajo,-15.7483425,-3.5328147,Jujuy,70,58,0,0,0,0,12,20,20,Noroeste
+23,31.2,Riesgo medio,0.5146932,-5.804088,Mendoza,60,33,50,50,0,0,10,42,44,Cuyo
+5,11.6,Riesgo bajo,-29.489222,-6.9362593,Neuquén,50,48,0,0,0,0,0,7,6,Patagonia Centro-Norte
+52,29.9,Riesgo alto,22.911604,0.918737,Santa Fe,30,44,50,50,0,0,7,33,33,Santa Fe
+23,22.5,Riesgo bajo,-5.66653,-1.1290338,Jujuy,50,44,50,0,0,0,13,19,26,Noroeste
+44,27.9,Riesgo medio,16.656908,1.185175,Córdoba,80,24,50,0,0,0,18,36,27,Córdoba
+22,21.6,Riesgo bajo,-7.7867675,-0.7996331,Córdoba,40,43,50,0,20,0,4,19,18,Córdoba
+37,23.2,Riesgo medio,9.648772,4.294321,CABA (Buenos Aires capital),40,33,0,0,20,0,16,51,35,CABA
+37,26.2,Riesgo medio,10.481933,1.6029873,CABA (Buenos Aires capital),50,29,0,50,0,0,17,47,32,CABA
+14,16.3,Riesgo bajo,-21.208109,-2.7902093,Córdoba,60,32,0,0,0,0,11,23,23,Córdoba
+15,13.9,Riesgo bajo,-22.799732,0.046892162,Córdoba,50,49,0,0,0,0,1,13,11,Córdoba
+12,19.0,Riesgo bajo,-19.364344,-5.776326,Tucumán,50,23,0,50,0,0,12,25,18,Noroeste
+23,29.2,Riesgo medio,-0.08778635,-5.2156005,Córdoba,30,53,50,50,0,50,6,13,17,Córdoba
+18,17.0,Riesgo bajo,-16.601696,0.9791601,CABA (Buenos Aires capital),50,25,0,0,20,0,19,18,20,CABA
+30,26.6,Riesgo medio,3.8503487,-1.2382668,Entre Ríos,50,30,50,0,20,0,12,35,39,Nordeste-Litoral
+35,29.2,Riesgo medio,9.637574,-1.3548256,San Juan,50,54,50,0,0,0,23,42,38,Cuyo
+39,17.6,Riesgo medio,9.884814,7.423977,CABA (Buenos Aires capital),40,30,0,0,0,0,7,30,30,CABA
+61,38.9,Riesgo alto,28.814495,-2.043659,Santa Cruz,60,20,0,50,0,50,41,61,46,Patagonia Centro-Sur
+31,28.1,Riesgo medio,5.2278748,-1.8639597,Tierra del Fuego,70,24,0,50,0,50,13,22,21,Patagonia Centro-Sur
+14,20.3,Riesgo bajo,-16.85283,-5.177984,Tierra del Fuego,70,23,0,0,20,0,19,33,24,Patagonia Centro-Sur
+23,24.2,Riesgo bajo,-4.6201816,-2.5018656,Salta,50,40,50,0,0,0,21,35,23,Noroeste
+22,20.2,Riesgo bajo,-8.741903,0.9866143,Buenos Aires provincia,60,21,0,0,20,0,17,28,34,Buenos Aires
+32,24.1,Riesgo medio,4.8552094,2.2014375,Buenos Aires provincia,60,32,0,0,20,0,22,43,32,Buenos Aires
+15,17.1,Riesgo bajo,-19.304953,-2.3893106,La Pampa,60,30,0,0,0,0,21,28,17,Patagonia Centro-Norte
+31,23.7,Riesgo medio,3.5150435,2.095903,Buenos Aires provincia,70,26,0,0,0,50,13,21,26,Buenos Aires
+38,43.5,Riesgo medio,14.944494,-5.486495,Misiones,80,29,50,100,20,50,13,34,21,Nordeste-Litoral
+36,22.1,Riesgo medio,8.395563,4.951175,Buenos Aires provincia,50,36,0,0,0,0,22,45,32,Buenos Aires
+12,12.8,Riesgo bajo,-26.173357,-2.437673,Buenos Aires provincia,60,22,0,0,0,0,1,19,14,Buenos Aires
+31,21.0,Riesgo medio,2.7418647,5.230643,Buenos Aires provincia,50,40,0,0,0,0,28,34,27,Buenos Aires
+54,43.5,Riesgo alto,26.21448,-4.4066257,Santa Fe,60,25,50,100,20,0,32,50,44,Santa Fe
+41,25.0,Riesgo medio,13.522563,2.944537,Santa Fe,70,19,0,0,0,0,36,42,42,Santa Fe
+7,11.2,Riesgo bajo,-29.130611,-5.8757057,Santa Fe,70,21,0,0,0,0,4,5,5,Santa Fe
+40,35.5,Riesgo medio,14.3939295,-3.7241714,Santa Fe,70,20,0,50,0,50,31,51,43,Santa Fe
+56,29.6,Riesgo alto,25.302486,1.3362831,Buenos Aires provincia,60,22,0,0,0,50,30,42,36,Buenos Aires
+28,23.7,Riesgo medio,0.670981,0.5675001,Santa Fe,60,25,0,50,0,0,15,34,25,Santa Fe
+36,18.4,Riesgo medio,7.566944,7.4103384,Santa Fe,60,19,0,0,0,0,15,28,26,Santa Fe
+42,21.4,Riesgo medio,13.155157,5.268128,Buenos Aires provincia,60,19,0,0,0,0,14,43,36,Buenos Aires
+38,30.8,Riesgo medio,12.390867,-1.6901908,Santa Fe,60,22,50,50,0,0,20,22,46,Santa Fe
+17,20.1,Riesgo bajo,-14.280306,-3.3138428,Buenos Aires provincia,60,23,50,0,0,0,9,31,11,Buenos Aires
+40,30.0,Riesgo medio,13.878202,-0.78531986,Formosa,60,20,0,50,0,0,38,55,37,Nordeste-Litoral
+13,15.6,Riesgo bajo,-22.6918,-3.2618678,Santa Fe,70,19,0,0,0,0,16,21,17,Santa Fe
+17,19.8,Riesgo bajo,-14.83702,-3.0503154,Santa Fe,60,23,0,0,0,50,5,21,22,Santa Fe
+35,20.9,Riesgo medio,7.3105845,5.7346187,Santa Fe,70,18,0,0,0,0,10,33,43,Santa Fe
+51,35.6,Riesgo alto,23.474072,-2.275341,Buenos Aires provincia,70,19,0,50,0,50,32,42,42,Buenos Aires
+53,28.7,Riesgo alto,23.354393,1.541854,Santa Fe,60,23,0,0,0,0,46,65,40,Santa Fe
+27,26.6,Riesgo medio,1.3739655,-2.4537077,Córdoba,70,19,0,50,0,0,31,44,25,Córdoba
+46,30.0,Riesgo medio,18.446926,0.2860363,Santa Fe,70,18,0,50,0,0,31,46,39,Santa Fe
+34,20.9,Riesgo medio,6.2623534,5.8769836,Santa Fe,70,22,0,0,0,0,25,21,37,Santa Fe
+73,37.8,Riesgo alto,32.10624,-0.8625322,Santa Fe,60,23,50,50,0,0,35,50,37,Santa Fe
+26,15.8,Riesgo bajo,-5.8348327,8.518372,Buenos Aires provincia,60,21,0,0,0,0,15,21,15,Buenos Aires
+19,14.9,Riesgo bajo,-17.891546,4.162163,Santa Fe,60,20,0,0,0,0,11,16,23,Santa Fe
+22,21.4,Riesgo bajo,-8.000964,-0.492213,Corrientes,60,27,0,0,0,50,12,23,20,Nordeste-Litoral
+45,24.1,Riesgo medio,16.333725,3.544594,Entre Ríos,70,20,0,0,0,0,17,49,40,Nordeste-Litoral
+16,11.9,Riesgo bajo,-22.925684,2.5030746,Santa Fe,60,23,0,0,0,0,1,3,16,Santa Fe
+13,26.4,Riesgo bajo,-14.90677,-7.7783713,Santa Fe,60,23,50,0,0,50,13,28,27,Santa Fe
+18,16.3,Riesgo bajo,-17.48055,1.7118897,Santa Fe,60,22,0,0,0,0,11,35,17,Santa Fe
+11,27.5,Riesgo bajo,-15.624071,-8.248388,Santa Fe,70,20,50,50,0,50,6,12,6,Santa Fe
+63,33.1,Riesgo alto,29.053116,0.31977025,Santa Fe,70,19,0,50,20,0,29,41,39,Santa Fe
+53,36.3,Riesgo alto,24.657743,-2.3399231,Santa Fe,60,30,50,0,0,50,38,43,39,Santa Fe
+56,32.3,Riesgo alto,25.649517,0.11785156,Santa Fe,60,20,0,50,0,0,45,49,43,Santa Fe
+10,11.2,Riesgo bajo,-28.147596,-3.7825353,Santa Fe,60,23,0,0,0,0,3,7,9,Santa Fe
+22,22.1,Riesgo bajo,-7.3531804,-1.3511758,Santa Fe,50,22,0,50,0,0,22,30,25,Santa Fe
+62,33.6,Riesgo alto,28.599073,0.075312875,Santa Fe,60,28,0,50,0,50,21,22,43,Santa Fe
+42,32.8,Riesgo medio,15.586881,-2.213866,Santa Fe,70,22,50,50,0,0,19,41,34,Santa Fe
+23,17.9,Riesgo bajo,-9.273694,4.8700686,Santa Fe,70,18,0,0,0,0,12,29,27,Santa Fe
+76,43.2,Riesgo alto,33.16957,-1.8202646,Santa Fe,70,19,50,50,0,0,50,64,53,Santa Fe
+65,40.0,Riesgo alto,30.399668,-1.9158766,Santa Fe,70,21,50,50,0,0,47,45,52,Santa Fe
+36,29.9,Riesgo medio,10.580667,-1.5834042,Santa Fe,70,19,0,0,0,50,29,49,46,Santa Fe
+63,32.3,Riesgo alto,28.897821,0.60451174,Buenos Aires provincia,70,22,0,50,0,0,33,49,36,Buenos Aires
+18,22.6,Riesgo bajo,-11.188046,-4.3241363,Santa Fe,60,20,0,0,20,50,6,34,18,Santa Fe
+23,15.6,Riesgo bajo,-11.732067,7.2352157,Buenos Aires provincia,60,21,0,0,0,0,6,28,18,Buenos Aires
+68,33.4,Riesgo alto,30.724062,0.08714682,Buenos Aires provincia,60,21,0,50,0,0,34,54,47,Buenos Aires
+23,23.8,Riesgo bajo,-4.924265,-2.0512831,Santa Fe,60,22,50,0,0,0,12,39,32,Santa Fe
+17,16.2,Riesgo bajo,-18.388187,0.70797276,Santa Fe,60,20,0,0,20,0,1,23,21,Santa Fe
+9,12.1,Riesgo bajo,-28.088753,-4.780208,Santa Fe,60,20,0,0,0,0,7,17,8,Santa Fe
+19,14.9,Riesgo bajo,-17.891546,4.162163,Santa Fe,60,19,0,0,0,0,10,19,22,Santa Fe
+26,18.1,Riesgo bajo,-5.010492,6.4468203,Buenos Aires provincia,50,29,0,0,20,0,10,17,29,Buenos Aires
+17,18.7,Riesgo bajo,-15.896865,-2.0931993,Santa Fe,60,22,0,50,0,0,1,21,16,Santa Fe
+14,17.5,Riesgo bajo,-19.866789,-3.5751042,Buenos Aires provincia,60,23,0,0,0,50,8,14,6,Buenos Aires
+12,13.9,Riesgo bajo,-25.035742,-3.133691,Santa Fe,60,21,0,0,0,0,13,19,14,Santa Fe
+19,15.6,Riesgo bajo,-16.835886,3.6171715,Santa Fe,60,19,0,0,0,0,14,26,18,Santa Fe
+30,24.2,Riesgo medio,2.7275763,0.9402835,Santa Fe,70,18,0,0,0,50,15,31,28,Santa Fe
+31,20.0,Riesgo medio,2.1607282,6.09341,Santa Fe,50,51,0,0,0,0,12,32,24,Santa Fe
+19,17.2,Riesgo bajo,-15.453218,1.7863173,Santa Fe,50,24,50,0,0,0,3,14,12,Santa Fe
+24,16.9,Riesgo bajo,-8.626557,6.787008,Santa Fe,60,39,0,0,0,0,15,14,17,Santa Fe
+24,14.8,Riesgo bajo,-11.088275,8.277263,Santa Fe,60,20,0,0,0,0,9,21,14,Santa Fe
+22,27.0,Riesgo bajo,-5.1918645,-5.0226674,Córdoba,60,22,50,50,0,0,13,32,21,Córdoba
+36,22.6,Riesgo medio,8.684649,4.4995346,Buenos Aires provincia,60,20,0,50,0,0,8,26,26,Buenos Aires
+34,19.0,Riesgo medio,5.5767508,7.037069,Corrientes,60,20,0,0,0,0,18,30,28,Nordeste-Litoral
+23,14.2,Riesgo bajo,-13.189107,8.092919,Santa Fe,60,18,0,0,0,0,8,14,19,Santa Fe
+28,24.5,Riesgo medio,0.9881739,-0.05568825,Santa Fe,60,21,0,0,0,50,18,43,25,Santa Fe
+27,19.5,Riesgo medio,-2.5321357,5.418669,Santa Fe,60,21,0,0,0,0,16,43,28,Santa Fe
+59,42.2,Riesgo alto,28.448439,-3.2907202,Santa Fe,60,25,50,50,0,50,32,52,44,Santa Fe
+42,18.4,Riesgo medio,12.727768,6.405736,Entre Ríos,60,21,0,0,0,0,15,24,22,Nordeste-Litoral
+9,13.1,Riesgo bajo,-27.346521,-5.304317,Entre Ríos,70,21,0,0,0,0,3,19,9,Nordeste-Litoral
+19,14.1,Riesgo bajo,-18.554325,4.7616,Santa Fe,60,19,0,0,0,0,5,17,21,Santa Fe
+51,27.5,Riesgo alto,21.992075,2.0473032,Entre Ríos,60,23,0,0,0,50,20,39,32,Nordeste-Litoral
+17,15.7,Riesgo bajo,-18.916557,1.2582947,Buenos Aires provincia,60,20,0,0,0,0,12,24,24,Buenos Aires
+31,32.1,Riesgo medio,7.1576557,-4.086522,Santa Fe,60,22,50,50,0,0,19,49,40,Santa Fe
+33,21.3,Riesgo medio,5.13885,5.4709067,Santa Fe,60,18,0,0,0,0,20,46,36,Santa Fe
+33,33.9,Riesgo medio,9.131547,-4.267035,Santa Fe,60,22,0,100,20,0,21,45,38,Santa Fe
+22,19.8,Riesgo bajo,-9.078687,1.5733625,Buenos Aires provincia,60,18,0,0,0,50,10,21,17,Buenos Aires
+52,22.3,Riesgo alto,22.360844,3.6699212,Santa Fe,60,21,0,0,0,0,24,36,30,Santa Fe
+41,21.6,Riesgo medio,12.319536,5.502639,Santa Fe,60,23,0,0,0,0,19,39,34,Santa Fe
+43,28.3,Riesgo medio,15.967115,0.82755387,Córdoba,70,20,0,50,0,0,27,36,37,Córdoba
+10,19.0,Riesgo bajo,-22.042229,-7.0091786,Córdoba,70,20,0,0,0,50,5,19,16,Córdoba
+20,26.5,Riesgo bajo,-6.6978407,-5.4483075,Santa Fe,70,18,0,50,0,0,23,57,27,Santa Fe
+36,19.9,Riesgo medio,8.041771,6.5967097,Buenos Aires provincia,60,21,0,0,0,0,19,37,26,Buenos Aires
+61,30.2,Riesgo alto,27.796421,1.1188539,Buenos Aires provincia,60,21,50,0,0,0,20,45,45,Buenos Aires
+29,20.6,Riesgo medio,0.5062356,4.9774065,Santa Fe,60,19,0,0,0,0,29,38,31,Santa Fe
+73,41.6,Riesgo alto,32.373646,-1.6722603,Santa Fe,60,24,50,50,0,0,42,63,54,Santa Fe
+50,36.8,Riesgo alto,23.125202,-2.9975483,Entre Ríos,60,20,50,50,0,0,38,56,44,Nordeste-Litoral
+25,22.6,Riesgo bajo,-3.333997,-0.08781237,Santa Fe,70,20,0,0,0,50,8,35,18,Santa Fe
+8,12.2,Riesgo bajo,-28.385517,-5.557539,Santa Fe,60,41,0,0,0,0,1,4,8,Santa Fe
+22,15.9,Riesgo bajo,-12.755784,6.3880925,Santa Fe,60,20,0,0,0,0,8,29,20,Santa Fe
+38,20.0,Riesgo medio,9.616714,6.4755483,Santa Fe,50,25,0,0,0,0,19,34,34,Santa Fe
+33,19.1,Riesgo medio,4.166212,7.0317154,Santa Fe,50,23,0,0,0,0,19,43,23,Santa Fe
+48,34.8,Riesgo alto,21.54089,-2.2007058,Santa Fe,60,19,50,50,0,0,24,54,43,Santa Fe
+23,15.1,Riesgo bajo,-12.199087,7.656769,Santa Fe,70,18,0,0,0,0,7,18,15,Santa Fe
+27,16.5,Riesgo bajo,-4.3253503,8.420484,Santa Fe,60,22,0,0,0,0,13,12,31,Santa Fe
+53,33.5,Riesgo alto,24.199608,-0.9115995,Santa Fe,60,18,50,0,0,0,35,66,53,Santa Fe
+43,26.6,Riesgo medio,15.711827,1.8945714,Santa Fe,60,22,0,50,0,0,26,38,27,Santa Fe
+31,34.0,Riesgo medio,7.7671094,-4.6057844,Entre Ríos,60,21,50,50,0,50,30,25,23,Nordeste-Litoral
+24,24.0,Riesgo bajo,-3.6110792,-1.7310644,Santa Fe,60,23,0,50,20,0,15,31,17,Santa Fe
+20,26.5,Riesgo bajo,-6.697859,-5.448315,Santiago del Estero,60,24,50,50,0,0,13,28,20,Noroeste
+25,17.7,Riesgo bajo,-6.604699,6.4370008,Santa Fe,70,20,0,0,0,0,14,24,24,Santa Fe
+28,27.9,Riesgo medio,2.7342906,-2.9422996,Santa Fe,60,25,50,0,0,0,36,50,30,Santa Fe
+7,11.4,Riesgo bajo,-29.033215,-5.95324,Buenos Aires provincia,70,20,0,0,0,0,0,6,11,Buenos Aires
+49,26.8,Riesgo alto,20.553682,2.180069,Santa Fe,50,24,0,50,0,0,16,48,31,Santa Fe
+17,20.2,Riesgo bajo,-14.175912,-3.5351448,Santa Fe,80,65,0,0,0,0,7,16,17,Santa Fe
+22,17.1,Riesgo bajo,-11.3579855,5.111972,Santa Fe,60,20,0,0,0,0,13,30,26,Santa Fe
+27,17.9,Riesgo bajo,-3.7281034,6.9484744,Córdoba,70,19,0,0,0,0,17,22,24,Córdoba
+25,29.4,Riesgo medio,1.3660239,-4.840576,Santa Fe,60,24,50,50,20,0,17,31,17,Santa Fe
+22,16.2,Riesgo bajo,-12.308688,5.9752064,Santa Fe,70,20,0,0,0,0,9,18,23,Santa Fe
+13,15.2,Riesgo bajo,-23.243809,-2.9280179,Santa Fe,60,29,0,0,0,0,10,23,17,Santa Fe
+28,24.6,Riesgo medio,0.9951023,-0.23148286,Santa Fe,50,24,50,0,0,0,16,42,36,Santa Fe
+39,30.5,Riesgo medio,13.102915,-1.3786927,Santa Fe,60,22,50,0,0,0,36,51,47,Santa Fe
+22,23.5,Riesgo bajo,-6.2532806,-2.5082374,Santa Fe,60,18,0,50,0,0,19,39,27,Santa Fe
+61,35.9,Riesgo alto,28.539776,-1.0491115,Santa Fe,60,21,50,50,0,0,31,47,39,Santa Fe
+19,16.1,Riesgo bajo,-16.47636,2.964465,Santa Fe,50,25,0,0,0,0,18,23,26,Santa Fe
+30,19.1,Riesgo medio,0.90349334,6.6197486,Santa Fe,70,18,0,0,0,0,10,37,26,Santa Fe
+23,17.8,Riesgo bajo,-9.390643,5.0311775,Santa Fe,60,24,0,0,0,0,21,26,24,Santa Fe
+30,22.8,Riesgo medio,2.2084808,2.6531274,Santa Fe,60,25,0,50,0,0,12,28,23,Santa Fe
+23,17.6,Riesgo bajo,-9.603834,5.3371983,Santa Fe,40,34,0,0,0,0,18,43,18,Santa Fe
+55,36.8,Riesgo alto,25.824312,-2.2264543,Santa Fe,70,26,50,50,0,0,24,53,40,Santa Fe
+50,24.4,Riesgo alto,21.12373,3.138975,Buenos Aires provincia,60,20,0,0,0,0,24,44,46,Buenos Aires
+5,14.8,Riesgo bajo,-27.98784,-8.175573,Santa Fe,60,20,0,0,0,50,3,5,5,Santa Fe
+56,24.5,Riesgo alto,24.237446,3.1379712,Santa Fe,60,21,0,0,0,0,29,50,29,Santa Fe
+56,26.3,Riesgo alto,24.486605,2.558855,Santa Fe,60,24,0,0,0,0,23,53,47,Santa Fe
+26,17.8,Riesgo bajo,-5.171553,6.85015,Santa Fe,50,25,0,0,0,50,5,6,16,Santa Fe
+12,19.1,Riesgo bajo,-19.195395,-5.8274345,Santa Fe,60,21,0,50,20,0,6,14,8,Santa Fe
+24,26.3,Riesgo medio,-1.1953343,-3.3906345,Santa Fe,60,19,0,50,0,50,10,33,17,Santa Fe
+31,20.0,Riesgo medio,2.1607375,6.093413,Santa Fe,60,22,0,0,0,50,3,15,19,Santa Fe
+14,14.0,Riesgo bajo,-23.658703,-1.1224717,Santa Fe,50,25,0,0,0,0,13,19,19,Santa Fe
+33,18.0,Riesgo medio,3.5298696,7.9397974,Santa Fe,60,26,0,0,0,0,11,20,30,Santa Fe
+48,30.7,Riesgo alto,20.327633,0.15644844,Santa Fe,50,25,50,0,20,0,22,51,41,Santa Fe
+61,43.2,Riesgo alto,29.358437,-3.1865876,Misiones,60,26,50,50,0,50,37,50,48,Nordeste-Litoral
+34,32.2,Riesgo medio,9.511808,-3.4358876,Santa Fe,50,36,0,100,20,0,16,36,30,Santa Fe
+13,16.5,Riesgo bajo,-21.813242,-3.7931092,Santa Fe,60,23,0,0,0,0,19,29,21,Santa Fe
+10,15.2,Riesgo bajo,-25.448997,-5.5912185,Santa Fe,60,18,0,0,0,0,13,32,19,Santa Fe
+17,11.9,Riesgo bajo,-22.025309,3.4532213,Santa Fe,40,26,0,0,0,0,10,10,16,Santa Fe
+29,16.1,Riesgo medio,-1.7716011,8.790426,Santa Fe,70,19,0,0,0,0,18,6,19,Santa Fe
+33,23.1,Riesgo medio,5.707422,3.7445772,Santa Fe,60,21,0,50,0,0,10,32,25,Santa Fe
+19,26.4,Riesgo bajo,-7.414964,-5.757787,Santa Fe,60,24,50,0,0,50,8,27,26,Santa Fe
+89,56.3,Riesgo alto,34.191437,-2.818029,Santa Fe,70,20,50,100,0,50,60,66,58,Santa Fe
+57,37.9,Riesgo alto,26.988562,-2.3240054,Santa Fe,70,20,50,50,0,0,36,44,52,Santa Fe
+18,21.5,Riesgo bajo,-12.174736,-3.5978982,Entre Ríos,60,21,0,0,0,50,13,29,24,Nordeste-Litoral
+19,19.7,Riesgo bajo,-12.214156,-1.020733,Santa Fe,60,31,0,0,20,0,17,27,23,Santa Fe
+47,37.9,Riesgo alto,21.827019,-3.6908164,Santa Fe,60,27,50,50,0,50,36,23,36,Santa Fe
+11,10.8,Riesgo bajo,-28.041222,-2.7959647,Santa Fe,50,21,0,0,0,0,4,9,13,Santa Fe
+20,26.8,Riesgo bajo,-6.4915614,-5.7293215,Santa Fe,60,26,50,50,0,0,14,28,20,Santa Fe
+59,41.7,Riesgo alto,28.370047,-3.0947783,Santa Fe,60,24,50,100,0,0,29,52,43,Santa Fe
+46,23.2,Riesgo medio,16.601,4.0658407,Buenos Aires provincia,60,21,0,0,0,0,28,37,40,Buenos Aires
+22,19.7,Riesgo bajo,-9.171672,1.7218275,Santa Fe,60,20,0,0,0,0,18,45,32,Santa Fe
+45,20.6,Riesgo medio,14.976874,5.2293105,Santa Fe,60,20,0,0,0,0,20,31,30,Santa Fe
+37,36.7,Riesgo medio,12.459622,-4.515005,Córdoba,60,23,0,100,0,50,22,34,41,Córdoba
+10,11.1,Riesgo bajo,-28.229153,-3.7457974,Santa Fe,50,35,0,0,0,0,0,6,10,Santa Fe
+23,18.6,Riesgo bajo,-8.778483,4.005641,Buenos Aires provincia,70,21,0,0,0,0,12,36,24,Buenos Aires
+25,18.1,Riesgo bajo,-6.3877144,6.002093,Santa Fe,50,24,0,0,0,0,19,38,25,Santa Fe
+48,20.4,Riesgo medio,16.66159,4.957266,Santa Fe,40,28,0,0,0,0,15,35,38,Santa Fe
+24,24.4,Riesgo bajo,-3.2509897,-2.115002,Santa Fe,60,24,0,0,0,50,18,43,25,Santa Fe
+25,20.9,Riesgo bajo,-4.6277537,2.4236166,Buenos Aires provincia,70,23,0,0,0,50,8,17,16,Buenos Aires
+11,12.1,Riesgo bajo,-27.196663,-3.1877713,Santa Fe,60,27,0,0,0,0,6,7,10,Santa Fe
+13,17.8,Riesgo bajo,-20.275042,-4.544984,Santa Fe,70,20,0,50,0,0,4,12,9,Santa Fe
+46,27.3,Riesgo medio,17.86183,1.8375423,Santa Fe,60,21,0,50,20,0,21,23,32,Santa Fe
+17,21.4,Riesgo bajo,-13.193701,-4.154735,Santa Fe,60,23,0,50,0,0,8,34,22,Santa Fe
+44,30.5,Riesgo medio,16.946165,-0.37455702,Río Negro,60,26,0,50,0,0,30,55,40,Patagonia Centro-Norte
+37,26.3,Riesgo medio,10.591154,1.4617277,Santa Fe,60,31,0,50,20,0,9,30,26,Santa Fe
+37,33.2,Riesgo medio,11.9039135,-3.2370162,Santa Fe,70,23,50,50,0,50,13,19,20,Santa Fe
+26,25.5,Riesgo medio,-0.22613473,-1.9146773,Santa Fe,50,30,50,0,20,0,13,37,29,Santa Fe
+20,13.9,Riesgo bajo,-17.040064,5.9681644,CABA (Buenos Aires capital),50,27,0,0,0,0,4,21,17,CABA
+15,12.5,Riesgo bajo,-23.893854,0.64279205,Santa Fe,60,22,0,0,0,0,6,12,10,Santa Fe
+12,25.3,Riesgo bajo,-15.700574,-7.7152905,Santa Fe,60,20,0,50,0,50,11,21,29,Santa Fe
+19,18.9,Riesgo bajo,-13.197541,0.050725866,Santa Fe,60,19,0,0,0,0,17,47,27,Santa Fe
+21,13.0,Riesgo bajo,-16.66538,7.2550597,Misiones,60,19,0,0,0,0,8,13,9,Nordeste-Litoral
+16,17.3,Riesgo bajo,-18.162514,-1.5060123,Santa Fe,60,19,0,0,0,0,21,36,21,Santa Fe
+51,25.1,Riesgo alto,21.901281,2.9416301,Santa Fe,60,20,0,0,0,0,32,48,40,Santa Fe
+18,18.0,Riesgo bajo,-15.689735,0.042079434,Santa Fe,60,21,0,0,0,0,14,33,34,Santa Fe
+28,22.6,Riesgo medio,0.2645389,1.6545215,Santa Fe,60,19,50,0,0,0,9,36,24,Santa Fe
+22,24.6,Riesgo bajo,-5.800312,-3.4039373,Santa Fe,70,18,0,0,0,50,20,33,33,Santa Fe
+18,16.3,Riesgo bajo,-17.29922,1.8810346,Santa Fe,50,27,0,0,20,0,9,19,20,Santa Fe
+29,15.9,Riesgo medio,-1.9182441,9.0060005,Santa Fe,50,25,0,0,0,0,10,30,15,Santa Fe
+47,31.4,Riesgo alto,19.791595,-0.39406878,Santa Fe,60,22,50,50,0,0,15,29,41,Santa Fe
+11,13.9,Riesgo bajo,-25.759315,-4.0521445,Buenos Aires provincia,50,24,0,0,0,0,13,27,14,Buenos Aires
+8,15.2,Riesgo bajo,-26.415905,-6.901936,Santa Fe,50,25,0,0,0,50,2,7,10,Santa Fe
+40,31.2,Riesgo medio,14.0035925,-1.7301236,Santa Fe,60,20,50,0,20,0,20,59,43,Santa Fe
+22,18.3,Riesgo bajo,-10.127908,3.4512074,Santa Fe,60,20,0,50,0,0,5,10,16,Santa Fe
+44,35.1,Riesgo medio,17.34228,-2.8575861,Entre Ríos,70,19,0,50,0,50,35,46,37,Nordeste-Litoral
+15,18.1,Riesgo bajo,-18.324646,-3.034733,Santa Fe,60,27,0,0,0,0,17,36,26,Santa Fe
+22,23.2,Riesgo bajo,-6.566295,-2.2074058,Santa Fe,70,18,0,0,0,0,22,52,48,Santa Fe
+43,32.9,Riesgo medio,16.378275,-1.9550303,Santa Fe,50,24,0,50,0,50,25,50,37,Santa Fe
+57,41.5,Riesgo alto,27.52541,-3.480587,Santa Fe,60,24,0,100,0,50,32,49,43,Santa Fe
+61,34.8,Riesgo alto,28.347363,-0.536762,Santa Fe,50,23,0,50,0,50,31,33,50,Santa Fe
+38,27.8,Riesgo medio,11.762188,0.49702892,Entre Ríos,60,20,0,50,0,0,34,38,38,Nordeste-Litoral
+23,17.4,Riesgo bajo,-9.809074,5.591312,Buenos Aires provincia,60,19,0,0,0,0,20,35,17,Buenos Aires
+53,28.1,Riesgo alto,23.231153,1.839139,Córdoba,70,21,0,50,0,0,16,38,33,Córdoba
+64,36.4,Riesgo alto,29.6934,-0.7988666,Santa Fe,30,38,0,100,0,0,32,49,51,Santa Fe
+21,14.9,Riesgo bajo,-14.711893,6.4370794,Santa Fe,60,20,0,0,0,0,9,27,12,Santa Fe
+35,18.3,Riesgo medio,6.581514,7.3691487,Santa Fe,60,24,0,0,0,0,16,28,20,Santa Fe
+54,35.1,Riesgo alto,25.05012,-1.6277258,Santa Fe,70,21,50,50,0,0,28,41,37,Santa Fe
+25,18.5,Riesgo bajo,-6.181184,5.5564017,Santa Fe,60,25,0,0,0,0,14,31,30,Santa Fe
+22,18.9,Riesgo bajo,-9.669159,2.6760325,Santa Fe,60,26,0,0,0,0,8,41,32,Santa Fe
+17,14.9,Riesgo bajo,-19.762794,1.9515777,Santa Fe,50,29,0,0,0,0,3,25,25,Santa Fe
+20,31.4,Riesgo bajo,-3.8179667,-6.548578,Santa Fe,50,25,50,100,0,0,8,35,26,Santa Fe
+39,36.1,Riesgo medio,13.815137,-4.1239896,Buenos Aires provincia,60,20,0,50,20,50,34,47,41,Buenos Aires
+21,17.8,Riesgo bajo,-11.893456,3.215566,Santa Fe,70,23,0,0,0,0,9,32,23,Santa Fe
+77,34.5,Riesgo alto,32.752335,-0.12922306,Santa Fe,60,18,50,0,0,0,44,53,43,Santa Fe
+34,26.0,Riesgo medio,7.8921223,0.7804358,Santa Fe,60,21,50,0,0,0,18,44,33,Santa Fe
+6,17.4,Riesgo bajo,-26.33853,-8.505836,Santa Fe,50,25,0,0,0,50,8,20,15,Santa Fe
+21,15.8,Riesgo bajo,-14.040033,5.7056403,Santa Fe,60,19,0,0,0,0,12,22,24,Santa Fe
+26,19.6,Riesgo bajo,-4.3666806,4.730846,Santa Fe,50,23,0,0,0,0,14,53,30,Santa Fe
+19,21.0,Riesgo bajo,-11.242531,-2.530376,Santa Fe,60,20,0,50,0,0,15,26,20,Santa Fe
+45,31.6,Riesgo medio,18.010597,-0.898615,Santa Fe,60,21,0,0,0,50,33,60,47,Santa Fe
+25,19.0,Riesgo bajo,-5.8532014,4.8786116,Santa Fe,60,23,0,0,0,0,19,30,33,Santa Fe
+50,40.8,Riesgo alto,23.757334,-4.261381,Santa Fe,60,25,50,100,0,50,14,33,26,Santa Fe
+23,18.1,Riesgo bajo,-9.1045685,4.583862,Santa Fe,60,21,0,0,0,0,16,42,19,Santa Fe
+21,24.6,Riesgo bajo,-6.9488235,-3.8764806,Santa Fe,60,23,50,0,0,0,18,41,33,Santa Fe
+39,27.0,Riesgo medio,12.331049,1.2278886,Santa Fe,60,24,0,50,0,0,23,43,31,Santa Fe
+62,36.4,Riesgo alto,28.987438,-1.0882312,Buenos Aires provincia,60,21,0,100,0,0,36,41,44,Buenos Aires
+20,15.3,Riesgo bajo,-16.078457,4.953227,Santa Fe,50,23,0,0,0,0,13,22,25,Santa Fe
+39,19.9,Riesgo medio,10.568187,6.3897524,Santa Fe,60,23,0,0,0,0,19,31,27,Santa Fe
+11,17.0,Riesgo bajo,-23.2316,-5.7704625,Santa Fe,50,24,0,0,0,50,7,12,16,Santa Fe
+47,34.5,Riesgo alto,20.905508,-2.138301,Buenos Aires provincia,70,23,50,50,0,0,27,38,40,Buenos Aires
+54,39.9,Riesgo alto,25.72342,-3.547127,Buenos Aires provincia,60,22,50,50,0,50,31,46,36,Buenos Aires
+46,24.2,Riesgo medio,17.146389,3.448071,Santa Fe,40,24,0,50,0,0,19,21,42,Santa Fe
+41,34.9,Riesgo medio,14.979137,-3.3176498,Santa Fe,50,27,50,50,20,0,27,51,33,Santa Fe
+26,21.3,Riesgo bajo,-3.3799946,2.284957,Santa Fe,70,18,0,0,0,50,9,23,17,Santa Fe
+15,20.3,Riesgo bajo,-16.008572,-4.6046658,Santa Fe,60,33,0,0,0,50,5,20,20,Santa Fe
+45,31.3,Riesgo medio,17.906588,-0.68637365,Santa Fe,60,20,50,50,0,0,20,26,42,Santa Fe
+23,21.3,Riesgo bajo,-6.8886833,0.24095765,Santa Fe,50,35,0,0,20,0,16,40,29,Santa Fe
+60,29.8,Riesgo alto,27.23859,1.3839793,Buenos Aires provincia,70,20,0,0,0,0,41,55,52,Buenos Aires
+13,15.7,Riesgo bajo,-22.550827,-3.3416808,Santa Fe,60,24,0,0,0,0,11,28,21,Santa Fe
+23,17.0,Riesgo bajo,-10.175753,6.0107045,Buenos Aires provincia,70,52,0,0,0,0,7,11,7,Buenos Aires
+15,13.2,Riesgo bajo,-23.371103,0.40257543,Santa Fe,60,24,0,0,0,0,9,18,6,Santa Fe
+39,34.6,Riesgo medio,13.594862,-3.5662432,Santa Fe,70,22,50,50,0,0,21,55,39,Santa Fe
+34,17.7,Riesgo medio,4.943994,7.779955,Santa Fe,60,20,0,0,0,0,13,28,22,Santa Fe
+39,19.7,Riesgo medio,10.476055,6.514781,Santa Fe,60,18,0,0,0,0,15,31,34,Santa Fe
+26,29.8,Riesgo medio,2.354376,-4.7122,Santa Fe,60,23,50,0,0,50,13,46,30,Santa Fe
+73,37.8,Riesgo alto,32.10624,-0.8625322,Santa Fe,50,30,50,50,20,0,27,28,50,Santa Fe
+6,12.9,Riesgo bajo,-28.579552,-6.9666123,Santa Fe,50,31,0,0,20,0,4,9,9,Santa Fe
+27,22.7,Riesgo medio,-0.7523858,0.9785791,Jujuy,50,27,50,0,0,0,18,24,31,Noroeste
+64,38.1,Riesgo alto,29.797531,-1.3820021,Santa Fe,50,21,50,50,0,0,39,53,54,Santa Fe
+12,13.4,Riesgo bajo,-25.628143,-2.9764338,Santa Fe,50,31,0,0,0,0,8,21,12,Santa Fe
+17,16.2,Riesgo bajo,-18.388184,0.70797545,Santa Fe,60,20,0,0,0,0,16,23,26,Santa Fe
+36,28.5,Riesgo medio,10.262341,-0.44953656,Buenos Aires provincia,70,19,0,50,0,0,31,51,28,Buenos Aires
+15,16.2,Riesgo bajo,-20.3019,-1.6897646,Santa Fe,60,19,0,0,0,0,10,31,27,Santa Fe
+5,13.8,Riesgo bajo,-28.493523,-7.717373,Santa Fe,50,49,0,0,0,0,9,21,4,Santa Fe
+18,21.9,Riesgo bajo,-11.823581,-3.9356394,Santa Fe,60,55,0,0,0,0,14,45,27,Santa Fe
+6,11.1,Riesgo bajo,-29.451475,-6.4203568,Santa Fe,60,23,0,0,0,0,9,7,6,Santa Fe
+29,18.7,Riesgo medio,-0.454671,6.873567,Santa Fe,60,21,0,0,20,0,17,21,19,Santa Fe
+12,13.5,Riesgo bajo,-25.404379,-2.8341699,Santa Fe,60,19,0,0,0,0,11,23,10,Santa Fe
+42,32.3,Riesgo medio,15.576666,-1.855574,Santa Fe,60,35,0,50,0,0,40,52,44,Santa Fe
+19,23.0,Riesgo bajo,-9.952523,-4.0022664,Santa Fe,60,24,50,0,20,0,13,24,20,Santa Fe
+54,23.4,Riesgo alto,23.262857,3.5381346,Santa Fe,60,22,0,0,0,50,12,12,24,Santa Fe
+27,19.0,Riesgo bajo,-3.4132247,5.959758,Santa Fe,60,20,0,0,0,0,14,45,24,Santa Fe
+28,20.1,Riesgo medio,-0.82339793,5.2078605,Misiones,60,20,0,0,0,0,25,45,23,Nordeste-Litoral
+19,15.5,Riesgo bajo,-17.22447,3.4702733,Entre Ríos,50,23,0,0,0,0,18,24,21,Nordeste-Litoral
+25,21.7,Riesgo bajo,-3.9444075,0.98033386,Santa Fe,50,25,50,0,0,0,13,30,24,Santa Fe
+30,19.6,Riesgo medio,1.1116862,6.1557617,Santa Fe,60,20,0,0,0,0,18,35,33,Santa Fe
+55,37.8,Riesgo alto,25.985828,-2.7048976,Buenos Aires provincia,80,18,0,100,0,0,33,46,46,Buenos Aires
+31,27.0,Riesgo medio,4.884497,-1.1211503,Formosa,60,30,0,0,0,50,23,50,26,Nordeste-Litoral
+13,22.4,Riesgo bajo,-16.307407,-6.5006495,Chaco,70,22,0,0,0,50,18,33,18,Nordeste-Litoral
+16,20.7,Riesgo bajo,-14.677339,-4.3978176,Santa Fe,60,20,0,0,0,50,9,40,12,Santa Fe
+55,35.9,Riesgo alto,25.701742,-1.800687,Buenos Aires provincia,60,24,0,50,0,50,20,48,52,Buenos Aires
+21,18.8,Riesgo bajo,-10.773355,1.7669779,Santa Fe,50,26,0,0,0,50,7,21,13,Santa Fe
+10,15.0,Riesgo bajo,-25.601557,-5.46778,Córdoba,50,42,0,0,0,0,16,20,12,Córdoba
+47,26.1,Riesgo medio,18.275246,2.5759616,Santa Fe,60,23,0,50,0,0,22,30,29,Santa Fe
+9,21.5,Riesgo bajo,-18.602491,-7.70805,Santa Fe,70,19,50,50,0,0,7,1,9,Santa Fe
+16,16.8,Riesgo bajo,-18.690296,-0.9750167,Entre Ríos,60,21,0,0,0,0,16,31,24,Nordeste-Litoral
+33,18.4,Riesgo medio,3.803198,7.599535,Santa Fe,60,23,0,0,0,0,9,26,33,Santa Fe
+28,19.7,Riesgo medio,-1.1060141,5.645339,Santa Fe,70,49,0,0,0,0,9,24,17,Santa Fe
+63,29.8,Riesgo alto,28.475739,1.2888472,Santa Fe,60,18,0,50,0,0,26,39,42,Santa Fe
+28,16.7,Riesgo bajo,-3.161335,8.554675,Santa Fe,40,34,0,0,20,0,11,15,19,Santa Fe
+26,26.1,Riesgo medio,0.23484935,-2.5270674,Santa Fe,70,30,0,0,0,0,30,61,44,Santa Fe
+13,11.9,Riesgo bajo,-26.05234,-1.2809997,Santa Fe,60,28,0,0,0,0,3,9,6,Santa Fe
+8,15.0,Riesgo bajo,-26.642902,-6.7229595,Santa Fe,60,29,0,0,0,0,15,17,21,Santa Fe
+42,26.6,Riesgo medio,14.791679,1.8810346,Santa Fe,30,36,50,0,20,0,18,33,37,Santa Fe
+26,13.1,Riesgo bajo,-6.034362,10.133191,Buenos Aires provincia,50,24,0,0,0,0,4,11,16,Buenos Aires
+8,16.3,Riesgo bajo,-25.724573,-7.421348,Santa Fe,50,23,0,0,0,0,11,42,29,Santa Fe
+26,20.2,Riesgo bajo,-4.110349,3.9899557,Santa Fe,60,23,0,0,0,0,23,39,31,Santa Fe
+38,23.7,Riesgo medio,10.545395,3.9359488,Santa Fe,60,23,0,0,0,50,18,27,21,Santa Fe
+4,13.9,Riesgo bajo,-28.769178,-8.23164,Santa Fe,60,48,0,0,0,0,2,18,7,Santa Fe
+26,29.5,Riesgo medio,2.2202518,-4.567225,Santa Fe,60,21,0,100,0,0,24,30,34,Santa Fe
+32,37.9,Riesgo medio,9.290575,-5.4319835,Santa Fe,70,20,50,50,0,50,24,48,35,Santa Fe
+30,25.3,Riesgo medio,3.182046,-0.054745093,Buenos Aires provincia,40,54,50,0,0,0,9,38,32,Buenos Aires
+27,23.3,Riesgo medio,-0.42819533,0.33437067,Santa Fe,60,22,0,0,20,50,11,27,16,Santa Fe
+31,20.4,Riesgo medio,2.5602665,5.692684,Santa Fe,60,23,0,0,0,0,13,42,35,Santa Fe
+8,10.2,Riesgo bajo,-29.331263,-4.9881706,Neuquén,40,29,0,0,0,0,2,14,9,Patagonia Centro-Norte
+25,20.9,Riesgo bajo,-4.6277494,2.4236164,Santa Fe,60,19,0,0,0,50,7,28,20,Santa Fe
+65,38.0,Riesgo alto,30.219564,-1.2040344,Santa Fe,80,22,0,50,0,50,35,32,46,Santa Fe
+17,16.3,Riesgo bajo,-18.226389,0.5756013,Santa Fe,70,30,0,0,0,0,9,19,18,Santa Fe
+30,23.8,Riesgo medio,2.5724134,1.41924,Santa Fe,60,26,0,0,0,0,40,44,38,Santa Fe
+54,38.0,Riesgo alto,25.44022,-2.9764473,Santa Fe,60,22,50,100,0,0,26,35,33,Santa Fe
+32,15.6,Riesgo medio,1.0500251,9.265078,Santa Fe,30,30,0,0,0,0,15,26,23,Santa Fe
+12,12.1,Riesgo bajo,-26.584785,-2.2369037,Tucumán,60,22,0,0,0,0,4,17,6,Noroeste
+33,24.5,Riesgo medio,6.209555,2.0570297,Buenos Aires provincia,60,25,0,0,0,0,27,59,41,Buenos Aires
+32,34.8,Riesgo medio,8.545625,-4.6351576,Santiago del Estero,60,25,50,50,0,50,25,29,27,Noroeste
+71,44.9,Riesgo alto,32.104366,-2.6561897,Tucumán,60,20,50,100,0,0,39,53,56,Noroeste
+48,38.5,Riesgo alto,22.424309,-3.7685752,Tucumán,50,23,50,50,0,50,25,48,41,Noroeste
+21,20.1,Riesgo bajo,-9.791024,0.2342478,Santa Fe,30,38,0,0,0,0,20,64,28,Santa Fe
+13,17.0,Riesgo bajo,-21.106352,-4.147276,Córdoba,30,31,50,0,0,0,1,18,27,Córdoba
+28,17.8,Riesgo medio,-2.1870596,7.424505,Córdoba,30,27,0,50,0,0,1,18,24,Córdoba
+29,20.3,Riesgo medio,0.35869694,5.349449,CABA (Buenos Aires capital),60,32,0,0,0,0,11,40,31,CABA
+7,13.1,Riesgo bajo,-28.120426,-6.5523853,Córdoba,60,35,0,0,0,0,9,10,10,Córdoba
+57,25.3,Riesgo alto,24.887568,2.9282703,Salta,50,35,0,0,0,0,44,30,37,Noroeste
+10,13.7,Riesgo bajo,-26.463095,-4.784257,Córdoba,50,36,0,0,0,0,5,20,16,Córdoba
+9,15.5,Riesgo bajo,-25.731667,-6.4666324,Tucumán,50,35,0,0,0,0,16,22,23,Noroeste
+28,24.6,Riesgo medio,0.9951023,-0.23148286,Santa Fe,50,37,50,0,0,0,6,38,37,Santa Fe
+47,32.0,Riesgo alto,20.00188,-0.8036819,Buenos Aires provincia,50,26,0,50,0,0,31,62,54,Buenos Aires
+12,20.5,Riesgo bajo,-18.167818,-6.279807,Santiago del Estero,50,60,0,0,0,0,16,46,21,Noroeste
+11,13.0,Riesgo bajo,-26.488626,-3.5862389,Misiones,40,34,0,0,0,0,2,23,20,Nordeste-Litoral
+16,20.2,Riesgo bajo,-15.198569,-4.005272,Santiago del Estero,60,24,0,0,0,50,10,24,18,Noroeste
+77,40.5,Riesgo alto,33.188812,-1.3773648,Salta,60,19,0,100,0,0,35,63,51,Noroeste
+51,44.3,Riesgo alto,24.83465,-4.774808,Río Negro,50,26,50,100,20,50,32,35,29,Patagonia Centro-Norte
+33,22.5,Riesgo medio,5.5073385,4.48026,Córdoba,60,28,0,100,0,0,0,1,3,Córdoba
+46,30.2,Riesgo medio,18.530405,0.060378168,Catamarca,80,38,0,0,20,50,2,33,33,Noroeste
+24,22.7,Riesgo bajo,-4.3215733,-0.78982913,Buenos Aires provincia,70,21,0,50,0,0,7,33,22,Buenos Aires
+30,20.7,Riesgo medio,1.5467664,5.193472,Santa Fe,50,51,0,0,0,0,18,34,24,Santa Fe
+41,35.5,Riesgo medio,15.054038,-3.6212502,Mendoza,50,25,50,50,0,50,16,40,33,Cuyo
+21,20.9,Riesgo bajo,-9.27905,-0.6598008,Jujuy,50,39,0,0,0,0,18,48,33,Noroeste
+48,28.4,Riesgo alto,20.053946,1.2775726,Córdoba,70,19,0,0,0,0,43,60,44,Córdoba
+24,25.9,Riesgo medio,-1.7113569,-3.017605,Buenos Aires provincia,60,27,0,50,0,0,27,40,31,Buenos Aires
+19,16.9,Riesgo bajo,-15.782728,2.2463331,Santa Fe,60,21,0,0,0,0,20,29,20,Santa Fe
+22,15.3,Riesgo bajo,-13.307734,6.833296,Buenos Aires provincia,60,23,0,0,0,0,6,22,20,Buenos Aires
+29,21.1,Riesgo medio,0.7212539,4.397871,Santa Fe,60,21,0,50,0,0,11,14,26,Santa Fe
+19,15.2,Riesgo bajo,-17.580826,3.735408,Santa Fe,60,24,0,0,0,0,15,22,12,Santa Fe
+29,28.0,Riesgo medio,3.6377058,-2.6588845,Santa Fe,60,25,0,50,0,50,8,34,24,Santa Fe
+35,37.7,Riesgo medio,10.970423,-5.0223417,Santa Fe,90,28,50,50,0,50,13,26,35,Santa Fe
+25,15.7,Riesgo bajo,-7.3301854,8.393789,Santa Fe,50,30,0,0,0,0,2,24,26,Santa Fe
+22,20.4,Riesgo bajo,-8.598593,0.57983303,Tierra del Fuego,50,43,50,0,0,0,3,17,19,Patagonia Centro-Sur
+18,13.6,Riesgo bajo,-19.96922,4.053765,Tucumán,60,18,0,0,0,0,8,22,10,Noroeste
+58,26.5,Riesgo alto,25.615997,2.578441,Santa Fe,60,21,0,50,0,0,13,33,30,Santa Fe
+53,37.0,Riesgo alto,24.77594,-2.8167334,Tucumán,60,27,0,50,0,50,42,45,43,Noroeste
+29,33.9,Riesgo medio,6.2492733,-5.009981,Santa Fe,70,25,50,50,0,50,12,23,30,Santa Fe
+56,37.7,Riesgo alto,26.477488,-2.4405386,Tucumán,60,39,0,100,0,0,29,47,46,Noroeste
+18,12.8,Riesgo bajo,-20.76493,4.0198565,Buenos Aires provincia,40,28,0,0,0,0,5,29,8,Buenos Aires
+37,26.7,Riesgo medio,10.737047,1.0368767,Formosa,70,26,0,50,0,0,27,24,33,Nordeste-Litoral
+12,13.7,Riesgo bajo,-25.273651,-3.0780299,Buenos Aires provincia,50,27,0,0,0,0,16,24,8,Buenos Aires
+27,17.8,Riesgo bajo,-3.796514,7.0849333,Buenos Aires provincia,30,40,0,0,0,0,16,38,27,Buenos Aires
+31,14.4,Riesgo medio,-0.3788747,9.560943,Buenos Aires provincia,40,26,0,0,0,0,11,15,21,Buenos Aires
+24,16.0,Riesgo bajo,-9.835695,7.5235248,CABA (Buenos Aires capital),40,27,0,0,0,0,13,33,23,CABA
+14,13.2,Riesgo bajo,-24.260763,-0.7889502,Córdoba,30,41,0,0,20,0,5,17,5,Córdoba
+59,36.6,Riesgo alto,27.758944,-1.5117906,Tucumán,60,19,0,50,0,0,54,65,59,Noroeste
+33,22.8,Riesgo medio,5.6231046,4.1010747,Córdoba,40,40,0,0,0,0,24,47,44,Córdoba
+15,18.6,Riesgo bajo,-17.651775,-3.4498184,Neuquén,50,52,0,0,0,0,10,36,23,Patagonia Centro-Norte
+24,16.8,Riesgo bajo,-9.030038,6.9128046,Misiones,40,26,0,0,0,0,12,37,29,Nordeste-Litoral
+25,19.7,Riesgo bajo,-5.4414744,4.0080485,Córdoba,30,55,0,0,20,0,13,32,22,Córdoba
+20,26.6,Riesgo bajo,-6.6164827,-5.563499,Mendoza,40,34,50,0,20,0,22,47,33,Cuyo
+19,15.7,Riesgo bajo,-16.960579,3.3277712,Córdoba,30,44,0,0,0,0,14,28,22,Córdoba
+40,25.7,Riesgo medio,12.855035,2.3432426,Mendoza,30,39,50,0,0,0,18,46,34,Cuyo
+51,29.1,Riesgo alto,22.144777,1.235067,Buenos Aires provincia,30,31,50,50,0,0,12,28,39,Buenos Aires
+41,33.7,Riesgo medio,14.860279,-2.770893,Buenos Aires provincia,50,29,50,50,0,0,26,53,38,Buenos Aires
+21,16.6,Riesgo bajo,-13.141041,4.7466326,Santa Fe,60,22,0,0,0,0,11,26,26,Santa Fe
+29,15.6,Riesgo medio,-2.114812,9.318071,Santa Fe,50,25,0,0,0,0,15,13,24,Santa Fe
+66,38.1,Riesgo alto,30.548168,-1.1835262,Santa Fe,60,19,0,100,0,0,44,47,45,Santa Fe
+28,18.0,Riesgo medio,-2.0963402,7.161284,Santa Fe,60,20,0,0,0,0,17,31,24,Santa Fe
+27,17.3,Riesgo bajo,-4.0587807,7.645557,Buenos Aires provincia,60,24,0,0,0,0,13,26,23,Buenos Aires
+26,17.5,Riesgo bajo,-5.258749,7.1569076,Mendoza,30,33,0,0,0,0,14,41,31,Cuyo
+72,43.9,Riesgo alto,32.18524,-2.170176,CABA (Buenos Aires capital),30,33,50,100,0,0,39,65,50,CABA
+77,40.0,Riesgo alto,33.15183,-1.2868598,Entre Ríos,60,19,0,50,0,50,46,46,52,Nordeste-Litoral
+26,15.5,Riesgo bajo,-5.6742644,8.858831,CABA (Buenos Aires capital),40,29,0,0,0,0,13,28,19,CABA
+35,28.6,Riesgo medio,9.475518,-0.86162996,CABA (Buenos Aires capital),30,61,50,50,0,0,1,24,35,CABA
+37,26.2,Riesgo medio,10.481904,1.6029865,Tucumán,60,25,50,50,0,0,8,15,17,Noroeste
+44,42.4,Riesgo alto,21.1968,-4.968836,Córdoba,80,37,50,50,0,50,30,49,34,Córdoba
+59,36.2,Riesgo alto,27.644464,-1.2727287,Buenos Aires provincia,50,47,50,0,0,0,43,61,52,Buenos Aires
+26,16.5,Riesgo bajo,-5.507277,7.9554358,Santa Cruz,60,30,0,0,0,0,9,16,24,Patagonia Centro-Sur
+18,15.0,Riesgo bajo,-18.666576,3.010254,Córdoba,30,38,0,0,0,0,13,29,22,Córdoba
+23,19.5,Riesgo bajo,-8.166999,2.761367,Santa Fe,50,61,0,0,20,0,8,18,15,Santa Fe
+19,26.2,Riesgo bajo,-7.560445,-5.623064,Buenos Aires provincia,60,50,0,0,20,50,27,20,16,Buenos Aires
+17,17.8,Riesgo bajo,-16.906895,-0.9442085,Chaco,30,32,0,50,0,0,3,27,19,Nordeste-Litoral
+21,22.2,Riesgo bajo,-8.444481,-2.0326872,Buenos Aires provincia,30,35,0,50,0,0,16,45,25,Buenos Aires
+54,32.1,Riesgo alto,24.534746,0.031159556,Tierra del Fuego,60,23,50,0,0,0,31,54,49,Patagonia Centro-Sur
+27,28.5,Riesgo medio,2.335989,-3.6613162,Tucumán,40,30,50,50,0,0,8,53,27,Noroeste
+49,41.9,Riesgo alto,23.351294,-4.714375,Buenos Aires provincia,40,30,50,100,20,0,25,62,43,Buenos Aires
+12,13.1,Riesgo bajo,-25.828274,-2.4994931,Córdoba,50,26,0,0,0,0,6,24,13,Córdoba
+9,11.2,Riesgo bajo,-28.606628,-4.5645742,Córdoba,30,31,0,0,0,0,11,14,17,Córdoba
+14,21.9,Riesgo bajo,-15.842819,-5.8893147,Buenos Aires provincia,60,50,50,0,0,0,11,22,12,Buenos Aires
+11,14.6,Riesgo bajo,-25.165085,-4.4697723,Buenos Aires provincia,60,56,0,0,0,0,4,8,7,Buenos Aires
+15,17.1,Riesgo bajo,-19.304953,-2.3893106,Córdoba,50,32,0,50,0,0,4,15,5,Córdoba
+73,44.5,Riesgo alto,32.59256,-2.2489836,Buenos Aires provincia,50,41,50,50,20,0,47,66,48,Buenos Aires
+24,20.6,Riesgo bajo,-6.091049,2.2151685,Buenos Aires provincia,50,29,0,0,0,50,7,27,19,Buenos Aires
+17,16.0,Riesgo bajo,-18.63583,0.9839588,CABA (Buenos Aires capital),60,53,0,0,0,0,4,15,11,CABA
+28,32.3,Riesgo medio,4.6648145,-4.856416,Santiago del Estero,70,69,50,0,20,0,20,29,37,Noroeste
+55,28.8,Riesgo alto,24.392038,1.655613,Córdoba,50,63,0,0,20,0,26,42,32,Córdoba
+21,22.2,Riesgo bajo,-8.444494,-2.0326872,Córdoba,30,56,0,50,20,0,7,17,21,Córdoba
+12,20.8,Riesgo bajo,-17.798391,-6.459086,Santiago del Estero,30,32,50,0,0,0,10,43,31,Noroeste
+25,29.2,Riesgo medio,1.2521647,-4.7109885,Córdoba,60,20,50,0,0,50,10,47,30,Córdoba
+53,32.9,Riesgo alto,24.029652,-0.5377829,Mendoza,50,38,50,0,20,0,22,54,42,Cuyo
+47,29.5,Riesgo alto,19.542498,0.6098783,Santa Fe,60,21,0,50,0,0,25,59,33,Santa Fe
+10,15.7,Riesgo bajo,-25.008923,-5.912526,CABA (Buenos Aires capital),60,33,0,0,0,0,8,29,17,CABA
+19,16.0,Riesgo bajo,-16.572596,3.0931714,CABA (Buenos Aires capital),40,31,0,0,20,0,2,35,13,CABA
+23,15.9,Riesgo bajo,-11.249727,6.924753,Buenos Aires provincia,50,31,0,0,0,0,10,23,22,Buenos Aires
+54,23.9,Riesgo alto,23.282635,3.314267,Buenos Aires provincia,50,27,0,0,0,0,22,51,35,Buenos Aires
+51,37.0,Riesgo alto,23.739286,-2.9602606,Buenos Aires provincia,60,22,0,50,0,50,30,58,49,Buenos Aires
+51,30.5,Riesgo alto,22.363415,0.42869678,CABA (Buenos Aires capital),60,22,0,0,0,50,32,47,43,CABA
+35,21.9,Riesgo medio,7.4379153,5.0624375,Buenos Aires provincia,50,32,0,0,0,0,18,53,31,Buenos Aires
+28,17.1,Riesgo bajo,-2.9503503,7.913227,Buenos Aires provincia,50,52,0,0,0,0,6,16,19,Buenos Aires
+37,23.9,Riesgo medio,9.815917,3.6983376,Buenos Aires provincia,60,24,50,0,0,0,17,25,26,Buenos Aires
+61,34.8,Riesgo alto,28.347363,-0.536762,Santa Fe,40,45,0,50,20,0,35,51,46,Santa Fe
+18,15.1,Riesgo bajo,-18.5388,2.8839495,Córdoba,50,24,0,0,0,0,12,32,15,Córdoba
+26,20.2,Riesgo bajo,-4.1103473,3.989956,Córdoba,60,22,0,0,0,0,21,42,31,Córdoba
+34,34.8,Riesgo medio,9.888797,-4.5114255,Buenos Aires provincia,60,26,50,50,0,0,32,57,39,Buenos Aires
+28,16.9,Riesgo bajo,-3.0020828,8.224025,Buenos Aires provincia,50,31,0,0,0,0,8,26,26,Buenos Aires
+7,16.4,Riesgo bajo,-26.24874,-7.869607,CABA (Buenos Aires capital),60,37,0,0,20,0,4,26,10,CABA
+26,24.1,Riesgo medio,-1.0190561,-0.8743099,Entre Ríos,60,20,50,50,0,0,8,12,15,Nordeste-Litoral
+18,16.6,Riesgo bajo,-16.935587,1.3067359,Córdoba,60,37,0,0,0,0,11,21,19,Córdoba
+15,23.3,Riesgo bajo,-13.9659195,-5.979676,Buenos Aires provincia,50,33,50,0,20,0,10,34,21,Buenos Aires
+16,29.1,Riesgo bajo,-7.8333826,-7.222183,CABA (Buenos Aires capital),50,40,50,100,0,0,2,13,20,CABA
+37,29.4,Riesgo medio,11.345005,-1.0158114,Córdoba,60,26,50,0,0,50,8,26,37,Córdoba
+28,25.0,Riesgo medio,1.3178705,-0.7398696,Córdoba,50,38,50,0,0,0,21,34,29,Córdoba
+29,18.6,Riesgo medio,-0.53609276,7.0284543,Buenos Aires provincia,70,28,0,0,0,0,6,26,27,Buenos Aires
+46,29.4,Riesgo medio,18.332655,0.67537385,La Pampa,60,28,50,50,0,0,9,15,36,Patagonia Centro-Norte
+36,22.2,Riesgo medio,8.606865,4.884651,Buenos Aires provincia,60,32,0,0,20,0,20,29,25,Buenos Aires
+18,16.0,Riesgo bajo,-17.78781,2.1637025,Buenos Aires provincia,50,26,0,0,0,0,15,25,26,Buenos Aires
+26,25.8,Riesgo medio,0.009080626,-2.1867158,Córdoba,30,40,50,50,0,0,7,30,25,Córdoba
+31,19.0,Riesgo medio,1.9477229,7.0308433,Córdoba,30,33,0,0,20,0,12,37,27,Córdoba
+31,20.1,Riesgo medio,2.5605369,6.068886,Buenos Aires provincia,50,36,0,0,0,0,9,40,35,Buenos Aires
+29,27.3,Riesgo medio,3.204996,-2.0274093,Buenos Aires provincia,50,36,0,50,20,0,21,37,30,Buenos Aires
+18,13.8,Riesgo bajo,-19.84019,3.6591034,Córdoba,50,42,0,0,0,0,4,14,10,Córdoba
+13,16.3,Riesgo bajo,-22.00555,-3.6746979,Tucumán,40,26,0,0,0,0,17,39,28,Noroeste
+36,19.7,Riesgo medio,7.988977,6.7272286,CABA (Buenos Aires capital),50,26,0,0,0,0,11,42,32,CABA
+37,21.4,Riesgo medio,9.215843,5.6697226,CABA (Buenos Aires capital),50,30,0,0,0,0,14,47,36,CABA
+20,32.8,Riesgo bajo,-3.1011522,-6.62882,CABA (Buenos Aires capital),60,20,50,100,0,0,14,42,22,CABA
+5,15.2,Riesgo bajo,-27.759626,-8.323775,Buenos Aires provincia,50,32,0,0,0,0,9,38,18,Buenos Aires
+26,25.3,Riesgo medio,-0.36766517,-1.7531539,CABA (Buenos Aires capital),50,28,50,0,0,0,17,50,32,CABA
+31,17.4,Riesgo medio,1.0616163,8.273724,CABA (Buenos Aires capital),30,37,0,0,20,0,7,22,27,CABA
+4,13.5,Riesgo bajo,-28.971596,-8.055954,CABA (Buenos Aires capital),30,75,0,0,0,0,0,21,5,CABA
+46,33.1,Riesgo alto,19.64328,-1.5138197,Buenos Aires provincia,60,31,50,50,0,0,22,39,33,Buenos Aires
+38,31.8,Riesgo medio,12.57176,-2.3538253,Córdoba,60,22,50,50,0,0,18,42,38,Córdoba
+24,19.3,Riesgo bajo,-7.075354,4.0070767,CABA (Buenos Aires capital),50,24,0,0,0,0,18,45,32,CABA
+73,44.6,Riesgo alto,32.6044,-2.2964814,Buenos Aires provincia,70,24,0,100,20,0,47,65,47,Buenos Aires
+0,10.1,Riesgo bajo,-30.37467,-7.91914,Córdoba,30,35,0,0,20,0,2,1,13,Córdoba
+54,25.2,Riesgo alto,23.514238,2.7974858,Córdoba,60,22,0,0,0,0,31,47,38,Córdoba
+25,22.8,Riesgo bajo,-3.1665134,-0.3494489,Buenos Aires provincia,60,44,0,0,0,0,17,46,36,Buenos Aires
+35,17.0,Riesgo medio,6.0493836,7.9146204,Córdoba,30,40,0,0,20,0,4,22,19,Córdoba
+49,34.9,Riesgo alto,22.230713,-2.179268,CABA (Buenos Aires capital),60,26,50,50,20,0,22,30,42,CABA
+28,22.4,Riesgo medio,0.21344148,2.0138848,CABA (Buenos Aires capital),40,46,0,0,20,0,13,43,34,CABA
+23,15.8,Riesgo bajo,-11.361448,7.0615954,Chubut,60,30,0,0,0,0,1,25,19,Patagonia Centro-Sur
+18,13.8,Riesgo bajo,-19.747194,3.821769,Corrientes,30,32,0,0,20,0,12,19,7,Nordeste-Litoral
+60,29.2,Riesgo alto,27.097467,1.6802803,Buenos Aires provincia,60,21,0,50,0,0,27,35,39,Buenos Aires
+20,19.9,Riesgo bajo,-10.999212,-0.32247394,Buenos Aires provincia,50,41,0,0,0,0,25,33,30,Buenos Aires
+9,25.4,Riesgo bajo,-16.90708,-8.3483305,Buenos Aires provincia,80,46,0,0,20,50,8,19,22,Buenos Aires
+29,27.8,Riesgo medio,3.5139582,-2.469867,CABA (Buenos Aires capital),60,29,50,0,20,0,21,40,29,CABA
+22,18.1,Riesgo bajo,-10.346263,3.8004348,Santa Fe,40,30,0,0,0,0,14,41,34,Santa Fe
+36,22.0,Riesgo medio,8.491228,5.1398253,Buenos Aires provincia,60,41,0,0,0,0,18,36,29,Buenos Aires
+53,34.7,Riesgo alto,24.416859,-1.6231232,Córdoba,60,43,0,100,0,0,20,44,27,Córdoba
+16,13.6,Riesgo bajo,-22.11473,1.4885008,Córdoba,30,60,0,0,0,0,1,15,14,Córdoba
+12,16.1,Riesgo bajo,-23.001171,-4.433748,San Juan,30,33,0,50,0,0,0,23,13,Cuyo
+18,11.1,Riesgo bajo,-21.97005,4.442511,Córdoba,30,39,0,0,0,0,7,12,5,Córdoba
+12,11.3,Riesgo bajo,-27.266493,-2.0535824,Córdoba,30,59,0,0,0,0,0,7,5,Córdoba
+31,16.6,Riesgo medio,0.6127579,8.713187,Córdoba,30,42,0,0,0,0,7,32,24,Córdoba
+53,26.5,Riesgo alto,23.009678,2.448757,Córdoba,60,25,0,50,0,0,11,39,27,Córdoba
+38,21.5,Riesgo medio,10.01548,5.557527,Córdoba,70,22,0,0,0,0,14,37,34,Córdoba
+60,50.1,Riesgo alto,29.777328,-4.2298355,Córdoba,60,31,50,100,0,50,46,60,44,Córdoba
+17,9.8,Riesgo bajo,-22.829838,3.9555418,Córdoba,30,44,0,0,0,0,0,5,2,Córdoba
+30,26.2,Riesgo medio,3.6075957,-0.8276942,Córdoba,30,63,50,0,0,0,11,47,31,Córdoba
+9,13.1,Riesgo bajo,-27.346523,-5.3043213,Córdoba,40,60,0,0,0,0,2,10,10,Córdoba
+7,10.2,Riesgo bajo,-29.570295,-5.594098,Córdoba,30,50,0,0,0,0,0,8,7,Córdoba
+22,17.0,Riesgo bajo,-11.514917,5.2646513,Mendoza,30,61,0,0,0,0,12,28,17,Cuyo
+49,38.9,Riesgo alto,23.001438,-3.831249,Buenos Aires provincia,60,24,50,50,0,50,26,39,41,Buenos Aires
+18,24.3,Riesgo bajo,-9.666721,-5.1797376,Córdoba,70,57,50,0,0,0,1,25,22,Córdoba
+40,27.2,Riesgo medio,13.341667,1.235581,Santa Fe,40,44,0,0,0,0,39,62,47,Santa Fe
+45,30.4,Riesgo medio,17.670092,-0.11575238,CABA (Buenos Aires capital),50,28,50,0,0,0,30,52,49,CABA
+30,25.3,Riesgo medio,3.182044,-0.05474376,Córdoba,30,48,50,0,0,0,16,47,32,Córdoba
+59,31.6,Riesgo alto,27.093163,0.55010414,Buenos Aires provincia,60,22,0,50,0,0,31,55,39,Buenos Aires
+49,30.8,Riesgo alto,21.0495,0.1420494,Córdoba,30,34,50,0,20,0,34,52,39,Córdoba
+16,14.3,Riesgo bajo,-21.29349,0.99946547,Córdoba,30,54,0,0,0,0,7,17,19,Córdoba
+27,14.1,Riesgo bajo,-4.9300394,9.778742,Córdoba,30,39,0,0,0,0,5,20,20,Córdoba
+29,23.6,Riesgo medio,1.5591347,1.1274312,Buenos Aires provincia,60,22,0,50,0,0,18,36,21,Buenos Aires
+57,24.3,Riesgo alto,24.639736,3.2544127,Buenos Aires provincia,60,23,0,0,0,0,30,38,35,Buenos Aires
+40,22.9,Riesgo medio,11.881726,4.561073,Córdoba,30,49,50,0,0,0,7,23,30,Córdoba
+66,34.5,Riesgo alto,30.165785,-0.2173811,Chubut,50,24,0,50,0,0,39,63,53,Patagonia Centro-Sur
+16,18.5,Riesgo bajo,-16.97434,-2.5823896,Córdoba,30,67,50,0,0,0,0,11,11,Córdoba
+22,16.2,Riesgo bajo,-12.295966,5.9866443,Córdoba,30,42,0,0,0,0,10,30,28,Córdoba
+55,33.1,Riesgo alto,25.210854,-0.40374222,Jujuy,30,37,50,50,0,0,25,43,41,Noroeste
+18,16.4,Riesgo bajo,-17.130802,1.6385946,Córdoba,50,70,0,0,0,0,5,14,7,Córdoba
+19,15.2,Riesgo bajo,-17.256008,4.0609097,Córdoba,30,51,0,0,20,0,6,8,18,Córdoba
+39,21.7,Riesgo medio,10.838674,5.517498,Neuquén,30,25,0,50,0,0,16,31,26,Patagonia Centro-Norte
+45,22.4,Riesgo medio,15.555909,4.577262,Buenos Aires provincia,50,30,0,0,0,0,19,46,34,Buenos Aires
+15,13.9,Riesgo bajo,-22.799732,0.046892162,CABA (Buenos Aires capital),60,22,0,0,0,0,5,18,19,CABA
+45,29.1,Riesgo medio,17.472322,0.58637035,Buenos Aires provincia,60,57,50,0,0,0,23,28,28,Buenos Aires
+16,23.6,Riesgo bajo,-12.640949,-5.6254373,CABA (Buenos Aires capital),60,37,0,0,0,50,21,35,17,CABA
+50,30.5,Riesgo alto,21.713055,0.35520923,Buenos Aires provincia,40,32,0,50,20,0,14,55,44,Buenos Aires
+81,49.1,Riesgo alto,33.782562,-2.375811,Buenos Aires provincia,60,26,50,100,20,0,48,51,55,Buenos Aires
+21,16.0,Riesgo bajo,-13.716839,5.464759,Santa Fe,40,26,0,0,0,0,12,35,26,Santa Fe
+32,22.3,Riesgo medio,4.3127723,4.301634,Córdoba,60,19,0,50,0,0,14,29,19,Córdoba
+21,19.6,Riesgo bajo,-10.232652,0.95725346,Buenos Aires provincia,50,39,0,0,20,0,9,32,25,Buenos Aires
+30,20.8,Riesgo medio,1.6252912,5.034975,Santa Fe,40,49,0,0,0,0,17,43,29,Santa Fe
+31,26.8,Riesgo medio,4.795739,-0.9085351,Buenos Aires provincia,30,35,50,0,20,0,15,50,37,Buenos Aires
+34,25.9,Riesgo medio,7.836615,0.9244293,Misiones,70,27,0,50,0,0,22,21,35,Nordeste-Litoral
+21,25.2,Riesgo bajo,-6.5617104,-4.298294,Buenos Aires provincia,50,49,0,50,20,0,18,21,23,Buenos Aires
+21,15.0,Riesgo bajo,-14.7905245,6.0594535,Buenos Aires provincia,60,22,0,0,0,0,7,20,20,Buenos Aires
+37,19.5,Riesgo medio,8.827739,6.8059053,Buenos Aires provincia,50,27,0,0,0,0,15,26,40,Buenos Aires
+38,25.6,Riesgo medio,11.175296,2.2539277,Buenos Aires provincia,60,29,0,0,0,50,23,31,25,Buenos Aires
+40,41.1,Riesgo medio,15.422962,-5.0847807,Buenos Aires provincia,50,36,50,100,20,0,28,57,30,Buenos Aires
+26,23.4,Riesgo medio,-1.4621831,-0.27421734,Buenos Aires provincia,70,24,50,0,0,0,5,30,29,Buenos Aires
+24,16.8,Riesgo bajo,-9.026561,6.9160876,CABA (Buenos Aires capital),50,56,0,0,0,0,3,22,13,CABA
+51,34.8,Riesgo alto,23.299595,-1.8099167,Santa Fe,50,44,0,50,0,0,49,58,46,Santa Fe
+47,26.6,Riesgo medio,18.593956,2.200119,CABA (Buenos Aires capital),50,27,0,50,0,0,9,43,40,CABA
+9,9.8,Riesgo bajo,-29.265171,-4.3291707,Córdoba,30,32,0,0,0,0,6,11,10,Córdoba
+12,14.3,Riesgo bajo,-24.636786,-3.4169133,Córdoba,30,76,0,0,0,0,3,7,15,Córdoba
+36,21.3,Riesgo medio,8.285806,5.7465243,Buenos Aires provincia,40,29,0,50,0,0,12,15,31,Buenos Aires
+80,37.7,Riesgo alto,33.49804,-0.87711895,Córdoba,30,28,0,100,0,0,41,51,47,Córdoba
+19,17.4,Riesgo bajo,-15.129104,1.6665357,Córdoba,50,39,0,0,0,0,10,31,25,Córdoba
+25,16.5,Riesgo bajo,-7.176195,7.670904,CABA (Buenos Aires capital),60,22,0,0,0,0,7,27,24,CABA
+30,14.1,Riesgo medio,-1.3349082,9.828701,Córdoba,40,31,0,0,0,0,6,14,20,Córdoba
+56,33.8,Riesgo alto,25.965763,-0.628707,Buenos Aires provincia,80,29,0,50,0,0,42,44,37,Buenos Aires

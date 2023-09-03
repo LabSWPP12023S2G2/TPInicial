@@ -3,27 +3,47 @@ from flask import Flask, request, jsonify, render_template, url_for
 import pickle
 from sklearn import svm
 import streamlit as st
+import matplotlib.pyplot as plt
 
 # Path del modelo preentrenado
 MODEL_PATH = '/mount/src/tpinicial/web/models/kmeans_model.pkl'
 
 
+# Path del dataset refinado
+REFINED_DATASET_PATH = '/mount/src/tpinicial/data_ref.csv'
+
+
 # Se recibe los datos del usuario y el modelo, devuelve la predicción
 def model_prediction(x_in, model):
-
     x = np.asarray(x_in).reshape(1, -1)
     preds = model.predict(x)
     return preds
+
+# Crea un gráfico de distribución de riesgo de suicidio en cada Cluster
+def scatter_plot_cases_suic(data_ref):
+    unique_clusters = np.unique(data_ref['Cluster'])
+    for cluster in unique_clusters:
+        cluster_data = data_ref[data_ref['Cluster'] == cluster]
+        st.write(f'Distribución de riesgo de suicidio en Cluster {cluster}')
+        st.pyplot(plt.hist(cluster_data['SUIC RISK'], bins=20, color='blue', alpha=0.7))
 
 
 def main():
 
     model = ''
+    dataset = ''
 
     # Se carga el modelo
     if model == '':
         with open(MODEL_PATH, 'rb') as file:
             model = pickle.load(file)
+
+
+    # Se carga el modelo
+    if dataset == '':
+        with open(REFINED_DATASET_PATH, 'rb') as file:
+            dataset = pickle.load(file)
+    
 
     # Título
     html_temp = """
@@ -33,12 +53,11 @@ def main():
     st.markdown(html_temp, unsafe_allow_html=True)
 
     # Lecctura de datos
-    # Datos = st.text_input("Ingrese los valores : N P K Temp Hum pH lluvia:")
-    N = st.text_input("SUIC RISK:")
-    P = st.text_input("PROM SUIC:")
+    N = st.text_input("Riesgo de suicidio:")
+    P = st.text_input("Promedio de las variables restantes:")
 
-    # El botón predicción se usa para iniciar el procesamiento
-    if st.button("Predicción :"):
+    # El botón clasificar se usa para iniciar el procesamiento
+    if st.button("Clasificar :"):
         x_in = [np.float_(N.title()),
                 np.float_(P.title()),
                 ]
@@ -62,6 +81,10 @@ def main():
             st.image(ruta_imagen)
         else:
             st.write("No se encontró una imagen para la predicción.")
+
+        scatter_plot_cases_suic(dataset)
+
+        
 
 
 if __name__ == '__main__':
