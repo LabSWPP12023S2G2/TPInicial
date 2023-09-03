@@ -149,10 +149,22 @@ def main():
             else:
                 st.write("No se encontró una imagen para la predicción.")
         
+        how = """
+        <div>
+        <h1 style="color:#181082;text-align:center;">Visualizaciones del modelo entrenado</h1>
+        </div>
+        """
+        st.markdown(how, unsafe_allow_html=True)
         
         with st.expander("Distribución de clusters"):
             title_hist_suic_clusters_regions = """
+            <div>
             <h1 style="color:#181082;text-align:center;">Distribución de clusters</h1>
+            </div>
+            <div>
+            <p style="color:#181082;text-align:center;">
+            Así es como se ve gracias a la reducción de dimensionalidad t-SNE la distribución de los clusters con el entrenamiento de K-Means 
+            </p>
             </div>
             """
             st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
