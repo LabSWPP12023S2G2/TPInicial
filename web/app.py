@@ -14,7 +14,8 @@ from matplotlib.lines import Line2D
 MODEL_PATH = '/mount/src/tpinicial/web/models/kmeans_model.pkl'
 
 
-data = pd.read_csv('/mount/src/tpinicial/data_ref.csv')
+data = pd.read_csv('/mount/src/tpinicial/data.csv')
+data_ref = pd.read_csv('/mount/src/tpinicial/data_ref.csv')
 
 
 # Se recibe los datos del usuario y el modelo, devuelve la predicción
@@ -63,7 +64,7 @@ def hist_suic_clusters_regions(data_ref):
 
         # Mostrar la figura en Streamlit
         st.write(f'Distribución de regiones y provincias en Cluster {cluster}')
-        st.pyplot(fig)
+        st.pyplot()
 
 
 # Diccionario para mapear los nombres de los clusters
@@ -159,7 +160,7 @@ def main():
         """
         st.markdown(title_hist_suic_clusters, unsafe_allow_html=True)
 
-        hist_suic_clusters(data)
+        hist_suic_clusters(data_ref)
 
         title_hist_suic_clusters_regions = """
         <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo por regiones-provincias</h1>
@@ -167,7 +168,7 @@ def main():
         """
         st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
 
-        hist_suic_clusters_regions(data)
+        hist_suic_clusters_regions(data_ref)
 
         
 if __name__ == '__main__':
