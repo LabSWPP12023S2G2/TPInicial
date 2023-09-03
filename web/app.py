@@ -131,7 +131,7 @@ def main():
         st.success(f'El grupo de riesgo al que pertenecen estos valores es: {predicted_cluster}'.upper())
 
 
-        if st.button("Termómetro de riesgo"):
+        with st.expander("Termómetro de riesgo"):
             # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
             imagen_por_prediccion = {
                 0: "/mount/src/tpinicial/web/assets/termoModificadoCluster1.png",
@@ -150,7 +150,7 @@ def main():
                 st.write("No se encontró una imagen para la predicción.")
         
         
-        if st.button("Distribución de clusters"):
+        with st.expander("Distribución de clusters"):
             title_hist_suic_clusters_regions = """
             <h1 style="color:#181082;text-align:center;">Distribución de clusters</h1>
             </div>
@@ -159,7 +159,7 @@ def main():
             scatter_plot_clusters(data, model, cluster_names_for_pred)
 
 
-        if st.button("Casos según riesgo"):
+        with st.expander("Histograma cantidad de casos según riesgo"):
             title_hist_suic_clusters = """
             <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo</h1>
             </div>
@@ -168,7 +168,7 @@ def main():
             hist_suic_clusters(data_ref)
 
         
-        if st.button("Casos según riesgo por regiones-provincias"):
+        with st.expander("Histograma cantidad de casos según riesgo por regiones-provincias"):
             title_hist_suic_clusters_regions = """
             <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo por regiones-provincias</h1>
             </div>
