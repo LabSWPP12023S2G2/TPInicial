@@ -50,7 +50,7 @@ def main():
         imagen_por_prediccion = {
             0: "/mount/src/tpinicial/web/assets/termoModificadoCluster1.png",
             1: "/mount/src/tpinicial/web/assets/termoModificadoCluster0.png",
-            2: "/mount/src/tpinicial/web.assets/termoModificadoCluster2.png",
+            2: "/mount/src/tpinicial/web/assets/termoModificadoCluster2.png",
         }
 
         cluster = predictS[0]
