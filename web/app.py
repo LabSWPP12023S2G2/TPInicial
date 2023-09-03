@@ -89,7 +89,7 @@ def main():
         else:
             st.write("No se encontró una imagen para la predicción.")
 
-        scatter_plot_cases_suic(data)
+        hist_suic_clusters(data)
 
         
 
