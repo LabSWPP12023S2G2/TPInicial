@@ -5,7 +5,7 @@ from sklearn import svm
 import streamlit as st
 
 # Path del modelo preentrenado
-MODEL_PATH = 'models/kmeans_model.pkl'
+MODEL_PATH = 'LabSWPP12023S2G2/TPInicial/web/models/kmeans_model.pkl'
 
 
 # Se recibe los datos del usuario y el modelo, devuelve la predicción
