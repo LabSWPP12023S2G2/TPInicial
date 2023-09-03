@@ -48,9 +48,9 @@ def main():
 
         # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
         imagen_por_prediccion = {
-            0: "assets/termoModificadoCluster1.png",
-            1: "assets/termoModificadoCluster0.png",
-            2: "assets/termoModificadoCluster2.png",
+            0: "/mount/src/tpinicial/web/assets/termoModificadoCluster1.png",
+            1: "/mount/src/tpinicial/web/assets/termoModificadoCluster0.png",
+            2: "/mount/src/tpinicial/web.assets/termoModificadoCluster2.png",
         }
 
         cluster = predictS[0]
