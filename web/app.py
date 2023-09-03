@@ -41,11 +41,63 @@ def hist_suic_clusters(data_ref):
         st.pyplot(fig)
 
 
+# Histograma de provincias para cada cluster
+def hist_suic_clusters_regions(data_ref):
+    unique_clusters = np.unique(data_ref['Cluster'])
+    for cluster in unique_clusters:
+        cluster_data = data_ref[data_ref['Cluster'] == cluster]
+        province_counts = cluster_data['REGION'].value_counts()
+
+        plt.figure(figsize=(10, 6))
+        province_counts.plot(kind='bar', color='blue', alpha=0.7)
+
+        plt.title(f'Distribución de regiones y provincias en Cluster {cluster}')
+        plt.xlabel('Region-Provincia')
+        plt.ylabel('Cantidad de casos')
+        plt.xticks(rotation=45, ha='right')
+        plt.grid(True)
+
+        # Mostrar la figura en Streamlit
+        st.write(f'Distribución de regiones y provincias en Cluster {cluster}')
+        st.pyplot(fig)
+
+
+# Diccionario para mapear los nombres de los clusters
+cluster_names = {
+    0: 'Riesgo medio',
+    1: 'Riesgo bajo',
+    2: 'Riesgo alto',
+}
+
+
+# Scatter plot de clusters y tsne
+def scatter_plot_clusters(data_ref, kmeans, cluster_names):
+    # Crear un scatter plot
+    plt.figure(figsize=(12, 8))
+    unique_clusters = np.unique(kmeans.labels_)
+    for cluster in unique_clusters:
+        cluster_data = data_ref[data_ref['Cluster'] == cluster]
+        cluster_name = cluster_names.get(cluster, f'Cluster {cluster}')
+
+        plt.scatter(cluster_data['tsne_x'], cluster_data['tsne_y'],
+                    label=cluster_name, alpha=0.7, s=50)
+
+    # Crear leyenda personalizada
+    legend_elements = [Line2D([0], [0], marker='o', color='w', markerfacecolor=f'C{cluster}', markersize=10, label=cluster_names.get(cluster, f'Cluster {cluster}')) for cluster in unique_clusters]
+    plt.legend(handles=legend_elements, loc='upper right', bbox_to_anchor=(1.05, 1))
+
+    # Configurar título y etiquetas de ejes
+    plt.title('Clustering con K-Means (3 clústers) y t-SNE (80 de perplejidad) de regiones y provincias')
+    plt.xlabel('t-SNE x')
+    plt.ylabel('t-SNE y')
+
+    # Mostrar el gráfico en Streamlit
+    st.pyplot(plt)
+
+
 def main():
 
     model = ''
-    dataset = ''
-
     # Se carga el modelo
     if model == '':
         with open(MODEL_PATH, 'rb') as file:
@@ -69,7 +121,7 @@ def main():
                 np.float_(P.title()),
                 ]
         predictS = model_prediction(x_in, model)
-        st.success('EL GRUPO DE RIESGO DE SUICIDIO AL QUE PERTENECE ES ES: {}'.format(
+        st.success('El grupo de riesgo al que pertenecen estos valores es: {}'.format(
             predictS[0]).upper())
 
         # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
@@ -89,10 +141,30 @@ def main():
         else:
             st.write("No se encontró una imagen para la predicción.")
 
+        title_hist_suic_clusters_regions = """
+        <h1 style="color:#181082;text-align:center;">Distribución de clusters</h1>
+        </div>
+        """
+        st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
+
+        scatter_plot_clusters(data, model, cluster_names)
+
+        title_hist_suic_clusters = """
+        <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo</h1>
+        </div>
+        """
+        st.markdown(title_hist_suic_clusters, unsafe_allow_html=True)
+
         hist_suic_clusters(data)
 
+        title_hist_suic_clusters_regions = """
+        <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo por regiones-provincias</h1>
+        </div>
+        """
+        st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
+
+        hist_suic_clusters_regions(data)
+
         
-
-
 if __name__ == '__main__':
     main()
