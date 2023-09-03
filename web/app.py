@@ -24,7 +24,7 @@ def model_prediction(x_in, model):
     preds = model.predict(x)
     return preds
 
-
+'''
 # Histograma por clusters de riesgo de suicidio
 def hist_suic_clusters(data_ref):
     unique_clusters = np.unique(data_ref['Cluster'])
@@ -34,6 +34,42 @@ def hist_suic_clusters(data_ref):
         # Crear una figura de Matplotlib
         fig, ax = plt.subplots(figsize=(8, 6))
         plt.hist(cluster_data['SUIC RISK'], bins=20, color='blue', alpha=0.7)
+
+        # Configurar etiquetas y título
+        plt.title(f'Distribución de riesgo de suicidio en Cluster {cluster}')
+        plt.xlabel('Riesgo de suicidio')
+        plt.ylabel('Cantidad de casos')
+        plt.grid(True)
+
+        # Mostrar la figura en Streamlit
+        st.write(f'Distribución de riesgo de suicidio en Cluster {cluster}')
+        st.pyplot(fig)
+'''
+
+# Función para asignar colores gradualmente en función de los valores del eje y
+def assign_colors(y_values):
+    # Define una paleta de colores gradual de verde (0) a rojo (100)
+    cmap = plt.get_cmap('coolwarm')
+    norm = plt.Normalize(vmin=0, vmax=100)
+    colors = cmap(norm(y_values))
+    return colors
+
+
+# Histograma por clusters de riesgo de suicidio
+def hist_suic_clusters(data_ref):
+    unique_clusters = np.unique(data_ref['Cluster'])
+    for cluster in unique_clusters:
+        cluster_data = data_ref[data_ref['Cluster'] == cluster]
+
+        # Crear una figura de Matplotlib
+        fig, ax = plt.subplots(figsize=(8, 6))
+        hist, bins, _ = plt.hist(cluster_data['SUIC RISK'], bins=20, alpha=0.7)
+
+        # Obtener colores para las barras del histograma
+        colors = assign_colors(hist)
+
+        # Dibujar las barras del histograma con colores graduales
+        plt.bar(bins[:-1], hist, width=bins[1] - bins[0], color=colors, edgecolor='black', alpha=0.7)
 
         # Configurar etiquetas y título
         plt.title(f'Distribución de riesgo de suicidio en Cluster {cluster}')
