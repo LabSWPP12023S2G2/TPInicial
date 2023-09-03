@@ -113,7 +113,7 @@ def main():
     P = st.text_input("Promedio de las variables restantes:")
 
     # El botón clasificar se usa para iniciar el procesamiento
-    if st.button("Clasificar :"):
+    if st.button("Clasificar:"):
         x_in = [np.float_(N.title()),
                 np.float_(P.title()),
                 ]
@@ -130,46 +130,51 @@ def main():
         # Mostrar el resultado en Streamlit
         st.success(f'El grupo de riesgo al que pertenecen estos valores es: {predicted_cluster}'.upper())
 
-        # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
-        imagen_por_prediccion = {
-            0: "/mount/src/tpinicial/web/assets/termoModificadoCluster1.png",
-            1: "/mount/src/tpinicial/web/assets/termoModificadoCluster0.png",
-            2: "/mount/src/tpinicial/web/assets/termoModificadoCluster2.png",
-        }
 
-        cluster = predictS[0]
+        if st.button("Termómetro de riesgo"):
+            # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
+            imagen_por_prediccion = {
+                0: "/mount/src/tpinicial/web/assets/termoModificadoCluster1.png",
+                1: "/mount/src/tpinicial/web/assets/termoModificadoCluster0.png",
+                2: "/mount/src/tpinicial/web/assets/termoModificadoCluster2.png",
+            }
 
-        if cluster in imagen_por_prediccion:
-            # Obtiene la ruta de la imagen correspondiente
-            ruta_imagen = imagen_por_prediccion[cluster]
-            # Muestra la imagen en Streamlit
-            st.image(ruta_imagen)
-        else:
-            st.write("No se encontró una imagen para la predicción.")
+            cluster = predictS[0]
 
-        title_hist_suic_clusters_regions = """
-        <h1 style="color:#181082;text-align:center;">Distribución de clusters</h1>
-        </div>
-        """
-        st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
+            if cluster in imagen_por_prediccion:
+                # Obtiene la ruta de la imagen correspondiente
+                ruta_imagen = imagen_por_prediccion[cluster]
+                # Muestra la imagen en Streamlit
+                st.image(ruta_imagen)
+            else:
+                st.write("No se encontró una imagen para la predicción.")
+        
+        
+        if st.button("Distribución de clusters"):
+            title_hist_suic_clusters_regions = """
+            <h1 style="color:#181082;text-align:center;">Distribución de clusters</h1>
+            </div>
+            """
+            st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
+            scatter_plot_clusters(data, model, cluster_names_for_pred)
 
-        scatter_plot_clusters(data, model, cluster_names_for_pred)
 
-        title_hist_suic_clusters = """
-        <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo</h1>
-        </div>
-        """
-        st.markdown(title_hist_suic_clusters, unsafe_allow_html=True)
+        if st.button("Casos según riesgo"):
+            title_hist_suic_clusters = """
+            <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo</h1>
+            </div>
+            """
+            st.markdown(title_hist_suic_clusters, unsafe_allow_html=True)
+            hist_suic_clusters(data_ref)
 
-        hist_suic_clusters(data_ref)
-
-        title_hist_suic_clusters_regions = """
-        <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo por regiones-provincias</h1>
-        </div>
-        """
-        st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
-
-        hist_suic_clusters_regions(data_ref)
+        
+        if st.button("Casos según riesgo por regiones-provincias"):
+            title_hist_suic_clusters_regions = """
+            <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo por regiones-provincias</h1>
+            </div>
+            """
+            st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
+            hist_suic_clusters_regions(data_ref)
 
         
 if __name__ == '__main__':
