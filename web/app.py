@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 from flask import Flask, request, jsonify, render_template, url_for
 import pickle
 from sklearn import svm
@@ -9,8 +10,7 @@ import matplotlib.pyplot as plt
 MODEL_PATH = '/mount/src/tpinicial/web/models/kmeans_model.pkl'
 
 
-# Path del dataset refinado
-REFINED_DATASET_PATH = '/mount/src/tpinicial/data_ref.csv'
+data = pd.read_csv('/mount/src/tpinicial/data_ref.csv')
 
 
 # Se recibe los datos del usuario y el modelo, devuelve la predicción
@@ -37,12 +37,6 @@ def main():
     if model == '':
         with open(MODEL_PATH, 'rb') as file:
             model = pickle.load(file)
-
-
-    # Se carga el modelo
-    if dataset == '':
-        with open(REFINED_DATASET_PATH, 'rb') as file:
-            dataset = pickle.load(file)
     
 
     # Título
@@ -82,7 +76,7 @@ def main():
         else:
             st.write("No se encontró una imagen para la predicción.")
 
-        scatter_plot_cases_suic(dataset)
+        scatter_plot_cases_suic(data)
 
         
 
