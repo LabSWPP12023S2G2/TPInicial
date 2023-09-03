@@ -117,11 +117,6 @@ def main():
         x_in = [np.float_(N.title()),
                 np.float_(P.title()),
                 ]
-        '''
-        predictS = model_prediction(x_in, model)
-        st.success('El grupo de riesgo al que pertenecen estos valores es: {}'.format(
-            predictS[0]).upper())
-        '''
         predictS = model_prediction(x_in, model)  # Supongamos que predictS es 0, 1 o 2
         cluster_names_for_pred = {
             0: 'riesgo medio',
