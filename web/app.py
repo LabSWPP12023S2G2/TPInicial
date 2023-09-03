@@ -69,26 +69,18 @@ def hist_suic_clusters_regions(data_ref):
 
 # Scatter plot de clusters y tsne
 def scatter_plot_clusters(data_ref, kmeans, cluster_names):
-    # Crear un scatter plot
+    colors = ['orange', 'green', 'red']
     plt.figure(figsize=(12, 8))
     unique_clusters = np.unique(kmeans.labels_)
-    for cluster in unique_clusters:
+    for i, cluster in enumerate(unique_clusters):
         cluster_data = data_ref[data_ref['Cluster'] == cluster]
         cluster_name = cluster_names.get(cluster, f'Cluster {cluster}')
-
+        # Asignar color a cada cluster
+        color = colors[i % len(colors)]
         plt.scatter(cluster_data['tsne_x'], cluster_data['tsne_y'],
-                    label=cluster_name, alpha=0.7, s=50)
-
-    # Crear leyenda personalizada
-    legend_elements = [Line2D([0], [0], marker='o', color='w', markerfacecolor=f'C{cluster}', markersize=10, label=cluster_names.get(cluster, f'Cluster {cluster}')) for cluster in unique_clusters]
-    plt.legend(handles=legend_elements, loc='upper right', bbox_to_anchor=(1.05, 1))
-
-    # Configurar título y etiquetas de ejes
-    plt.title('Clustering con K-Means (3 clústers) y t-SNE (80 de perplejidad) de regiones y provincias')
+                    label=cluster_name, alpha=0.7, s=50, c=color)
     plt.xlabel('t-SNE x')
     plt.ylabel('t-SNE y')
-
-    # Mostrar el gráfico en Streamlit
     st.pyplot(plt)
 
 
@@ -163,7 +155,9 @@ def main():
             </div>
             <div>
             <p style="color:#181082;text-align:center;">
-            Así es como se ve gracias a la reducción de dimensionalidad t-SNE la distribución de los clusters con el entrenamiento de K-Means 
+            Así es como se ve gracias a la reducción de dimensionalidad t-SNE (80 de perplejidad) 
+            la distribución de los 3 clusters con el entrenamiento de K-Means. El color verde 
+            nos indica los casos de bajo riesgo, el naranja de riesgo medio y el rojo de riesgo alto.
             </p>
             </div>
             """
