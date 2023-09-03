@@ -53,8 +53,8 @@ def hist_suic_clusters_regions(data_ref):
         cluster_data = data_ref[data_ref['Cluster'] == cluster]
         province_counts = cluster_data['REGION'].value_counts()
 
-        plt.figure(figsize=(10, 6))
-        province_counts.plot(kind='bar', color='blue', alpha=0.7)
+        fig, ax = plt.subplots(figsize=(10, 6))  # Definir la figura y los ejes
+        province_counts.plot(kind='bar', color='blue', alpha=0.7, ax=ax)
 
         plt.title(f'Distribución de regiones y provincias en Cluster {cluster}')
         plt.xlabel('Region-Provincia')
@@ -64,15 +64,7 @@ def hist_suic_clusters_regions(data_ref):
 
         # Mostrar la figura en Streamlit
         st.write(f'Distribución de regiones y provincias en Cluster {cluster}')
-        st.pyplot()
-
-
-# Diccionario para mapear los nombres de los clusters
-cluster_names = {
-    0: 'Riesgo medio',
-    1: 'Riesgo bajo',
-    2: 'Riesgo alto',
-}
+        st.pyplot(fig)
 
 
 # Scatter plot de clusters y tsne
@@ -151,6 +143,13 @@ def main():
         </div>
         """
         st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
+
+        # Diccionario para mapear los nombres de los clusters
+        cluster_names = {
+            0: 'Riesgo medio',
+            1: 'Riesgo bajo',
+            2: 'Riesgo alto',
+        }
 
         scatter_plot_clusters(data, model, cluster_names)
 
