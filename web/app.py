@@ -19,13 +19,26 @@ def model_prediction(x_in, model):
     preds = model.predict(x)
     return preds
 
-# Crea un gráfico de distribución de riesgo de suicidio en cada Cluster
-def scatter_plot_cases_suic(data_ref):
+
+# Histograma por clusters de riesgo de suicidio
+def hist_suic_clusters(data_ref):
     unique_clusters = np.unique(data_ref['Cluster'])
     for cluster in unique_clusters:
         cluster_data = data_ref[data_ref['Cluster'] == cluster]
+
+        # Crear una figura de Matplotlib
+        fig, ax = plt.subplots(figsize=(8, 6))
+        plt.hist(cluster_data['SUIC RISK'], bins=20, color='blue', alpha=0.7)
+
+        # Configurar etiquetas y título
+        plt.title(f'Distribución de riesgo de suicidio en Cluster {cluster}')
+        plt.xlabel('Riesgo de suicidio')
+        plt.ylabel('Cantidad de casos')
+        plt.grid(True)
+
+        # Mostrar la figura en Streamlit
         st.write(f'Distribución de riesgo de suicidio en Cluster {cluster}')
-        st.pyplot(plt.hist(cluster_data['SUIC RISK'], bins=20, color='blue', alpha=0.7))
+        st.pyplot(fig)
 
 
 def main():
