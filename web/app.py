@@ -151,7 +151,7 @@ def main():
                 # Obtiene la ruta de la imagen correspondiente
                 ruta_imagen = imagen_por_prediccion[cluster]
                 # Muestra la imagen en Streamlit
-                st.image(ruta_imagen, use_container_width=True)
+                st.image(ruta_imagen)
             else:
                 st.write("No se encontró una imagen para la predicción.")
 
