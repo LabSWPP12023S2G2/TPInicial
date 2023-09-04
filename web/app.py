@@ -30,17 +30,21 @@ def hist_suic_clusters(data_ref):
     unique_clusters = np.unique(data_ref['Cluster'])
     for cluster in unique_clusters:
         cluster_data = data_ref[data_ref['Cluster'] == cluster]
-
+        if cluster == 'Riesgo bajo':
+            bin_limits = [0, 25]
+        elif cluster == 'Riesgo medio':
+            bin_limits = [25, 50]
+        elif cluster == 'Riesgo alto':
+            bin_limits = [50, 100]
         # Crear una figura de Matplotlib
         fig, ax = plt.subplots(figsize=(8, 6))
-        plt.hist(cluster_data['SUIC RISK'], bins=20, color='blue', alpha=0.7)
+        plt.hist(cluster_data['SUIC RISK'], bins=20, range=bin_limits, color='blue', alpha=0.7)
 
         # Configurar etiquetas y título
-        plt.title(f'Distribución de riesgo de suicidio en Cluster {cluster}')
         plt.xlabel('Riesgo de suicidio')
         plt.ylabel('Cantidad de casos')
         plt.grid(True)
-
+        plt.xlim(bin_limits)
         # Mostrar la figura en Streamlit
         st.write(f'Distribución de riesgo de suicidio en Cluster {cluster}')
         st.pyplot(fig)
@@ -57,7 +61,6 @@ def hist_suic_clusters_regions(data_ref):
         fig, ax = plt.subplots(figsize=(10, 6))  # Definir la figura y los ejes
         province_counts.plot(kind='bar', color='blue', alpha=0.7, ax=ax)
 
-        plt.title(f'Distribución de regiones y provincias en Cluster {cluster}')
         plt.xlabel('Region-Provincia')
         plt.ylabel('Cantidad de casos')
         plt.xticks(rotation=45, ha='right')
@@ -187,8 +190,10 @@ def main():
             <div>
             <p style="color:#181082;text-align:center;">
             Así es como se ve gracias a la reducción de dimensionalidad t-SNE (80 de perplejidad) 
-            la distribución de los 3 clusters con el entrenamiento de K-Means. El color amarillo 
-            nos indica los casos de bajo riesgo, el rosado de riesgo medio y el violeta de riesgo alto.
+            la distribución de los 3 clusters con el entrenamiento de K-Means.
+            Cada punto en el gráfico se colorea según el clúster al que pertenece, lo que permite 
+            identificar visualmente cómo se agrupan los registros en el espacio bidimensional.
+            El color amarillo nos indica los casos de bajo riesgo, el rosado de riesgo medio y el violeta de riesgo alto.
             </p>
             </div>
             """
