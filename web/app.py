@@ -199,7 +199,7 @@ def main():
         st.markdown(how, unsafe_allow_html=True)
         
 
-        with st.expander("Distribución de clusters"):
+        with st.expander("Distribución de clusters en 2D"):
             title_hist_suic_clusters_regions = """
             <div>
             <h1 style="color:#181082;text-align:center;">Distribución de clusters</h1>
