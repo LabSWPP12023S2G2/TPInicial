@@ -114,13 +114,13 @@ def main():
 
     # Verificar si N es válido
     if N:
-        N = float(N)
+        N = int(N)
         if N <= 0 or N >= 100:
             st.error("El valor de riesgo debe estar entre 0 y 100")
 
     # Verificar si P es válido
     if P:
-        P = float(P)
+        P = int(P)
         if P <= 0 or P >= 50:
             st.error("El valor del promedio de riesgo debe estar entre 0 y 50")
 
