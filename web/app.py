@@ -10,10 +10,12 @@ import matplotlib as mpl
 from matplotlib.patches import Patch
 from matplotlib.lines import Line2D
 
+
 # Path del modelo preentrenado
 MODEL_PATH = '/mount/src/tpinicial/web/models/kmeans_model.pkl'
 
 
+# Paths de datasets
 data = pd.read_csv('/mount/src/tpinicial/data.csv')
 data_ref = pd.read_csv('/mount/src/tpinicial/data_ref.csv')
 
@@ -27,6 +29,11 @@ def model_prediction(x_in, model):
 
 # Histograma por clusters de riesgo de suicidio
 def hist_suic_clusters(data_ref):
+    colors = {
+        'Riesgo bajo': '#feca8d',
+        'Riesgo medio': '#f1605d',
+        'Riesgo alto': '#9e2f7f'
+    }
     unique_clusters = np.unique(data_ref['Cluster'])
     for cluster in unique_clusters:
         cluster_data = data_ref[data_ref['Cluster'] == cluster]
@@ -36,18 +43,17 @@ def hist_suic_clusters(data_ref):
             bin_limits = [25, 50]
         elif cluster == 'Riesgo alto':
             bin_limits = [50, 100]
-        # Crear una figura de Matplotlib
         fig, ax = plt.subplots(figsize=(8, 6))
-        plt.hist(cluster_data['SUIC RISK'], bins=20, range=bin_limits, color='blue', alpha=0.7)
-        plt.title(f'Distribución de riesgo de suicidio en Cluster {cluster}')
-        plt.xlabel('Riesgo de suicidio')
-        plt.ylabel('Cantidad de casos')
-        plt.grid(True)
-        plt.xlim(bin_limits)
+        ax.hist(cluster_data['SUIC RISK'], bins=20, range=bin_limits, color=colors[cluster], alpha=0.7)
+        ax.set_title(f'Distribución de riesgo total de suicidio en Cluster {cluster}')
+        ax.set_xlabel('Riesgo total de suicidio')
+        ax.set_ylabel('Cantidad de casos')
+        ax.grid(True)
+        ax.set_xlim(bin_limits)
         # Mostrar la figura en Streamlit
         st.write(f'')
         st.pyplot(fig)
-
+        
 
 
 # Histograma de provincias para cada cluster
@@ -56,17 +62,15 @@ def hist_suic_clusters_regions(data_ref):
     for cluster in unique_clusters:
         cluster_data = data_ref[data_ref['Cluster'] == cluster]
         province_counts = cluster_data['REGION'].value_counts()
-
-        fig, ax = plt.subplots(figsize=(10, 6))  # Definir la figura y los ejes
+        fig, ax = plt.subplots(figsize=(10, 6))
         province_counts.plot(kind='bar', color='blue', alpha=0.7, ax=ax)
-
+        plt.title(f'Distribución de regiones y provincias en Cluster {cluster}')
         plt.xlabel('Region-Provincia')
         plt.ylabel('Cantidad de casos')
         plt.xticks(rotation=45, ha='right')
         plt.grid(True)
-
         # Mostrar la figura en Streamlit
-        st.write(f'Distribución de regiones y provincias en Cluster {cluster}')
+        st.write(f'')
         st.pyplot(fig)
 
 
@@ -89,6 +93,7 @@ def scatter_plot_clusters(data_ref, kmeans, cluster_names):
 
 def main():
 
+
     model = ''
     # Se carga el modelo
     if model == '':
@@ -110,21 +115,23 @@ def main():
     """
     st.markdown(html_temp, unsafe_allow_html=True)
 
+
     # Lecctura de datos
     N = st.text_input("Valor de riesgo (0 a 100)")
     P = st.text_input("Valor del promedio de riesgo (0 a 50)")
+
 
     # Verificar si N es válido
     if N:
         N = float(N)
         if N < 0 or N > 100:
             st.error("El valor de riesgo debe estar entre 0 y 100")
-
     # Verificar si P es válido
     if P:
         P = float(P)
         if P < 0 or P > 50:
             st.error("El valor del promedio de riesgo debe estar entre 0 y 50")
+
 
     # El botón clasificar se usa para iniciar el procesamiento
     if st.button("Clasificar"):
@@ -132,12 +139,11 @@ def main():
                 np.float_(P),
                 ]
         predictS = model_prediction(x_in, model)  # Supongamos que predictS es 0, 1 o 2
-
         # Obtener el nombre del cluster correspondiente
         predicted_cluster = cluster_names_for_pred.get(predictS[0], 'Riesgo Desconocido')
-
         # Mostrar el resultado en Streamlit
         st.success(f'El grupo de riesgo al que pertenecen estos valores es: {predicted_cluster}')
+
 
         with st.expander("Termómetro de riesgo"):
             # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
@@ -167,7 +173,6 @@ def main():
             else:
                 st.write("No se encontró una imagen para la predicción.")
 
-        
         how = """
         <div>
         <h1 style="color:#181082;text-align:center;">Visualizaciones del modelo entrenado</h1>
@@ -181,6 +186,7 @@ def main():
         """
         st.markdown(how, unsafe_allow_html=True)
         
+
         with st.expander("Distribución de clusters"):
             title_hist_suic_clusters_regions = """
             <div>
