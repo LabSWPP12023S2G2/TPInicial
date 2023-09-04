@@ -114,9 +114,9 @@ def main():
 
 
     cluster_names_for_pred = {
-        0: 'riesgo medio',
-        1: 'riesgo bajo',
-        2: 'riesgo alto',
+        0: 'Riesgo medio',
+        1: 'Riesgo bajo',
+        2: 'Riesgo alto',
     }
     
 
