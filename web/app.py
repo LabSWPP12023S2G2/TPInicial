@@ -39,14 +39,13 @@ def hist_suic_clusters(data_ref):
         # Crear una figura de Matplotlib
         fig, ax = plt.subplots(figsize=(8, 6))
         plt.hist(cluster_data['SUIC RISK'], bins=20, range=bin_limits, color='blue', alpha=0.7)
-
-        # Configurar etiquetas y título
+        plt.title(f'Distribución de riesgo de suicidio en Cluster {cluster}')
         plt.xlabel('Riesgo de suicidio')
         plt.ylabel('Cantidad de casos')
         plt.grid(True)
         plt.xlim(bin_limits)
         # Mostrar la figura en Streamlit
-        st.write(f'Distribución de riesgo de suicidio en Cluster {cluster}')
+        st.write(f'')
         st.pyplot(fig)
 
 
