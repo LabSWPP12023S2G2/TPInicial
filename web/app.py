@@ -92,7 +92,7 @@ def scatter_plot_clusters(data_ref, kmeans, cluster_names):
     st.pyplot(plt)
 
 
-def scatter_plot_clusters_3d(data_ref):
+def scatter_plot_clusters_3d(data_ref, cluster_names):
     custom_palette = {
         'Riesgo bajo': '#feca8d',
         'Riesgo medio': '#f1605d',
@@ -232,7 +232,7 @@ def main():
             </div>
             """
             st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
-            scatter_plot_clusters_3d(data3d)
+            scatter_plot_clusters_3d(data3d, cluster_names_for_pred)
 
 
         with st.expander("Histograma cantidad de casos según riesgo total"):
