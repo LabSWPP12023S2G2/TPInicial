@@ -137,7 +137,7 @@ def main():
         # Mostrar el resultado en Streamlit
         st.success(f'El grupo de riesgo al que pertenecen estos valores es: {predicted_cluster}')
 
-
+        '''
         with st.expander("Termómetro de riesgo"):
             # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
             imagen_por_prediccion = {
@@ -152,9 +152,37 @@ def main():
                 # Obtiene la ruta de la imagen correspondiente
                 ruta_imagen = imagen_por_prediccion[cluster]
                 # Muestra la imagen en Streamlit
-                st.image(ruta_imagen, use_column_width=True)
+                st.image(ruta_imagen)
             else:
                 st.write("No se encontró una imagen para la predicción.")
+        '''
+
+        with st.expander("Termómetro de riesgo"):
+        # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
+            imagen_por_prediccion = {
+                0: "/mount/src/tpinicial/web/assets/thermcluster1.png",
+                1: "/mount/src/tpinicial/web/assets/thermcluster0.png",
+                2: "/mount/src/tpinicial/web/assets/thermcluster2.png",
+            }   
+
+            cluster = predictS[0]
+
+            if cluster in imagen_por_prediccion:
+                # Obtiene la ruta de la imagen correspondiente
+                ruta_imagen = imagen_por_prediccion[cluster]
+
+                # Centra la imagen en su contenedor utilizando CSS
+                imagen_html = f"""
+                <div style="display: flex; justify-content: center;">
+                    <img src="{ruta_imagen}" alt="Imagen">
+                </div>
+                """
+
+                # Muestra la imagen centrada en Streamlit
+                st.markdown(imagen_html, unsafe_allow_html=True)
+            else:
+                st.write("No se encontró una imagen para la predicción.")
+
         
         how = """
         <div>
