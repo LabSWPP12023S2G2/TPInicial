@@ -114,20 +114,20 @@ def main():
 
     # Verificar si N es válido
     if N:
-        N = int(N)
+        N = float(N)
         if N <= 0 or N >= 100:
             st.error("El valor de riesgo debe estar entre 0 y 100")
 
     # Verificar si P es válido
     if P:
-        P = int(P)
+        P = float(P)
         if P <= 0 or P >= 50:
             st.error("El valor del promedio de riesgo debe estar entre 0 y 50")
 
     # El botón clasificar se usa para iniciar el procesamiento
     if st.button("Clasificar"):
-        x_in = [np.float_(N.title()),
-                np.float_(P.title()),
+        x_in = [np.float_(N),
+                np.float_(P),
                 ]
         predictS = model_prediction(x_in, model)  # Supongamos que predictS es 0, 1 o 2
 
