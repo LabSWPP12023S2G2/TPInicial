@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 from matplotlib.patches import Patch
 from matplotlib.lines import Line2D
+import plotly.express as px
 
 
 # Path del modelo preentrenado
@@ -17,6 +18,7 @@ MODEL_PATH = '/mount/src/tpinicial/web/models/kmeans_model.pkl'
 
 # Paths de datasets
 data = pd.read_csv('/mount/src/tpinicial/data.csv')
+data3d = pd.read_csv('/mount/src/tpinicial/data3d.csv')
 data_ref = pd.read_csv('/mount/src/tpinicial/data_ref.csv')
 
 
@@ -55,7 +57,6 @@ def hist_suic_clusters(data_ref):
         st.pyplot(fig)
         
 
-
 # Histograma de provincias para cada cluster
 def hist_suic_clusters_regions(data_ref):
     unique_clusters = np.unique(data_ref['Cluster'])
@@ -63,7 +64,7 @@ def hist_suic_clusters_regions(data_ref):
         cluster_data = data_ref[data_ref['Cluster'] == cluster]
         province_counts = cluster_data['REGION'].value_counts()
         fig, ax = plt.subplots(figsize=(10, 6))
-        province_counts.plot(kind='bar', color='blue', alpha=0.7, ax=ax)
+        province_counts.plot(kind='bar', color='#5a167e', alpha=0.7, ax=ax)
         plt.title(f'Distribución de regiones y provincias en Cluster {cluster}')
         plt.xlabel('Region-Provincia')
         plt.ylabel('Cantidad de casos')
@@ -91,9 +92,20 @@ def scatter_plot_clusters(data_ref, kmeans, cluster_names):
     st.pyplot(plt)
 
 
+def scatter_plot_clusters_3d(data_ref):
+    custom_palette = {
+        'Riesgo bajo': '#feca8d',
+        'Riesgo medio': '#f1605d',
+        'Riesgo alto': '#9e2f7f'
+    }
+    data_ref['Riesgo'] = data_ref['Cluster'].map(cluster_names)
+    fig = px.scatter_3d(data_ref, x='tsne_x', y='tsne_y', z='tsne_z', color='Riesgo',
+                         color_discrete_map=custom_palette, opacity=0.7)
+    fig.update_layout(scene=dict(xaxis_title='t-SNE x', yaxis_title='t-SNE y', zaxis_title='t-SNE z'))
+    st.plotly_chart(fig)
+
+
 def main():
-
-
     model = ''
     # Se carga el modelo
     if model == '':
@@ -118,7 +130,7 @@ def main():
 
     # Lecctura de datos
     N = st.text_input("Valor de riesgo (0 a 100)")
-    P = st.text_input("Valor del promedio de riesgo (0 a 50)")
+    P = st.text_input("Valor del promedio de riesgo (0 a 100)")
 
 
     # Verificar si N es válido
@@ -129,8 +141,8 @@ def main():
     # Verificar si P es válido
     if P:
         P = float(P)
-        if P < 0 or P > 50:
-            st.error("El valor del promedio de riesgo debe estar entre 0 y 50")
+        if P < 0 or P > 100:
+            st.error("El valor del promedio de riesgo debe estar entre 0 y 100")
 
 
     # El botón clasificar se usa para iniciar el procesamiento
@@ -195,7 +207,7 @@ def main():
             <div>
             <p style="color:#181082;text-align:center;">
             Así es como se ve gracias a la reducción de dimensionalidad t-SNE (80 de perplejidad) 
-            la distribución de los 3 clusters con el entrenamiento de K-Means.
+            la distribución de los 3 clusters con el entrenamiento de K-Means en dos dimensiones.
             Cada punto en el gráfico se colorea según el clúster al que pertenece, lo que permite 
             identificar visualmente cómo se agrupan los registros en el espacio bidimensional.
             El color amarillo nos indica los casos de bajo riesgo, el rosado de riesgo medio y el violeta de riesgo alto.
@@ -205,10 +217,27 @@ def main():
             st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
             scatter_plot_clusters(data, model, cluster_names_for_pred)
 
+        
+        with st.expander("Distribución de clusters en 3D"):
+            title_hist_suic_clusters_regions = """
+            <div>
+            <h1 style="color:#181082;text-align:center;">Distribución de clusters</h1>
+            </div>
+            <div>
+            <p style="color:#181082;text-align:center;">
+            Así es como se ve gracias a la reducción de dimensionalidad t-SNE (80 de perplejidad) 
+            la distribución de los 3 clusters con el entrenamiento de K-Means en 3 dimensiones.
+            Se respetan los mismos colores que en el de dos dimensiones.
+            </p>
+            </div>
+            """
+            st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
+            scatter_plot_clusters_3d(data3d)
 
-        with st.expander("Histograma cantidad de casos según riesgo"):
+
+        with st.expander("Histograma cantidad de casos según riesgo total"):
             title_hist_suic_clusters = """
-            <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo</h1>
+            <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo total</h1>
             </div>
             """
             st.markdown(title_hist_suic_clusters, unsafe_allow_html=True)
