@@ -109,11 +109,23 @@ def main():
     st.markdown(html_temp, unsafe_allow_html=True)
 
     # Lecctura de datos
-    N = st.text_input("Riesgo de suicidio:")
-    P = st.text_input("Promedio de las variables restantes:")
+    N = st.text_input("Valor de riesgo (0 a 100)")
+    P = st.text_input("Valor del promedio de riesgo (0 a 50)")
+
+    # Verificar si N es válido
+    if N:
+        N = float(N)
+        if N <= 0 or N >= 100:
+            st.error("El valor de riesgo debe estar entre 0 y 100")
+
+    # Verificar si P es válido
+    if P:
+        P = float(P)
+        if P <= 0 or P >= 50:
+            st.error("El valor del promedio de riesgo debe estar entre 0 y 50")
 
     # El botón clasificar se usa para iniciar el procesamiento
-    if st.button("Clasificar:"):
+    if st.button("Clasificar"):
         x_in = [np.float_(N.title()),
                 np.float_(P.title()),
                 ]
@@ -123,7 +135,7 @@ def main():
         predicted_cluster = cluster_names_for_pred.get(predictS[0], 'Riesgo Desconocido')
 
         # Mostrar el resultado en Streamlit
-        st.success(f'El grupo de riesgo al que pertenecen estos valores es: {predicted_cluster}'.upper())
+        st.success(f'El grupo de riesgo al que pertenecen estos valores es: {predicted_cluster}')
 
 
         with st.expander("Termómetro de riesgo"):
@@ -147,6 +159,12 @@ def main():
         how = """
         <div>
         <h1 style="color:#181082;text-align:center;">Visualizaciones del modelo entrenado</h1>
+        </div>
+        <div>
+        <p style="color:#181082;text-align:center;">
+        En este apartado se muestran las diferentes visualizaciones logradas luego de entrenar al modelo
+        de machine learning y ver como ayudan a entender los resultados con diferentes tipos de gráficos. 
+        </p>
         </div>
         """
         st.markdown(how, unsafe_allow_html=True)
