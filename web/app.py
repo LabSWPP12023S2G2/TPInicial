@@ -202,7 +202,7 @@ def main():
         with st.expander("Distribución de clusters en 2D"):
             title_hist_suic_clusters_regions = """
             <div>
-            <h1 style="color:#181082;text-align:center;">Distribución de clusters</h1>
+            <h1 style="color:#181082;text-align:center;">Distribución de clusters en 2D</h1>
             </div>
             <div>
             <p style="color:#181082;text-align:center;">
