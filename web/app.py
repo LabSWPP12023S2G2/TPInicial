@@ -92,6 +92,13 @@ def main():
     if model == '':
         with open(MODEL_PATH, 'rb') as file:
             model = pickle.load(file)
+
+
+    cluster_names_for_pred = {
+        0: 'riesgo medio',
+        1: 'riesgo bajo',
+        2: 'riesgo alto',
+    }
     
 
     # Título
@@ -111,11 +118,6 @@ def main():
                 np.float_(P.title()),
                 ]
         predictS = model_prediction(x_in, model)  # Supongamos que predictS es 0, 1 o 2
-        cluster_names_for_pred = {
-            0: 'riesgo medio',
-            1: 'riesgo bajo',
-            2: 'riesgo alto',
-        }
 
         # Obtener el nombre del cluster correspondiente
         predicted_cluster = cluster_names_for_pred.get(predictS[0], 'Riesgo Desconocido')
