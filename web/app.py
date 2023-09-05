@@ -122,7 +122,7 @@ def main():
 
     # Título
     html_temp = """
-    <h1 style="color:#181082;text-align:center;">SISTEMA DE CLASIFICACION DE RIESGO DE SUICIDIO </h1>
+    <h1 text-align:center;">SISTEMA DE CLASIFICACION DE RIESGO DE SUICIDIO </h1>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
@@ -133,13 +133,17 @@ def main():
     P = st.text_input("Valor del promedio de riesgo (0 a 100)")
 
 
-    # Verificar si N es válido
-    if N:
+    if not N:
+        st.error("El valor de riesgo es obligatorio")
+    else:
         N = float(N)
         if N < 0 or N > 100:
             st.error("El valor de riesgo debe estar entre 0 y 100")
+
     # Verificar si P es válido
-    if P:
+    if not P:
+        st.error("El valor del promedio de riesgo es obligatorio")
+    else:
         P = float(P)
         if P < 0 or P > 100:
             st.error("El valor del promedio de riesgo debe estar entre 0 y 100")
@@ -187,10 +191,10 @@ def main():
 
         how = """
         <div>
-        <h1 style="color:#181082;text-align:center;">Visualizaciones del modelo entrenado</h1>
+        <h1 text-align:center;">Visualizaciones del modelo entrenado</h1>
         </div>
         <div>
-        <p style="color:#181082;text-align:center;">
+        <p text-align:center;">
         En este apartado se muestran las diferentes visualizaciones logradas luego de entrenar al modelo
         de machine learning y ver como ayudan a entender los resultados con diferentes tipos de gráficos. 
         </p>
@@ -202,10 +206,10 @@ def main():
         with st.expander("Distribución de clusters en 2D"):
             title_hist_suic_clusters_regions = """
             <div>
-            <h1 style="color:#181082;text-align:center;">Distribución de clusters en 2D</h1>
+            <h1 text-align:center;">Distribución de clusters en 2D</h1>
             </div>
             <div>
-            <p style="color:#181082;text-align:center;">
+            <p text-align:center;">
             Así es como se ve gracias a la reducción de dimensionalidad t-SNE (80 de perplejidad) 
             la distribución de los 3 clusters con el entrenamiento de K-Means en dos dimensiones.
             Cada punto en el gráfico se colorea según el clúster al que pertenece, lo que permite 
@@ -221,10 +225,10 @@ def main():
         with st.expander("Distribución de clusters en 3D"):
             title_hist_suic_clusters_regions = """
             <div>
-            <h1 style="color:#181082;text-align:center;">Distribución de clusters en 3D</h1>
+            <h1 text-align:center;">Distribución de clusters en 3D</h1>
             </div>
             <div>
-            <p style="color:#181082;text-align:center;">
+            <p text-align:center;">
             Así es como se ve gracias a la reducción de dimensionalidad t-SNE (80 de perplejidad) 
             la distribución de los 3 clusters con el entrenamiento de K-Means en 3 dimensiones.
             Se respetan los mismos colores que en el de dos dimensiones.
@@ -237,7 +241,7 @@ def main():
 
         with st.expander("Histograma cantidad de casos según riesgo total"):
             title_hist_suic_clusters = """
-            <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo total</h1>
+            <h1 text-align:center;">Histograma cantidad de casos según riesgo total</h1>
             </div>
             """
             st.markdown(title_hist_suic_clusters, unsafe_allow_html=True)
@@ -246,7 +250,7 @@ def main():
         
         with st.expander("Histograma cantidad de casos según riesgo por regiones-provincias"):
             title_hist_suic_clusters_regions = """
-            <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo por regiones-provincias</h1>
+            <h1 text-align:center;">Histograma cantidad de casos según riesgo por regiones-provincias</h1>
             </div>
             """
             st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
