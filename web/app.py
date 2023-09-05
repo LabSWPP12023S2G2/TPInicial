@@ -115,7 +115,7 @@ def scatter_plotly_clusters(data_ref, kmeans, cluster_names):
         xaxis_title="t-SNE x",
         yaxis_title="t-SNE y",
         yaxis=dict(dtick=2.5),  # Establece el espaciado deseado en el eje y
-        height=200 + (y_range // 2.5) * 100  # Ajusta la altura del gráfico en función del espaciado en el eje y
+        #height=200 + (y_range // 2.5) * 100  # Ajusta la altura del gráfico en función del espaciado en el eje y
     )
 
     fig.update(layout_coloraxis_showscale=False)
