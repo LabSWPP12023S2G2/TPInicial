@@ -122,7 +122,7 @@ def main():
 
     # Título
     html_temp = """
-    <h1 style="color:#181082;text-align:center;">SISTEMA DE CLASIFICACION DE RIESGO DE SUICIDIO</h1>
+    <h1 style="color:#181082;text-align:center;">SISTEMA DE CLASIFICACION DE RIESGO DE SUICIDIO </h1>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
