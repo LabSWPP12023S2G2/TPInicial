@@ -120,7 +120,7 @@ def scatter_plotly_clusters(data_ref, kmeans, cluster_names):
 
     fig.update(layout_coloraxis_showscale=False)
 
-    st.plotly_chart(fig)
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def scatter_plot_clusters_3d(data_ref, cluster_names):
