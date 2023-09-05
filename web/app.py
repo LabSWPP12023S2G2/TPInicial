@@ -164,8 +164,8 @@ def main():
     #P = st.text_input("Valor del promedio de riesgo (0 a 100)")
 
     # Lecctura de datos
-    N = st.number_input("Valor de riesgo (0 a 100)", min_value=0, max_value=100)
-    P = st.number_input("Valor del promedio de riesgo (0 a 100)", min_value=0.0, max_value=100.0, format="%0.1f")
+    N = st.number_input("Valor de riesgo (0 a 100)")
+    P = st.number_input("Valor del promedio de riesgo (0 a 100)", format="%0.1f")
 
 
     # El botón clasificar se usa para iniciar el procesamiento
@@ -180,7 +180,7 @@ def main():
         
             if N < 0 or N > 100:
                 st.error("El valor de riesgo debe estar entre 0 y 100")
-            elif P < 0 or P > 100:
+            elif P < 0.0 or P > 100.0:
                 st.error("El valor del promedio de riesgo debe estar entre 0 y 100")
             else:
 
