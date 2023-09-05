@@ -164,7 +164,7 @@ def main():
     #P = st.text_input("Valor del promedio de riesgo (0 a 100)")
 
     # Lecctura de datos
-    N = st.number_input("Valor de riesgo (0 a 100)")
+    N = st.number_input("Valor de riesgo (0 a 100)", format="%1f")
     P = st.number_input("Valor del promedio de riesgo (0 a 100)", format="%0.1f")
 
 
