@@ -10,6 +10,7 @@ import matplotlib as mpl
 from matplotlib.patches import Patch
 from matplotlib.lines import Line2D
 import plotly.express as px
+import plotly.graph_objects as go
 
 
 # Path del modelo preentrenado
