@@ -118,6 +118,8 @@ def scatter_plotly_clusters(data_ref, kmeans, cluster_names):
         height=200 + (y_range // 2.5) * 100  # Ajusta la altura del gráfico en función del espaciado en el eje y
     )
 
+    fig.update(layout_coloraxis_showscale=False)
+
     st.plotly_chart(fig)
 
 
