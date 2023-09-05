@@ -226,7 +226,7 @@ def main():
                             st.write(' ')
 
                         with col3:
-                            st.write(ruta_imagen, use_column_width="auto")
+                            st.image(ruta_imagen, use_column_width="auto")
 
                         with col4:
                             st.write(' ')
