@@ -219,14 +219,14 @@ def main():
                         # Muestra la imagen en Streamlit
                         col1, col2, col3 = st.columns(3)
 
-                        with col1:
-                            st.write(' ')
+                        #with col1:
+                           # st.write(' ')
 
                         with col2:
                             st.image(ruta_imagen, use_column_width="True", width=None)
 
-                        with col3:
-                            st.write(' ')
+                        #with col3:
+                            #st.write(' ')
                         # st.image(ruta_imagen, use_column_width="True")
                     else:
                         st.write("No se encontró una imagen para la predicción.")
