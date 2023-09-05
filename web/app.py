@@ -92,6 +92,34 @@ def scatter_plot_clusters(data_ref, kmeans, cluster_names):
     st.pyplot(plt)
 
 
+def scatter_plotly_clusters(data_ref, kmeans, cluster_names):
+    colors = ['#f1605d', '#feca8d', '#9e2f7f']
+    
+    # Calcula el rango en el eje y
+    y_range = data_ref['tsne_y'].max() - data_ref['tsne_y'].min()
+    
+    fig = px.scatter(data_ref, x='tsne_x', y='tsne_y', color='Cluster', 
+                     color_continuous_scale=colors)
+    
+    for i, cluster_name in cluster_names.items():
+        fig.add_trace(go.Scatter(
+            x=data_ref[data_ref['Cluster'] == i]['tsne_x'],
+            y=data_ref[data_ref['Cluster'] == i]['tsne_y'],
+            mode='markers',
+            name=cluster_name,
+            marker=dict(size=10, opacity=0.7, color=colors[i % len(colors)])
+        ))
+
+    fig.update_layout(
+        xaxis_title="t-SNE x",
+        yaxis_title="t-SNE y",
+        yaxis=dict(dtick=2.5),  # Establece el espaciado deseado en el eje y
+        height=200 + (y_range // 2.5) * 100  # Ajusta la altura del gráfico en función del espaciado en el eje y
+    )
+
+    st.plotly_chart(fig)
+
+
 def scatter_plot_clusters_3d(data_ref, cluster_names):
     custom_palette = {
         'Riesgo bajo': '#feca8d',
@@ -230,7 +258,7 @@ def main():
                     </div>
                     """
                     st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
-                    scatter_plot_clusters(data, model, cluster_names_for_pred)
+                    scatter_plotly_clusters(data, model, cluster_names_for_pred)
 
             
                 with st.expander("Distribución de clusters en 3D"):
