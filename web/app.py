@@ -160,8 +160,13 @@ def main():
 
 
     # Lecctura de datos
-    N = st.text_input("Valor de riesgo (0 a 100)")
-    P = st.text_input("Valor del promedio de riesgo (0 a 100)")
+    #N = st.text_input("Valor de riesgo (0 a 100)")
+    #P = st.text_input("Valor del promedio de riesgo (0 a 100)")
+
+    # Lecctura de datos
+    N = st.number_input("Valor de riesgo (0 a 100)", min_value=0.0, max_value=100.0)
+    P = st.number_input("Valor del promedio de riesgo (0 a 100)", min_value=0.0, max_value=100.0, format="%0.1f")
+
 
     # El botón clasificar se usa para iniciar el procesamiento
     if st.button("Clasificar"):
