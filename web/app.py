@@ -165,7 +165,7 @@ def main():
 
     # Lecctura de datos
     N = st.number_input("Valor de riesgo (0 a 100)", step=1)
-    P = st.number_input("Valor del promedio de riesgo (0 a 100)", format="%0.1f")
+    P = st.number_input("Valor del promedio de riesgo (0 a 100)", format="%0.1f", step=0.1)
 
 
     # El botón clasificar se usa para iniciar el procesamiento
