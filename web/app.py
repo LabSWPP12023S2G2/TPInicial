@@ -160,7 +160,7 @@ def main():
             if N < 0 or N > 100:
                 st.error("El valor de riesgo debe estar entre 0 y 100")
             elif P < 0.0 or P > 50.0:
-                st.error("El valor del promedio de riesgo debe estar entre 0 y 100")
+                st.error("El valor del promedio de riesgo debe estar entre 0 y 50")
             else:
                 x_in = [np.float_(N),
                         np.float_(P),
