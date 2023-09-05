@@ -101,9 +101,8 @@ def scatter_plot_clusters_3d(data_ref, cluster_names):
     data_ref['Riesgo'] = data_ref['Cluster'].map(cluster_names)
     fig = px.scatter_3d(data_ref, x='tsne_x', y='tsne_y', z='tsne_z', color='Riesgo',
                          color_discrete_map=custom_palette, opacity=0.7)
-    fig.update_layout(scene=dict(xaxis_title='t-SNE x', yaxis_title='t-SNE y', zaxis_title='t-SNE z'), 
-                      paper_bgcolor="rgb(0,0,0,0)", plot_bgcolor="rgb(0,0,0,0)", margin=dict(r=100))
-    st.plotly_chart(fig)
+    fig.update_layout(scene=dict(xaxis_title='t-SNE x', yaxis_title='t-SNE y', zaxis_title='t-SNE z'))
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def main():
