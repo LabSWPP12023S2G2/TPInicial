@@ -134,24 +134,19 @@ def main():
 
     # El botón clasificar se usa para iniciar el procesamiento
     if st.button("Clasificar"):
-        # Verificar si N es válido
         if not N:
             st.error("El valor de riesgo es obligatorio")
-        else:
-            N = float(N)
-            if N < 0 or N > 100:
-                st.error("El valor de riesgo debe estar entre 0 y 100")
-
-        # Verificar si P es válido
-        if not P:
+        elif not P:
             st.error("El valor del promedio de riesgo es obligatorio")
         else:
+            N = float(N)
             P = float(P)
-            if P < 0 or P > 100:
+        
+            if N < 0 or N > 100:
+                st.error("El valor de riesgo debe estar entre 0 y 100")
+            elif P < 0 or P > 100:
                 st.error("El valor del promedio de riesgo debe estar entre 0 y 100")
-
-        # Continuar con el procesamiento si los valores son válidos
-        if not st.errors:
+            else:
 
     # Verificar si N es válido
     #if N:
@@ -167,110 +162,110 @@ def main():
 
     # El botón clasificar se usa para iniciar el procesamiento
     # if st.button("Clasificar"):
-            x_in = [np.float_(N),
-                    np.float_(P),
-                    ]
-            predictS = model_prediction(x_in, model)  # Supongamos que predictS es 0, 1 o 2
-            # Obtener el nombre del cluster correspondiente
-            predicted_cluster = cluster_names_for_pred.get(predictS[0], 'Riesgo Desconocido')
-            # Mostrar el resultado en Streamlit
-            st.success(f'El grupo de riesgo al que pertenecen estos valores es: {predicted_cluster}')
+                x_in = [np.float_(N),
+                        np.float_(P),
+                        ]
+                predictS = model_prediction(x_in, model)  # Supongamos que predictS es 0, 1 o 2
+                # Obtener el nombre del cluster correspondiente
+                predicted_cluster = cluster_names_for_pred.get(predictS[0], 'Riesgo Desconocido')
+                # Mostrar el resultado en Streamlit
+                st.success(f'El grupo de riesgo al que pertenecen estos valores es: {predicted_cluster}')
 
 
-            with st.expander("Termómetro de riesgo"):
-                # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
-                imagen_por_prediccion = {
-                    0: "/mount/src/tpinicial/web/assets/thermcluster1.png",
-                    1: "/mount/src/tpinicial/web/assets/thermcluster0.png",
-                    2: "/mount/src/tpinicial/web/assets/thermcluster2.png",
-                }
+                with st.expander("Termómetro de riesgo"):
+                    # Define un diccionario de mapeo de valores de predicción a rutas de imágenes
+                    imagen_por_prediccion = {
+                        0: "/mount/src/tpinicial/web/assets/thermcluster1.png",
+                        1: "/mount/src/tpinicial/web/assets/thermcluster0.png",
+                        2: "/mount/src/tpinicial/web/assets/thermcluster2.png",
+                    }
 
-                cluster = predictS[0]
+                    cluster = predictS[0]
 
-                if cluster in imagen_por_prediccion:
-                    # Obtiene la ruta de la imagen correspondiente
-                    ruta_imagen = imagen_por_prediccion[cluster]
-                    # Muestra la imagen en Streamlit
-                    col1, col2, col3 = st.columns(3)
+                    if cluster in imagen_por_prediccion:
+                        # Obtiene la ruta de la imagen correspondiente
+                        ruta_imagen = imagen_por_prediccion[cluster]
+                        # Muestra la imagen en Streamlit
+                        col1, col2, col3 = st.columns(3)
 
-                    with col1:
-                        st.write(' ')
+                        with col1:
+                            st.write(' ')
 
-                    with col2:
-                        st.image(ruta_imagen, use_column_width="True")
+                        with col2:
+                            st.image(ruta_imagen, use_column_width="True")
 
-                    with col3:
-                        st.write(' ')
-                    # st.image(ruta_imagen, use_column_width="True")
-                else:
-                    st.write("No se encontró una imagen para la predicción.")
+                        with col3:
+                            st.write(' ')
+                        # st.image(ruta_imagen, use_column_width="True")
+                    else:
+                        st.write("No se encontró una imagen para la predicción.")
 
-            how = """
-            <div>
-            <h1 style="color:#181082;text-align:center;">Visualizaciones del modelo entrenado</h1>
-            </div>
-            <div>
-            <p style="color:#181082;text-align:center;">
-            En este apartado se muestran las diferentes visualizaciones logradas luego de entrenar al modelo
-            de machine learning y ver como ayudan a entender los resultados con diferentes tipos de gráficos. 
-            </p>
-            </div>
-            """
-            st.markdown(how, unsafe_allow_html=True)
-        
-
-            with st.expander("Distribución de clusters en 2D"):
-                title_hist_suic_clusters_regions = """
+                how = """
                 <div>
-                <h1 style="color:#181082;text-align:center;">Distribución de clusters en 2D</h1>
+                <h1 style="color:#181082;text-align:center;">Visualizaciones del modelo entrenado</h1>
                 </div>
                 <div>
                 <p style="color:#181082;text-align:center;">
-                Así es como se ve gracias a la reducción de dimensionalidad t-SNE (80 de perplejidad) 
-                la distribución de los 3 clusters con el entrenamiento de K-Means en dos dimensiones.
-                Cada punto en el gráfico se colorea según el clúster al que pertenece, lo que permite 
-                identificar visualmente cómo se agrupan los registros en el espacio bidimensional.
-                El color amarillo nos indica los casos de bajo riesgo, el rosado de riesgo medio y el violeta de riesgo alto.
+                En este apartado se muestran las diferentes visualizaciones logradas luego de entrenar al modelo
+                de machine learning y ver como ayudan a entender los resultados con diferentes tipos de gráficos. 
                 </p>
                 </div>
                 """
-                st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
-                scatter_plot_clusters(data, model, cluster_names_for_pred)
+                st.markdown(how, unsafe_allow_html=True)
+            
 
-        
-            with st.expander("Distribución de clusters en 3D"):
-                title_hist_suic_clusters_regions = """
-                <div>
-                <h1 style="color:#181082;text-align:center;">Distribución de clusters en 3D</h1>
-                </div>
-                <div>
-                <p style="color:#181082;text-align:center;">
-                Así es como se ve gracias a la reducción de dimensionalidad t-SNE (80 de perplejidad) 
-                la distribución de los 3 clusters con el entrenamiento de K-Means en 3 dimensiones.
-                Se respetan los mismos colores que en el de dos dimensiones.
-                </p>
-                </div>
-                """
-                st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
-                scatter_plot_clusters_3d(data3d, cluster_names_for_pred)
-
-
-            with st.expander("Histograma cantidad de casos según riesgo total"):
-                title_hist_suic_clusters = """
-                <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo total</h1>
-                </div>
-                """
-                st.markdown(title_hist_suic_clusters, unsafe_allow_html=True)
-                hist_suic_clusters(data_ref)
+                with st.expander("Distribución de clusters en 2D"):
+                    title_hist_suic_clusters_regions = """
+                    <div>
+                    <h1 style="color:#181082;text-align:center;">Distribución de clusters en 2D</h1>
+                    </div>
+                    <div>
+                    <p style="color:#181082;text-align:center;">
+                    Así es como se ve gracias a la reducción de dimensionalidad t-SNE (80 de perplejidad) 
+                    la distribución de los 3 clusters con el entrenamiento de K-Means en dos dimensiones.
+                    Cada punto en el gráfico se colorea según el clúster al que pertenece, lo que permite 
+                    identificar visualmente cómo se agrupan los registros en el espacio bidimensional.
+                    El color amarillo nos indica los casos de bajo riesgo, el rosado de riesgo medio y el violeta de riesgo alto.
+                    </p>
+                    </div>
+                    """
+                    st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
+                    scatter_plot_clusters(data, model, cluster_names_for_pred)
 
             
-            with st.expander("Histograma cantidad de casos según riesgo por regiones-provincias"):
-                title_hist_suic_clusters_regions = """
-                <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo por regiones-provincias</h1>
-                </div>
-                """
-                st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
-                hist_suic_clusters_regions(data_ref)
+                with st.expander("Distribución de clusters en 3D"):
+                    title_hist_suic_clusters_regions = """
+                    <div>
+                    <h1 style="color:#181082;text-align:center;">Distribución de clusters en 3D</h1>
+                    </div>
+                    <div>
+                    <p style="color:#181082;text-align:center;">
+                    Así es como se ve gracias a la reducción de dimensionalidad t-SNE (80 de perplejidad) 
+                    la distribución de los 3 clusters con el entrenamiento de K-Means en 3 dimensiones.
+                    Se respetan los mismos colores que en el de dos dimensiones.
+                    </p>
+                    </div>
+                    """
+                    st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
+                    scatter_plot_clusters_3d(data3d, cluster_names_for_pred)
+
+
+                with st.expander("Histograma cantidad de casos según riesgo total"):
+                    title_hist_suic_clusters = """
+                    <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo total</h1>
+                    </div>
+                    """
+                    st.markdown(title_hist_suic_clusters, unsafe_allow_html=True)
+                    hist_suic_clusters(data_ref)
+
+                
+                with st.expander("Histograma cantidad de casos según riesgo por regiones-provincias"):
+                    title_hist_suic_clusters_regions = """
+                    <h1 style="color:#181082;text-align:center;">Histograma cantidad de casos según riesgo por regiones-provincias</h1>
+                    </div>
+                    """
+                    st.markdown(title_hist_suic_clusters_regions, unsafe_allow_html=True)
+                    hist_suic_clusters_regions(data_ref)
 
         
 if __name__ == '__main__':
