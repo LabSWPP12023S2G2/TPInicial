@@ -76,23 +76,6 @@ def hist_suic_clusters_regions(data_ref):
         st.pyplot(fig)
 
 
-# Scatter plot de clusters y tsne
-def scatter_plot_clusters(data_ref, kmeans, cluster_names):
-    colors = ['#f1605d', '#feca8d', '#9e2f7f']
-    plt.figure(figsize=(12, 8))
-    unique_clusters = np.unique(kmeans.labels_)
-    for i, cluster in enumerate(unique_clusters):
-        cluster_data = data_ref[data_ref['Cluster'] == cluster]
-        cluster_name = cluster_names.get(cluster, f'Cluster {cluster}')
-        # Asignar color a cada cluster
-        color = colors[i % len(colors)]
-        plt.scatter(cluster_data['tsne_x'], cluster_data['tsne_y'],
-                    label=cluster_name, alpha=0.7, s=50, c=color)
-    plt.xlabel('t-SNE x')
-    plt.ylabel('t-SNE y')
-    st.pyplot(plt)
-
-
 def scatter_plotly_clusters(data_ref, kmeans, cluster_names):
     colors = ['#f1605d', '#feca8d', '#9e2f7f']
     
@@ -159,16 +142,12 @@ def main():
     st.markdown(html_temp, unsafe_allow_html=True)
 
 
-    # Lecctura de datos
-    #N = st.text_input("Valor de riesgo (0 a 100)")
-    #P = st.text_input("Valor del promedio de riesgo (0 a 100)")
-
-    # Lecctura de datos
+    # Lectura de datos
     N = st.number_input("Valor de riesgo (0 a 100)", step=1)
-    P = st.number_input("Valor del promedio de riesgo (0 a 100)", format="%0.1f", step=0.1)
+    P = st.number_input("Valor del promedio de riesgo (0 a 50)", format="%0.1f", step=0.1)
 
 
-    # El botón clasificar se usa para iniciar el procesamiento
+    # Iniciar el procesamiento
     if st.button("Clasificar"):
         if not N:
             st.error("El valor de riesgo es obligatorio")
@@ -180,24 +159,9 @@ def main():
         
             if N < 0 or N > 100:
                 st.error("El valor de riesgo debe estar entre 0 y 100")
-            elif P < 0.0 or P > 100.0:
+            elif P < 0.0 or P > 50.0:
                 st.error("El valor del promedio de riesgo debe estar entre 0 y 100")
             else:
-
-    # Verificar si N es válido
-    #if N:
-     #   N = float(N)
-      #  if N < 0 or N > 100:
-       #     st.error("El valor de riesgo debe estar entre 0 y 100")
-    # Verificar si P es válido
-    #if P:
-     #   P = float(P)
-      #  if P < 0 or P > 100:
-       #     st.error("El valor del promedio de riesgo debe estar entre 0 y 100")
-
-
-    # El botón clasificar se usa para iniciar el procesamiento
-    # if st.button("Clasificar"):
                 x_in = [np.float_(N),
                         np.float_(P),
                         ]
