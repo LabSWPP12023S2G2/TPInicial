@@ -18,9 +18,9 @@ MODEL_PATH = '/mount/src/tpinicial/web/models/kmeans_model.pkl'
 
 
 # Paths de datasets
-data = pd.read_csv('/LabSWPP12023S2G2/TPInicial/data.csv')
-data3d = pd.read_csv('/LabSWPP12023S2G2/TPInicial/data3d.csv')
-data_ref = pd.read_csv('/LabSWPP12023S2G2/TPInicial/data_ref.csv')
+data = pd.read_csv('data.csv')
+data3d = pd.read_csv('data3d.csv')
+data_ref = pd.read_csv('data_ref.csv')
 
 
 # Se recibe los datos del usuario y el modelo, devuelve la predicción
