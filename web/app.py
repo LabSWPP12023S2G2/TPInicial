@@ -14,7 +14,7 @@ import plotly.graph_objects as go
 
 
 # Path del modelo preentrenado
-MODEL_PATH = '/mount/src/tpinicial/web/models/kmeans_model.pkl'
+MODEL_PATH = './web/models/kmeans_model.pkl'
 
 
 # Paths de datasets
